@@ -13,7 +13,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignRight="@android:id/list"
         android:iconifiedByDefault="true"
-        android:queryHint="Enter search text" >
+        android:queryHint="Search users" >
 
     </SearchView>
 

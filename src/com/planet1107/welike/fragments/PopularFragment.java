@@ -2,28 +2,32 @@ package com.planet1107.welike.fragments;
 
 import java.util.List;
 
-import com.planet1107.welike.R;
-import com.planet1107.welike.activities.PostDetailActivity;
-import com.planet1107.welike.adapters.PopularAdapter;
-import com.planet1107.welike.connect.Post;
-import com.planet1107.welike.loaders.PopularLoader;
-
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.LoaderManager;
 import android.support.v4.content.Loader;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
+import android.widget.EditText;
 import android.widget.GridView;
 import android.widget.ProgressBar;
 import android.widget.TabHost;
-import android.widget.TabHost.TabSpec;
 import android.widget.TabHost.TabContentFactory;
+import android.widget.TabHost.TabSpec;
 import android.widget.TextView;
+
+import com.planet1107.welike.R;
+import com.planet1107.welike.activities.PostDetailActivity;
+import com.planet1107.welike.activities.SearchActivity;
+import com.planet1107.welike.adapters.PopularAdapter;
+import com.planet1107.welike.connect.Post;
+import com.planet1107.welike.loaders.PopularLoader;
 
 public class PopularFragment extends BaseFragment implements LoaderManager.LoaderCallbacks<List<Post>>, TabHost.OnTabChangeListener, OnItemClickListener {
 	
@@ -34,6 +38,7 @@ public class PopularFragment extends BaseFragment implements LoaderManager.Loade
     ProgressBar mProgressBarLoading;
     TextView mTextViewNoItems;
     TabHost mTabHost;
+    EditText searchBoxInFragment;
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -67,6 +72,14 @@ public class PopularFragment extends BaseFragment implements LoaderManager.Loade
         mGridViewRecent = (GridView) getActivity().findViewById(R.id.gridViewRecent);
         mGridViewRecent.setEmptyView(mProgressBarLoading);
         mGridViewRecent.setOnItemClickListener(this);
+        
+        searchBoxInFragment =(EditText)getActivity().findViewById(R.id.searchBoxInFragment);
+        searchBoxInFragment.setOnTouchListener(new View.OnTouchListener(){ 
+            public boolean onTouch(View view, MotionEvent motionEvent) {                                                       
+                 startActivity(new Intent(getActivity(),SearchActivity.class));
+                return true; 
+           } 
+       }); 
         
         getLoaderManager().initLoader(0, null, this);
 	}

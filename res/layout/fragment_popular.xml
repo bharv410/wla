@@ -15,9 +15,10 @@
         android1:layout_width="match_parent"
         android1:layout_height="match_parent"
         android1:layout_alignParentBottom="true"
+        android1:layout_below="@+id/searchBoxInFragment"
         android1:layout_alignParentLeft="true"
         android1:layout_alignParentRight="true"
-        android1:layout_alignParentTop="true" >
+         >
 
         <RelativeLayout
             android1:id="@+id/RelativeLayout1"
@@ -94,5 +95,18 @@
 
         </RelativeLayout>
     </TabHost>
+
+    <EditText
+        android1:id="@+id/searchBoxInFragment"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignLeft="@android:id/tabhost"
+        android1:layout_alignParentTop="true"
+        android1:layout_alignRight="@android:id/tabhost"
+        android1:ems="10"
+        android1:hint="Search users..." >
+
+        <requestFocus />
+    </EditText>
 
 </RelativeLayout>
