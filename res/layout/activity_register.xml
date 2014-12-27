@@ -92,7 +92,6 @@
                     android:layout_centerVertical="true"
                     android:text=""
                     android:textAppearance="?android:attr/textAppearanceSmall" />
-
             </RelativeLayout>
 
             <EditText
@@ -103,7 +102,6 @@
                 android:inputType="textEmailAddress"
                 android:maxLines="1"
                 android:singleLine="true" >
-
             </EditText>
 
             <EditText
@@ -163,39 +161,25 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:orientation="vertical" >
-
-                <EditText
-                    android:id="@+id/editTextCompanyWeb"
+                
+             <EditText
+                android:id="@+id/editTextCompanyWeb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Trainer Website"
+                android:imeActionId="@+id/login"
+                android:imeActionLabel="@string/action_sign_in_short"
+                android:imeOptions="actionUnspecified"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true" />
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:hint="@string/phone"
-                    android:imeActionId="@+id/login"
-                    android:imeActionLabel="@string/action_sign_in_short"
-                    android:imeOptions="actionUnspecified"
-                    android:inputType="text"
-                    android:maxLines="1"
-                    android:singleLine="true" />
-
-                <EditText
-                    android:id="@+id/editTextLocation"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:hint="@string/map_hint"
-                    android:imeActionId="@+id/login"
-                    android:imeActionLabel="@string/action_sign_in_short"
-                    android:imeOptions="actionUnspecified"
-                    android:inputType="text"
-                    android:maxLines="1"
-                    android:singleLine="true" />
-                
-                <fragment 
-  					android:id="@+id/map"
-  					android:name="com.google.android.gms.maps.MapFragment"
-  					android:layout_width="match_parent"
-  					android:layout_height="100dp" />
-                
+                    android:hint="Enter location" />
             </LinearLayout>
 
             <Button
@@ -210,9 +194,7 @@
                 android:paddingRight="32dp"
                 android:text="@string/action_sign_in_register"
                 android:textColor="@android:color/white" />
-
         </LinearLayout>
-
     </ScrollView>
 
 </merge>

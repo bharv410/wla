@@ -1,15 +1,9 @@
 package com.planet1107.welike.activities;
 
-import java.io.IOException;
-import java.util.List;
-import java.util.Locale;
-
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.location.Address;
-import android.location.Geocoder;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -17,29 +11,27 @@ import android.util.Patterns;
 import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup.LayoutParams;
+import android.widget.AutoCompleteTextView;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RadioGroup;
-import android.widget.Toast;
 import android.widget.RadioGroup.OnCheckedChangeListener;
 import android.widget.TextView;
+import android.widget.Toast;
 
-import com.google.android.gms.maps.MapFragment;
-import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.GoogleMap.OnMapLongClickListener;
-import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.MarkerOptions;
 import com.planet1107.welike.R;
+import com.planet1107.welike.adapters.PlacesAutocompleteAdapter;
 import com.planet1107.welike.connect.Connect;
 import com.planet1107.welike.connect.User;
+import com.planet1107.welike.other.AutocompleteGeoCoder;
 import com.planet1107.welike.other.ChoosePictureUtility;
 
-public class RegisterActivity extends Activity implements OnCheckedChangeListener, OnMapLongClickListener {
+public class RegisterActivity extends Activity implements OnCheckedChangeListener  {
 
 	private static final int SELECT_PHOTO = 100;
-
+	private ProgressDialog mLoadingDialog;
 	String username;
 	String password;
 	String repassword;
@@ -53,7 +45,6 @@ public class RegisterActivity extends Activity implements OnCheckedChangeListene
 	String companyAddress;
 	String companyWeb;
 	
-	EditText mEditTextLocation;
 	EditText mEditTextUsername;
 	EditText mEditTextPassword;
 	EditText mEditTextFullName;
@@ -66,10 +57,9 @@ public class RegisterActivity extends Activity implements OnCheckedChangeListene
 	ImageView mImageViewUserAvatar;
 	RadioGroup mRadioGroupIndividualCompany;
 	LinearLayout mLinearLayoutCompany;
-	GoogleMap mMap;
 	
-	LatLng userCoordinate;
 	UserRegisterTask mUserRegisterTask;
+	AutoCompleteTextView autoCompView;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -82,17 +72,7 @@ public class RegisterActivity extends Activity implements OnCheckedChangeListene
 		
 		mLinearLayoutCompany = (LinearLayout)findViewById(R.id.linearLayoutCompany);
 		
-		try{
-		//set up map
-        mMap = ((MapFragment) getFragmentManager().findFragmentById(R.id.map)).getMap();
-        mMap.setMyLocationEnabled(true);
-        mMap.setOnMapLongClickListener(this);
-		}catch(NullPointerException e){
-			e.printStackTrace();
-			Toast.makeText(getApplicationContext(), "Error initializing the map", Toast.LENGTH_SHORT).show();
-		}
 
-        mEditTextLocation = (EditText) findViewById(R.id.editTextLocation);
         mEditTextUsername = (EditText) findViewById(R.id.editTextUsername);
         mEditTextPassword = (EditText) findViewById(R.id.editTextPassword);
         mEditTextEmail = (EditText) findViewById(R.id.editTextEmail);
@@ -101,6 +81,13 @@ public class RegisterActivity extends Activity implements OnCheckedChangeListene
         mEditTextCompanyWeb = (EditText) findViewById(R.id.editTextCompanyWeb);
         mTextViewUserAvatar = (TextView) findViewById(R.id.textViewUserAvatar);
         mImageViewUserAvatar = (ImageView) findViewById(R.id.imageViewUserAvatar);
+        
+        
+        
+			autoCompView = (AutoCompleteTextView) findViewById(R.id.autoCompleteTextView1);
+			autoCompView.setAdapter(new PlacesAutocompleteAdapter(this,
+					R.layout.menulist));
+			
 	}
 
 	@Override
@@ -121,26 +108,27 @@ public class RegisterActivity extends Activity implements OnCheckedChangeListene
 		}
 	}
 	
-	@Override    
-	public void onMapLongClick(LatLng point) {
-		
-		mMap.addMarker(new MarkerOptions()
-	        .position(point)
-	        .title("You are here")           
-	        .icon(BitmapDescriptorFactory.fromResource(R.drawable.map_pin)));  
-		Geocoder geocoder = new Geocoder(this, Locale.getDefault());
-		try {
-			List<Address> addresses = geocoder.getFromLocation(point.latitude, point.longitude, 1);
-			Address address = addresses.get(0);
-			mEditTextLocation.setText(address.toString());
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-	}
+//	@Override    
+//	public void onMapLongClick(LatLng point) {
+//		
+//		mMap.addMarker(new MarkerOptions()
+//	        .position(point)
+//	        .title("You are here")           
+//	        .icon(BitmapDescriptorFactory.fromResource(R.drawable.map_pin)));  
+//		Geocoder geocoder = new Geocoder(this, Locale.getDefault());
+//		try {
+//			List<Address> addresses = geocoder.getFromLocation(point.latitude, point.longitude, 1);
+//			Address address = addresses.get(0);
+//			mEditTextLocation.setText(address.toString());
+//		} catch (IOException e) {
+//			e.printStackTrace();
+//		}
+//	}
 	
 	public void buttonRegisterOnClick(View v) {
+		mLoadingDialog = new ProgressDialog(RegisterActivity.this);
+			attemptRegister();
 		
-		attemptRregister();
 	}
 	
 	public void imageViewAvatarOnClick(View v) {
@@ -163,11 +151,10 @@ public class RegisterActivity extends Activity implements OnCheckedChangeListene
 		    }
 	}
 	
-	public void attemptRregister() {
+	public void attemptRegister() {
 		
 		if (mUserRegisterTask == null) {
 			
-			mEditTextLocation.setError(null);
 			mEditTextUsername.setError(null);
 			mEditTextPassword.setError(null);
 			mEditTextFullName.setError(null);
@@ -180,8 +167,6 @@ public class RegisterActivity extends Activity implements OnCheckedChangeListene
 			email = mEditTextEmail.getText().toString();
 			userType = mRadioGroupIndividualCompany.getCheckedRadioButtonId() == R.id.radio0 ? 1 : 2;
 			fullName = mEditTextFullName.getText().toString();
-			latitude = userCoordinate != null ? userCoordinate.latitude : 0;
-			longitude = userCoordinate != null ? userCoordinate.longitude : 0;
 			companyWeb = mEditTextCompanyWeb.getText().toString();
 
 			boolean cancel = true;
@@ -212,11 +197,15 @@ public class RegisterActivity extends Activity implements OnCheckedChangeListene
 				mEditTextEmail.setError("Email is not in valid format");
 				focusView = mEditTextEmail;
 			} else {
-				cancel = false;
-				mUserRegisterTask = new UserRegisterTask();
-				mUserRegisterTask.execute();
+				
+				if(userType ==2){//trainers only
+					new GeoCodeThis().execute(autoCompView.getText().toString());
+				}else{
+					mUserRegisterTask = new UserRegisterTask();
+					mUserRegisterTask.execute();
+				}		
 			}
-
+cancel=false;
 			if (cancel) {
 				focusView.requestFocus();
 			}
@@ -224,13 +213,9 @@ public class RegisterActivity extends Activity implements OnCheckedChangeListene
 	}
 
 	public class UserRegisterTask extends AsyncTask<Void, Void, Boolean> {
-		
-		private ProgressDialog mLoadingDialog = new ProgressDialog(RegisterActivity.this);
-
 		@Override
 	    protected void onPreExecute() {
-	    	
-	    	mLoadingDialog.setMessage("Registring...");
+	    	mLoadingDialog.setMessage("registering...");
 	    	mLoadingDialog.show();
 	    }
 		
@@ -265,4 +250,25 @@ public class RegisterActivity extends Activity implements OnCheckedChangeListene
 
 		}
 	}
+	
+	private class GeoCodeThis extends AsyncTask<String, Void, double[]> {
+		@Override
+	    protected void onPreExecute() {
+	    	mLoadingDialog.setMessage("finding address...");
+	    	mLoadingDialog.show();
+	    }
+		@Override
+		protected double[] doInBackground(String... params) {
+			return AutocompleteGeoCoder.getLatLongFromAddress(params[0]);
+		}
+
+		@Override
+		protected void onPostExecute(double[] result) {
+			mLoadingDialog.dismiss();
+			latitude=result[0];
+			longitude=result[1];
+			mUserRegisterTask = new UserRegisterTask();
+			mUserRegisterTask.execute();
+		}
+		}
 }
