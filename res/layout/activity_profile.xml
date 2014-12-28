@@ -22,8 +22,8 @@
 
     <ImageView
         android:id="@+id/imageViewCommentPreviewUserImage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+       android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_alignTop="@+id/imageViewProfilePreviewUserImage"
         android:layout_centerHorizontal="true"
         android:src="@drawable/avatar_overlay" />
@@ -61,30 +61,19 @@
         android:textAppearance="?android:attr/textAppearanceSmall" />
 
     <TextView
-        android:id="@+id/textViewAddress"
+        android:id="@+id/textViewWeb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textViewProfilePreviewFollowers"
         android:layout_below="@+id/textViewProfilePreviewFollowers"
-        android:layout_marginTop="67dp"
-        android:text="" />
-
-    <TextView
-        android:id="@+id/textViewWeb"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textViewAddress"
-        android:layout_below="@+id/textViewAddress"
         android:layout_marginTop="14dp"
         android:text="" />
 
-    <TextView
-        android:id="@+id/textViewPhone"
+    <VideoView
+        android:id="@+id/trainerVideoView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textViewWeb"
         android:layout_below="@+id/textViewWeb"
-        android:layout_marginTop="14dp"
-        android:text="" />
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

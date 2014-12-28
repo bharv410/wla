@@ -2,6 +2,19 @@ package com.planet1107.welike.activities;
 
 import java.util.Locale;
 
+import android.app.ActionBar;
+import android.app.ActionBar.Tab;
+import android.app.FragmentTransaction;
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.view.ViewPager;
+import android.view.Menu;
+import android.view.View;
+
 import com.planet1107.welike.R;
 import com.planet1107.welike.connect.Connect;
 import com.planet1107.welike.fragments.NearbyFragment;
@@ -9,20 +22,7 @@ import com.planet1107.welike.fragments.NewPostFragment;
 import com.planet1107.welike.fragments.PopularFragment;
 import com.planet1107.welike.fragments.ProfileFragment;
 import com.planet1107.welike.fragments.TimelineFragment;
-
-import android.app.ActionBar;
-import android.app.ActionBar.Tab;
-import android.support.v4.app.FragmentManager;
-import android.app.FragmentTransaction;
-import android.content.Intent;
-import android.content.res.Resources;
-import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.view.ViewPager;
-import android.view.Menu;
-import android.view.View;
+import com.splunk.mint.Mint;
 
 public class MainActivity extends FragmentActivity implements ActionBar.TabListener {
 
@@ -36,7 +36,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
 		
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-
+		
 		actionBar = getActionBar();
 		actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
 		mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());

@@ -4,6 +4,7 @@ import com.planet1107.welike.R;
 import com.planet1107.welike.activities.RegisterActivity;
 import com.planet1107.welike.activities.LoginActivity;
 import com.planet1107.welike.connect.Connect;
+import com.splunk.mint.Mint;
 
 
 import android.os.Bundle;
@@ -12,6 +13,7 @@ import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 import android.view.Window;
+import android.widget.Toast;
 
 public class WelcomeActivity extends Activity {
 
@@ -19,6 +21,7 @@ public class WelcomeActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		
 		super.onCreate(savedInstanceState);
+		Mint.initAndStartSession(WelcomeActivity.this, "c2aa6d82");
 		getWindow().requestFeature(Window.FEATURE_ACTION_BAR);
 	    getActionBar().hide();
 		setContentView(R.layout.activity_welcome);

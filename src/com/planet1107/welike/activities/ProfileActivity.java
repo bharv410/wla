@@ -1,29 +1,39 @@
 package com.planet1107.welike.activities;
 
+import android.app.Activity;
+import android.content.Intent;
+import android.net.Uri;
+import android.os.AsyncTask;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.MediaController;
+import android.widget.TextView;
+import android.widget.VideoView;
+
 import com.koushikdutta.urlimageviewhelper.UrlImageViewHelper;
 import com.planet1107.welike.R;
 import com.planet1107.welike.connect.Connect;
 import com.planet1107.welike.connect.User;
-
-import android.os.AsyncTask;
-import android.os.Bundle;
-import android.app.Activity;
-import android.content.Intent;
-import android.view.Menu;
-import android.view.View;
-import android.widget.ImageView;
-import android.widget.TextView;
+import com.planet1107.welike.connect.User.UserType;
 
 public class ProfileActivity extends Activity {
 
 	int mUserID;
-	
+	private Uri uri;
+	private VideoView mVideoView;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_profile);
 		setTitle("Profile");
+		
+		uri = Uri.parse("https://s3.amazonaws.com/fitovatephotoss/big_buck_bunny.mp4"); //Declare your url here
+		mVideoView  = (VideoView)findViewById(R.id.trainerVideoView);
+		mVideoView.setMediaController(new MediaController(ProfileActivity.this));       
+		
 		
 		Bundle extras = getIntent().getExtras();
 		if (extras != null) {
@@ -35,19 +45,24 @@ public class ProfileActivity extends Activity {
 			@Override
 			protected User doInBackground(Void... params) {
 
-				Connect sharedConnect = Connect.getInstance(ProfileActivity.this);
+				Connect sharedConnect = Connect.getInstance(ProfileActivity.this);				
 				return sharedConnect.getUser(mUserID);
 			}
 			
 			@Override
 			protected void onPostExecute(User user) {
+				if(user.userType==UserType.UserTypeCompany){
+				mVideoView.setVideoURI(uri);
+				mVideoView.requestFocus();
+				mVideoView.start();
+				}else{
+					mVideoView.setVisibility(View.GONE);
+				}
 				
 				((TextView)findViewById(R.id.textViewProfilePreviewFollowers)).setText("followers " + String.valueOf(user.userFollowersCount));
 				((TextView)findViewById(R.id.textViewProfilePreviewFollowing)).setText("following " + String.valueOf(user.userFollowingCount));
 				((TextView)findViewById(R.id.textViewProfilePreviewUsername)).setText(String.valueOf(user.userFullName));
-				((TextView)findViewById(R.id.textViewAddress)).setText(String.valueOf(user.companyAddress));
 				((TextView)findViewById(R.id.textViewWeb)).setText(String.valueOf(user.companyWeb));
-				((TextView)findViewById(R.id.textViewPhone)).setText(String.valueOf(user.companyPhone));
 				UrlImageViewHelper.setUrlDrawable(((ImageView)findViewById(R.id.imageViewProfilePreviewUserImage)), user.userAvatarPath);
 			}
 		}.execute();

@@ -21,6 +21,7 @@ import android.support.v4.app.LoaderManager.LoaderCallbacks;
 import android.content.Context;
 import android.support.v4.content.Loader;
 import android.location.Location;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.content.AsyncTaskLoader;
 import android.view.InflateException;
@@ -29,13 +30,13 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 public class NearbyFragment extends BaseFragment implements OnConnectionFailedListener, LocationListener, LoaderCallbacks<List<User>> {
 
 	LocationClient locationClient;
 	Location lastLocation;
 	private GoogleMap mMap;
-
 	private static View view;
 	
 	@Override
@@ -57,7 +58,7 @@ public class NearbyFragment extends BaseFragment implements OnConnectionFailedLi
 	@Override
 	public void onActivityCreated (Bundle savedInstanceState) {
 		
-		super.onActivityCreated(savedInstanceState);
+		super.onActivityCreated(savedInstanceState);	
 		
 		setHasOptionsMenu(true);
 		mMap = ((MapFragment) getActivity().getFragmentManager().findFragmentById(R.id.map)).getMap();
@@ -75,7 +76,11 @@ public class NearbyFragment extends BaseFragment implements OnConnectionFailedLi
 			}
 		}, this);
 		locationClient.connect();
-		//mMap.setMyLocationEnabled(true);
+		try{
+		mMap.setMyLocationEnabled(true);
+		}catch(NullPointerException e){
+			e.printStackTrace();
+		}
 	}
 	
 	@Override
@@ -91,12 +96,38 @@ public class NearbyFragment extends BaseFragment implements OnConnectionFailedLi
 
 	@Override
 	public void onLocationChanged(Location location) {
-
 	    if (lastLocation == null || location.distanceTo(lastLocation) > 1000) {
 	        getLoaderManager().initLoader(0, null, this);
 	        lastLocation = location;
+	        new PrintAllUsers().execute();
 	    }
 	}
+	
+	private class PrintAllUsers extends AsyncTask<String, Void, ArrayList<User>> {
+		 
+        @Override 
+        protected ArrayList<User> doInBackground(String... params) {
+        	ArrayList<User> users = sharedConnect.getUsersAround(lastLocation.getLatitude(), lastLocation.getLongitude(), 10000, 1, 20);         
+            return users; 
+        } 
+ 
+        @Override 
+        protected void onPostExecute(ArrayList<User> users) {
+        	Toast.makeText(getActivity(), ""+users.size(), Toast.LENGTH_SHORT).show();
+        	for( User user: users){
+		    	   Toast.makeText(getActivity(), user.userFullName, Toast.LENGTH_SHORT).show();
+		       }
+        	Toast.makeText(getActivity(), "coords = " + lastLocation.getLatitude()+", "+ lastLocation.getLongitude(), Toast.LENGTH_LONG).show();
+        } 
+ 
+        @Override 
+        protected void onPreExecute() {
+        	Toast.makeText(getActivity(), "users ...", Toast.LENGTH_SHORT).show();
+        } 
+ 
+        @Override 
+        protected void onProgressUpdate(Void... values) {}
+    } 
 	
 	public class NearbyLoader extends AsyncTaskLoader<List<User>> {
 
