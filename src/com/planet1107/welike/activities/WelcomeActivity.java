@@ -13,7 +13,6 @@ import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 import android.view.Window;
-import android.widget.Toast;
 
 public class WelcomeActivity extends Activity {
 

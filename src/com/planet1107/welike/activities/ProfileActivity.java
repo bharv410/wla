@@ -28,12 +28,7 @@ public class ProfileActivity extends Activity {
 		
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_profile);
-		setTitle("Profile");
-		
-		uri = Uri.parse("https://s3.amazonaws.com/fitovatephotoss/big_buck_bunny.mp4"); //Declare your url here
-		mVideoView  = (VideoView)findViewById(R.id.trainerVideoView);
-		mVideoView.setMediaController(new MediaController(ProfileActivity.this));       
-		
+		setTitle("Profile");		
 		
 		Bundle extras = getIntent().getExtras();
 		if (extras != null) {
@@ -52,9 +47,16 @@ public class ProfileActivity extends Activity {
 			@Override
 			protected void onPostExecute(User user) {
 				if(user.userType==UserType.UserTypeCompany){
+					String usernameWithSpaces=String.valueOf(user.userUsername);
+					String usernameWithoutSpaces=usernameWithSpaces.replace(" ", "+");
+					uri = Uri.parse("https://s3.amazonaws.com/fitovatevideoss/"+usernameWithoutSpaces); 
+					mVideoView  = (VideoView)findViewById(R.id.trainerVideoView);
+					mVideoView.setMediaController(new MediaController(ProfileActivity.this)); 
 				mVideoView.setVideoURI(uri);
 				mVideoView.requestFocus();
 				mVideoView.start();
+				TextView profileTypeTextView=(TextView)findViewById(R.id.profileTypeTextView);
+				profileTypeTextView.setText("Trainer");
 				}else{
 					mVideoView.setVisibility(View.GONE);
 				}

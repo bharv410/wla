@@ -237,8 +237,15 @@ cancel=false;
 			mLoadingDialog.dismiss();
 
 			if (success) {
+				if(userType==2){
+					//Trainers need to upload a video
+					Intent uva = new Intent(RegisterActivity.this, UploadVideoActivity.class);
+					startActivity(uva);
+					
+				}else{
 				Intent main = new Intent(RegisterActivity.this, MainActivity.class);
 				startActivity(main);
+				}
 			}
 		}
 

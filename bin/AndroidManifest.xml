@@ -38,7 +38,7 @@
             android:hardwareAccelerated="true"
             android:largeHeap="true"
             android:process=":aviarysdk"
-            android:screenOrientation="portrait" 
+            android:screenOrientation="portrait"
             android:theme="@style/AviaryTheme" />
 
         <!-- Alert -->
@@ -46,9 +46,8 @@
             android:name="com.aviary.android.feather.AlertActivity"
             android:launchMode="standard"
             android:noHistory="true"
-            android:theme="@style/AviaryTheme.Dialog" 
-            android:screenOrientation="portrait" >
-            
+            android:screenOrientation="portrait"
+            android:theme="@style/AviaryTheme.Dialog" >
             <intent-filter>
                 <action android:name="aviary.intent.action.ALERT" />
 
@@ -89,29 +88,29 @@
         </receiver>
 
         <activity
-            android:name="com.planet1107.welike.activities.MainActivity"
+            android:name=".activities.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.planet1107.welike.activities.NewPostActivity"
+            android:name=".activities.NewPostActivity"
             android:label="@string/title_activity_new_post"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.planet1107.welike.activities.LoginActivity"
+            android:name=".activities.LoginActivity"
             android:label="@string/title_activity_login"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize|stateVisible" >
         </activity>
         <activity
-            android:name="com.planet1107.welike.activities.RegisterActivity"
+            android:name=".activities.RegisterActivity"
             android:label="@string/title_activity_register"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize|stateVisible" >
         </activity>
         <activity
-            android:name="com.planet1107.welike.activities.WelcomeActivity"
+            android:name=".activities.WelcomeActivity"
             android:label="@string/title_activity_welcome"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -121,44 +120,48 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.planet1107.welike.activities.LikesActivity"
+            android:name=".activities.LikesActivity"
             android:label="@string/title_activity_likes"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.planet1107.welike.activities.CommentsActivity"
+            android:name=".activities.CommentsActivity"
             android:label="@string/title_activity_comments"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.planet1107.welike.activities.SearchActivity"
+            android:name=".activities.SearchActivity"
             android:label="@string/title_activity_search"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.planet1107.welike.activities.FollowersActivity"
+            android:name=".activities.FollowersActivity"
             android:label="@string/title_activity_followers"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.planet1107.welike.activities.FollowingActivity"
+            android:name=".activities.FollowingActivity"
             android:label="@string/title_activity_following"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.planet1107.welike.activities.EditProfileActivity"
+            android:name=".activities.EditProfileActivity"
             android:label="@string/title_activity_edit_profile"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.planet1107.welike.activities.ProfileActivity"
+            android:name=".activities.ProfileActivity"
             android:label="@string/title_activity_profile"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.planet1107.welike.activities.PostDetailActivity"
-            android:label="@string/title_activity_post_detail" 
+            android:name=".activities.PostDetailActivity"
+            android:label="@string/title_activity_post_detail"
             android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.planet1107.welike.activities.UploadVideoActivity"
+            android:label="@string/title_activity_upload_video" >
         </activity>
     </application>
 

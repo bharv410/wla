@@ -177,4 +177,9 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
 	public void onBackPressed() {
 		
 	}
+	
+	public void uploadVideo(View v){
+		Intent uva = new Intent(MainActivity.this, UploadVideoActivity.class);
+		startActivity(uva);
+	}
 }
