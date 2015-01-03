@@ -35,7 +35,7 @@ public class UploadVideoActivity extends Activity {
 		new AsyncTask<Void, Void, String>() {
 			@Override
 			protected String doInBackground(Void... params) {
-				s3Client = new AmazonS3Client( new BasicAWSCredentials( "AKIAI3SJ7KNK6QV27OEA", "h41TVvT2nyl+N1/sl1abiaWdswhFn3zXuVizV0XG" ) ); 
+				s3Client = new AmazonS3Client( new BasicAWSCredentials( "AKIAI3SJ7KNK6QV27OEA", "h41TVvT2nyl+N1/sl1abiaWdswhFn3zXuVizV0XG" ) );
 				return"done";
 			}
 		}.execute();
