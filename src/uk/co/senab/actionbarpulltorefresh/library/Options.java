@@ -16,7 +16,7 @@
 
 package uk.co.senab.actionbarpulltorefresh.library;
 
-import com.planet1107.welike.R;
+import com.findatrainerapp.welike.R;
 
 /**
  * Allows you to specify a number of configuration options when setting up a {@link PullToRefreshLayout}.

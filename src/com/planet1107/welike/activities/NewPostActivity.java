@@ -3,7 +3,7 @@ package com.planet1107.welike.activities;
 import com.aviary.android.feather.FeatherActivity;
 import com.aviary.android.feather.common.utils.IOUtils;
 import com.aviary.android.feather.library.Constants;
-import com.planet1107.welike.R;
+import com.findatrainerapp.welike.R;
 import com.planet1107.welike.connect.Connect;
 import com.planet1107.welike.other.ChoosePictureUtility;
 

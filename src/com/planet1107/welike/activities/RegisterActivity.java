@@ -21,7 +21,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.maps.model.LatLng;
-import com.planet1107.welike.R;
+import com.findatrainerapp.welike.R;
 import com.planet1107.welike.adapters.PlacesAutocompleteAdapter;
 import com.planet1107.welike.connect.Connect;
 import com.planet1107.welike.connect.User;

@@ -28,7 +28,7 @@ import android.view.View;
 import android.widget.FrameLayout;
 
 
-import com.planet1107.welike.R;
+import com.findatrainerapp.welike.R;
 
 import uk.co.senab.actionbarpulltorefresh.library.listeners.HeaderViewListener;
 import uk.co.senab.actionbarpulltorefresh.library.viewdelegates.ViewDelegate;

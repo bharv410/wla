@@ -2,7 +2,7 @@ package com.planet1107.welike.activities;
 
 import java.util.List;
 
-import com.planet1107.welike.R;
+import com.findatrainerapp.welike.R;
 import com.planet1107.welike.adapters.SearchAdapter;
 import com.planet1107.welike.connect.Connect;
 import com.planet1107.welike.connect.User;

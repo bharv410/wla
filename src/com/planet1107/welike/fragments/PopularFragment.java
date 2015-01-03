@@ -22,7 +22,7 @@ import android.widget.TabHost.TabContentFactory;
 import android.widget.TabHost.TabSpec;
 import android.widget.TextView;
 
-import com.planet1107.welike.R;
+import com.findatrainerapp.welike.R;
 import com.planet1107.welike.activities.PostDetailActivity;
 import com.planet1107.welike.activities.SearchActivity;
 import com.planet1107.welike.adapters.PopularAdapter;

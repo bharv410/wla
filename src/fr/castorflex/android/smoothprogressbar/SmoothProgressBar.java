@@ -1,6 +1,6 @@
 package fr.castorflex.android.smoothprogressbar;
 
-import com.planet1107.welike.R;
+import com.findatrainerapp.welike.R;
 
 import android.content.Context;
 import android.content.res.Resources;

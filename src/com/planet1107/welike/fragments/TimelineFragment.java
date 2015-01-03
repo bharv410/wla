@@ -6,7 +6,7 @@ import uk.co.senab.actionbarpulltorefresh.library.ActionBarPullToRefresh;
 import uk.co.senab.actionbarpulltorefresh.library.PullToRefreshLayout;
 import uk.co.senab.actionbarpulltorefresh.library.listeners.OnRefreshListener;
 
-import com.planet1107.welike.R;
+import com.findatrainerapp.welike.R;
 import com.planet1107.welike.adapters.TimelineAdapter;
 import com.planet1107.welike.connect.Post;
 import com.planet1107.welike.loaders.TimelineLoader;

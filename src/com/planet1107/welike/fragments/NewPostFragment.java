@@ -1,6 +1,6 @@
 package com.planet1107.welike.fragments;
 
-import com.planet1107.welike.R;
+import com.findatrainerapp.welike.R;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

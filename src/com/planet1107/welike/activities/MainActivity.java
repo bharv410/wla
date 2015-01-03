@@ -15,7 +15,7 @@ import android.support.v4.view.ViewPager;
 import android.view.Menu;
 import android.view.View;
 
-import com.planet1107.welike.R;
+import com.findatrainerapp.welike.R;
 import com.planet1107.welike.connect.Connect;
 import com.planet1107.welike.fragments.NearbyFragment;
 import com.planet1107.welike.fragments.NewPostFragment;

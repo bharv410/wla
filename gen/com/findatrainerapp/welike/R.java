@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.planet1107.welike;
+package com.findatrainerapp.welike;
 
 public final class R {
     public static final class anim {
@@ -3716,8 +3716,8 @@ containing a value of this type.
            <tr><td><code>{@link #AbsHListView_android_listSelector android:listSelector}</code></td><td></td></tr>
            <tr><td><code>{@link #AbsHListView_android_scrollingCache android:scrollingCache}</code></td><td></td></tr>
            <tr><td><code>{@link #AbsHListView_android_smoothScrollbar android:smoothScrollbar}</code></td><td></td></tr>
-           <tr><td><code>{@link #AbsHListView_stackFromRight com.planet1107.welike:stackFromRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AbsHListView_transcriptMode com.planet1107.welike:transcriptMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #AbsHListView_stackFromRight com.findatrainerapp.welike:stackFromRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AbsHListView_transcriptMode com.findatrainerapp.welike:transcriptMode}</code></td><td></td></tr>
            </table>
            @see #AbsHListView_android_cacheColorHint
            @see #AbsHListView_android_choiceMode
@@ -3769,7 +3769,7 @@ containing a value of this type.
         */
         public static final int AbsHListView_android_smoothScrollbar = 5;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#stackFromRight}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#stackFromRight}
           attribute's value can be found in the {@link #AbsHListView} array.
 
 
@@ -3779,11 +3779,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:stackFromRight
+          @attr name com.findatrainerapp.welike:stackFromRight
         */
         public static final int AbsHListView_stackFromRight = 6;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#transcriptMode}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#transcriptMode}
           attribute's value can be found in the {@link #AbsHListView} array.
 
 
@@ -3797,7 +3797,7 @@ containing a value of this type.
 <tr><td><code>normal</code></td><td>1</td><td></td></tr>
 <tr><td><code>alwaysScroll</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.planet1107.welike:transcriptMode
+          @attr name com.findatrainerapp.welike:transcriptMode
         */
         public static final int AbsHListView_transcriptMode = 7;
         /** Attributes that can be used with a AdsAttrs.
@@ -3806,11 +3806,11 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AdsAttrs_adSize com.planet1107.welike:adSize}</code></td><td>
+           <tr><td><code>{@link #AdsAttrs_adSize com.findatrainerapp.welike:adSize}</code></td><td>
     The size of the ad.</td></tr>
-           <tr><td><code>{@link #AdsAttrs_adSizes com.planet1107.welike:adSizes}</code></td><td>
+           <tr><td><code>{@link #AdsAttrs_adSizes com.findatrainerapp.welike:adSizes}</code></td><td>
     A comma-separated list of the supported ad sizes.</td></tr>
-           <tr><td><code>{@link #AdsAttrs_adUnitId com.planet1107.welike:adUnitId}</code></td><td> The ad unit ID.</td></tr>
+           <tr><td><code>{@link #AdsAttrs_adUnitId com.findatrainerapp.welike:adUnitId}</code></td><td> The ad unit ID.</td></tr>
            </table>
            @see #AdsAttrs_adSize
            @see #AdsAttrs_adSizes
@@ -3836,7 +3836,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:adSize
+          @attr name com.findatrainerapp.welike:adSize
         */
         public static final int AdsAttrs_adSize = 0;
         /**
@@ -3856,7 +3856,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:adSizes
+          @attr name com.findatrainerapp.welike:adSizes
         */
         public static final int AdsAttrs_adSizes = 1;
         /**
@@ -3872,7 +3872,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:adUnitId
+          @attr name com.findatrainerapp.welike:adUnitId
         */
         public static final int AdsAttrs_adUnitId = 2;
         /** Attributes that can be used with a AviaryAdjustImageView.
@@ -3882,16 +3882,16 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AviaryAdjustImageView_android_padding android:padding}</code></td><td></td></tr>
-           <tr><td><code>{@link #AviaryAdjustImageView_aviary_animationDuration com.planet1107.welike:aviary_animationDuration}</code></td><td> default animation duration </td></tr>
-           <tr><td><code>{@link #AviaryAdjustImageView_aviary_animationDuration2 com.planet1107.welike:aviary_animationDuration2}</code></td><td> reset animation duration </td></tr>
-           <tr><td><code>{@link #AviaryAdjustImageView_aviary_color1 com.planet1107.welike:aviary_color1}</code></td><td> outside fill color ( outside the grid ) </td></tr>
-           <tr><td><code>{@link #AviaryAdjustImageView_aviary_enable3d com.planet1107.welike:aviary_enable3d}</code></td><td> enable 3d animations </td></tr>
-           <tr><td><code>{@link #AviaryAdjustImageView_aviary_freeRotate com.planet1107.welike:aviary_freeRotate}</code></td><td> enable free rotation </td></tr>
-           <tr><td><code>{@link #AviaryAdjustImageView_aviary_handle com.planet1107.welike:aviary_handle}</code></td><td> knob drawable </td></tr>
-           <tr><td><code>{@link #AviaryAdjustImageView_aviary_strokeColor com.planet1107.welike:aviary_strokeColor}</code></td><td> external grid stroke color </td></tr>
-           <tr><td><code>{@link #AviaryAdjustImageView_aviary_strokeColor2 com.planet1107.welike:aviary_strokeColor2}</code></td><td> internal grid stroke color </td></tr>
-           <tr><td><code>{@link #AviaryAdjustImageView_aviary_strokeWidth com.planet1107.welike:aviary_strokeWidth}</code></td><td> external grid stroke width </td></tr>
-           <tr><td><code>{@link #AviaryAdjustImageView_aviary_strokeWidth2 com.planet1107.welike:aviary_strokeWidth2}</code></td><td> internal grid stroke width </td></tr>
+           <tr><td><code>{@link #AviaryAdjustImageView_aviary_animationDuration com.findatrainerapp.welike:aviary_animationDuration}</code></td><td> default animation duration </td></tr>
+           <tr><td><code>{@link #AviaryAdjustImageView_aviary_animationDuration2 com.findatrainerapp.welike:aviary_animationDuration2}</code></td><td> reset animation duration </td></tr>
+           <tr><td><code>{@link #AviaryAdjustImageView_aviary_color1 com.findatrainerapp.welike:aviary_color1}</code></td><td> outside fill color ( outside the grid ) </td></tr>
+           <tr><td><code>{@link #AviaryAdjustImageView_aviary_enable3d com.findatrainerapp.welike:aviary_enable3d}</code></td><td> enable 3d animations </td></tr>
+           <tr><td><code>{@link #AviaryAdjustImageView_aviary_freeRotate com.findatrainerapp.welike:aviary_freeRotate}</code></td><td> enable free rotation </td></tr>
+           <tr><td><code>{@link #AviaryAdjustImageView_aviary_handle com.findatrainerapp.welike:aviary_handle}</code></td><td> knob drawable </td></tr>
+           <tr><td><code>{@link #AviaryAdjustImageView_aviary_strokeColor com.findatrainerapp.welike:aviary_strokeColor}</code></td><td> external grid stroke color </td></tr>
+           <tr><td><code>{@link #AviaryAdjustImageView_aviary_strokeColor2 com.findatrainerapp.welike:aviary_strokeColor2}</code></td><td> internal grid stroke color </td></tr>
+           <tr><td><code>{@link #AviaryAdjustImageView_aviary_strokeWidth com.findatrainerapp.welike:aviary_strokeWidth}</code></td><td> external grid stroke width </td></tr>
+           <tr><td><code>{@link #AviaryAdjustImageView_aviary_strokeWidth2 com.findatrainerapp.welike:aviary_strokeWidth2}</code></td><td> internal grid stroke width </td></tr>
            </table>
            @see #AviaryAdjustImageView_android_padding
            @see #AviaryAdjustImageView_aviary_animationDuration
@@ -3929,7 +3929,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_animationDuration
+          @attr name com.findatrainerapp.welike:aviary_animationDuration
         */
         public static final int AviaryAdjustImageView_aviary_animationDuration = 4;
         /**
@@ -3945,7 +3945,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_animationDuration2
+          @attr name com.findatrainerapp.welike:aviary_animationDuration2
         */
         public static final int AviaryAdjustImageView_aviary_animationDuration2 = 8;
         /**
@@ -3962,7 +3962,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_color1
+          @attr name com.findatrainerapp.welike:aviary_color1
         */
         public static final int AviaryAdjustImageView_aviary_color1 = 5;
         /**
@@ -3978,7 +3978,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_enable3d
+          @attr name com.findatrainerapp.welike:aviary_enable3d
         */
         public static final int AviaryAdjustImageView_aviary_enable3d = 9;
         /**
@@ -3994,7 +3994,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_freeRotate
+          @attr name com.findatrainerapp.welike:aviary_freeRotate
         */
         public static final int AviaryAdjustImageView_aviary_freeRotate = 10;
         /**
@@ -4006,7 +4006,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_handle
+          @attr name com.findatrainerapp.welike:aviary_handle
         */
         public static final int AviaryAdjustImageView_aviary_handle = 7;
         /**
@@ -4023,7 +4023,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_strokeColor
+          @attr name com.findatrainerapp.welike:aviary_strokeColor
         */
         public static final int AviaryAdjustImageView_aviary_strokeColor = 1;
         /**
@@ -4040,7 +4040,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_strokeColor2
+          @attr name com.findatrainerapp.welike:aviary_strokeColor2
         */
         public static final int AviaryAdjustImageView_aviary_strokeColor2 = 3;
         /**
@@ -4058,7 +4058,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_strokeWidth
+          @attr name com.findatrainerapp.welike:aviary_strokeWidth
         */
         public static final int AviaryAdjustImageView_aviary_strokeWidth = 2;
         /**
@@ -4076,7 +4076,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_strokeWidth2
+          @attr name com.findatrainerapp.welike:aviary_strokeWidth2
         */
         public static final int AviaryAdjustImageView_aviary_strokeWidth2 = 6;
         /** Attributes that can be used with a AviaryCellLayout.
@@ -4085,15 +4085,15 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AviaryCellLayout_aviary_cellBottomPadding com.planet1107.welike:aviary_cellBottomPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #AviaryCellLayout_aviary_cellEndPadding com.planet1107.welike:aviary_cellEndPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #AviaryCellLayout_aviary_cellStartPadding com.planet1107.welike:aviary_cellStartPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #AviaryCellLayout_aviary_cellTopPadding com.planet1107.welike:aviary_cellTopPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #AviaryCellLayout_aviary_cells com.planet1107.welike:aviary_cells}</code></td><td></td></tr>
-           <tr><td><code>{@link #AviaryCellLayout_aviary_horizontalPadding com.planet1107.welike:aviary_horizontalPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #AviaryCellLayout_aviary_layout_direction com.planet1107.welike:aviary_layout_direction}</code></td><td></td></tr>
-           <tr><td><code>{@link #AviaryCellLayout_aviary_rows com.planet1107.welike:aviary_rows}</code></td><td></td></tr>
-           <tr><td><code>{@link #AviaryCellLayout_aviary_verticalPadding com.planet1107.welike:aviary_verticalPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #AviaryCellLayout_aviary_cellBottomPadding com.findatrainerapp.welike:aviary_cellBottomPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #AviaryCellLayout_aviary_cellEndPadding com.findatrainerapp.welike:aviary_cellEndPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #AviaryCellLayout_aviary_cellStartPadding com.findatrainerapp.welike:aviary_cellStartPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #AviaryCellLayout_aviary_cellTopPadding com.findatrainerapp.welike:aviary_cellTopPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #AviaryCellLayout_aviary_cells com.findatrainerapp.welike:aviary_cells}</code></td><td></td></tr>
+           <tr><td><code>{@link #AviaryCellLayout_aviary_horizontalPadding com.findatrainerapp.welike:aviary_horizontalPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #AviaryCellLayout_aviary_layout_direction com.findatrainerapp.welike:aviary_layout_direction}</code></td><td></td></tr>
+           <tr><td><code>{@link #AviaryCellLayout_aviary_rows com.findatrainerapp.welike:aviary_rows}</code></td><td></td></tr>
+           <tr><td><code>{@link #AviaryCellLayout_aviary_verticalPadding com.findatrainerapp.welike:aviary_verticalPadding}</code></td><td></td></tr>
            </table>
            @see #AviaryCellLayout_aviary_cellBottomPadding
            @see #AviaryCellLayout_aviary_cellEndPadding
@@ -4111,7 +4111,7 @@ containing a value of this type.
             0x7f010100
         };
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviary_cellBottomPadding}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviary_cellBottomPadding}
           attribute's value can be found in the {@link #AviaryCellLayout} array.
 
 
@@ -4123,11 +4123,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:aviary_cellBottomPadding
+          @attr name com.findatrainerapp.welike:aviary_cellBottomPadding
         */
         public static final int AviaryCellLayout_aviary_cellBottomPadding = 3;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviary_cellEndPadding}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviary_cellEndPadding}
           attribute's value can be found in the {@link #AviaryCellLayout} array.
 
 
@@ -4139,11 +4139,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:aviary_cellEndPadding
+          @attr name com.findatrainerapp.welike:aviary_cellEndPadding
         */
         public static final int AviaryCellLayout_aviary_cellEndPadding = 1;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviary_cellStartPadding}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviary_cellStartPadding}
           attribute's value can be found in the {@link #AviaryCellLayout} array.
 
 
@@ -4155,11 +4155,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:aviary_cellStartPadding
+          @attr name com.findatrainerapp.welike:aviary_cellStartPadding
         */
         public static final int AviaryCellLayout_aviary_cellStartPadding = 0;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviary_cellTopPadding}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviary_cellTopPadding}
           attribute's value can be found in the {@link #AviaryCellLayout} array.
 
 
@@ -4171,11 +4171,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:aviary_cellTopPadding
+          @attr name com.findatrainerapp.welike:aviary_cellTopPadding
         */
         public static final int AviaryCellLayout_aviary_cellTopPadding = 2;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviary_cells}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviary_cells}
           attribute's value can be found in the {@link #AviaryCellLayout} array.
 
 
@@ -4185,11 +4185,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:aviary_cells
+          @attr name com.findatrainerapp.welike:aviary_cells
         */
         public static final int AviaryCellLayout_aviary_cells = 6;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviary_horizontalPadding}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviary_horizontalPadding}
           attribute's value can be found in the {@link #AviaryCellLayout} array.
 
 
@@ -4201,11 +4201,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:aviary_horizontalPadding
+          @attr name com.findatrainerapp.welike:aviary_horizontalPadding
         */
         public static final int AviaryCellLayout_aviary_horizontalPadding = 4;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviary_layout_direction}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviary_layout_direction}
           attribute's value can be found in the {@link #AviaryCellLayout} array.
 
 
@@ -4218,11 +4218,11 @@ containing a value of this type.
 <tr><td><code>vertical</code></td><td>0</td><td></td></tr>
 <tr><td><code>horizontal</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.planet1107.welike:aviary_layout_direction
+          @attr name com.findatrainerapp.welike:aviary_layout_direction
         */
         public static final int AviaryCellLayout_aviary_layout_direction = 8;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviary_rows}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviary_rows}
           attribute's value can be found in the {@link #AviaryCellLayout} array.
 
 
@@ -4232,11 +4232,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:aviary_rows
+          @attr name com.findatrainerapp.welike:aviary_rows
         */
         public static final int AviaryCellLayout_aviary_rows = 7;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviary_verticalPadding}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviary_verticalPadding}
           attribute's value can be found in the {@link #AviaryCellLayout} array.
 
 
@@ -4248,7 +4248,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:aviary_verticalPadding
+          @attr name com.findatrainerapp.welike:aviary_verticalPadding
         */
         public static final int AviaryCellLayout_aviary_verticalPadding = 5;
         /** Attributes that can be used with a AviaryCropHighlightView.
@@ -4258,14 +4258,14 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AviaryCropHighlightView_android_src android:src}</code></td><td> the knob drawable </td></tr>
-           <tr><td><code>{@link #AviaryCropHighlightView_aviary_color1 com.planet1107.welike:aviary_color1}</code></td><td> outside fill color normal </td></tr>
-           <tr><td><code>{@link #AviaryCropHighlightView_aviary_color2 com.planet1107.welike:aviary_color2}</code></td><td> outside fill color when pressed </td></tr>
-           <tr><td><code>{@link #AviaryCropHighlightView_aviary_strokeColor com.planet1107.welike:aviary_strokeColor}</code></td><td> outer ring stroke color </td></tr>
-           <tr><td><code>{@link #AviaryCropHighlightView_aviary_strokeColor2 com.planet1107.welike:aviary_strokeColor2}</code></td><td> stroke color when pressed </td></tr>
-           <tr><td><code>{@link #AviaryCropHighlightView_aviary_strokeColor3 com.planet1107.welike:aviary_strokeColor3}</code></td><td> internal lines default color </td></tr>
-           <tr><td><code>{@link #AviaryCropHighlightView_aviary_strokeColor4 com.planet1107.welike:aviary_strokeColor4}</code></td><td> internal lines pressed color </td></tr>
-           <tr><td><code>{@link #AviaryCropHighlightView_aviary_strokeWidth com.planet1107.welike:aviary_strokeWidth}</code></td><td> outer ring stroke width </td></tr>
-           <tr><td><code>{@link #AviaryCropHighlightView_aviary_strokeWidth2 com.planet1107.welike:aviary_strokeWidth2}</code></td><td> stroke width of the internal lines </td></tr>
+           <tr><td><code>{@link #AviaryCropHighlightView_aviary_color1 com.findatrainerapp.welike:aviary_color1}</code></td><td> outside fill color normal </td></tr>
+           <tr><td><code>{@link #AviaryCropHighlightView_aviary_color2 com.findatrainerapp.welike:aviary_color2}</code></td><td> outside fill color when pressed </td></tr>
+           <tr><td><code>{@link #AviaryCropHighlightView_aviary_strokeColor com.findatrainerapp.welike:aviary_strokeColor}</code></td><td> outer ring stroke color </td></tr>
+           <tr><td><code>{@link #AviaryCropHighlightView_aviary_strokeColor2 com.findatrainerapp.welike:aviary_strokeColor2}</code></td><td> stroke color when pressed </td></tr>
+           <tr><td><code>{@link #AviaryCropHighlightView_aviary_strokeColor3 com.findatrainerapp.welike:aviary_strokeColor3}</code></td><td> internal lines default color </td></tr>
+           <tr><td><code>{@link #AviaryCropHighlightView_aviary_strokeColor4 com.findatrainerapp.welike:aviary_strokeColor4}</code></td><td> internal lines pressed color </td></tr>
+           <tr><td><code>{@link #AviaryCropHighlightView_aviary_strokeWidth com.findatrainerapp.welike:aviary_strokeWidth}</code></td><td> outer ring stroke width </td></tr>
+           <tr><td><code>{@link #AviaryCropHighlightView_aviary_strokeWidth2 com.findatrainerapp.welike:aviary_strokeWidth2}</code></td><td> stroke width of the internal lines </td></tr>
            </table>
            @see #AviaryCropHighlightView_android_src
            @see #AviaryCropHighlightView_aviary_color1
@@ -4305,7 +4305,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_color1
+          @attr name com.findatrainerapp.welike:aviary_color1
         */
         public static final int AviaryCropHighlightView_aviary_color1 = 4;
         /**
@@ -4322,7 +4322,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_color2
+          @attr name com.findatrainerapp.welike:aviary_color2
         */
         public static final int AviaryCropHighlightView_aviary_color2 = 5;
         /**
@@ -4339,7 +4339,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_strokeColor
+          @attr name com.findatrainerapp.welike:aviary_strokeColor
         */
         public static final int AviaryCropHighlightView_aviary_strokeColor = 1;
         /**
@@ -4356,7 +4356,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_strokeColor2
+          @attr name com.findatrainerapp.welike:aviary_strokeColor2
         */
         public static final int AviaryCropHighlightView_aviary_strokeColor2 = 3;
         /**
@@ -4373,7 +4373,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_strokeColor3
+          @attr name com.findatrainerapp.welike:aviary_strokeColor3
         */
         public static final int AviaryCropHighlightView_aviary_strokeColor3 = 7;
         /**
@@ -4390,7 +4390,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_strokeColor4
+          @attr name com.findatrainerapp.welike:aviary_strokeColor4
         */
         public static final int AviaryCropHighlightView_aviary_strokeColor4 = 8;
         /**
@@ -4408,7 +4408,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_strokeWidth
+          @attr name com.findatrainerapp.welike:aviary_strokeWidth
         */
         public static final int AviaryCropHighlightView_aviary_strokeWidth = 2;
         /**
@@ -4426,7 +4426,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_strokeWidth2
+          @attr name com.findatrainerapp.welike:aviary_strokeWidth2
         */
         public static final int AviaryCropHighlightView_aviary_strokeWidth2 = 6;
         /** Attributes that can be used with a AviaryCropImageView.
@@ -4435,8 +4435,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AviaryCropImageView_aviary_highlightStyle com.planet1107.welike:aviary_highlightStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AviaryCropImageView_aviary_minCropSize com.planet1107.welike:aviary_minCropSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #AviaryCropImageView_aviary_highlightStyle com.findatrainerapp.welike:aviary_highlightStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AviaryCropImageView_aviary_minCropSize com.findatrainerapp.welike:aviary_minCropSize}</code></td><td></td></tr>
            </table>
            @see #AviaryCropImageView_aviary_highlightStyle
            @see #AviaryCropImageView_aviary_minCropSize
@@ -4445,17 +4445,17 @@ containing a value of this type.
             0x7f0100e5, 0x7f0100e6
         };
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviary_highlightStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviary_highlightStyle}
           attribute's value can be found in the {@link #AviaryCropImageView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviary_highlightStyle
+          @attr name com.findatrainerapp.welike:aviary_highlightStyle
         */
         public static final int AviaryCropImageView_aviary_highlightStyle = 1;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviary_minCropSize}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviary_minCropSize}
           attribute's value can be found in the {@link #AviaryCropImageView} array.
 
 
@@ -4467,7 +4467,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:aviary_minCropSize
+          @attr name com.findatrainerapp.welike:aviary_minCropSize
         */
         public static final int AviaryCropImageView_aviary_minCropSize = 0;
         /** Attributes that can be used with a AviaryDrawableHighlightView.
@@ -4478,13 +4478,13 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AviaryDrawableHighlightView_android_background android:background}</code></td><td> background drawable </td></tr>
            <tr><td><code>{@link #AviaryDrawableHighlightView_android_padding android:padding}</code></td><td> background padding </td></tr>
-           <tr><td><code>{@link #AviaryDrawableHighlightView_aviary_deleteDrawable com.planet1107.welike:aviary_deleteDrawable}</code></td><td> delete knob drawable </td></tr>
-           <tr><td><code>{@link #AviaryDrawableHighlightView_aviary_minSize com.planet1107.welike:aviary_minSize}</code></td><td> overlay minimum size </td></tr>
-           <tr><td><code>{@link #AviaryDrawableHighlightView_aviary_moveEnabled com.planet1107.welike:aviary_moveEnabled}</code></td><td> overlay can be moved </td></tr>
-           <tr><td><code>{@link #AviaryDrawableHighlightView_aviary_resizeEdgeMode com.planet1107.welike:aviary_resizeEdgeMode}</code></td><td> which edge can resize the overlay </td></tr>
-           <tr><td><code>{@link #AviaryDrawableHighlightView_aviary_resizeEnabled com.planet1107.welike:aviary_resizeEnabled}</code></td><td> overlay can be resized </td></tr>
-           <tr><td><code>{@link #AviaryDrawableHighlightView_aviary_rotateDrawable com.planet1107.welike:aviary_rotateDrawable}</code></td><td> rotate knob drawable </td></tr>
-           <tr><td><code>{@link #AviaryDrawableHighlightView_aviary_rotateEnabled com.planet1107.welike:aviary_rotateEnabled}</code></td><td> overlay can be rotated </td></tr>
+           <tr><td><code>{@link #AviaryDrawableHighlightView_aviary_deleteDrawable com.findatrainerapp.welike:aviary_deleteDrawable}</code></td><td> delete knob drawable </td></tr>
+           <tr><td><code>{@link #AviaryDrawableHighlightView_aviary_minSize com.findatrainerapp.welike:aviary_minSize}</code></td><td> overlay minimum size </td></tr>
+           <tr><td><code>{@link #AviaryDrawableHighlightView_aviary_moveEnabled com.findatrainerapp.welike:aviary_moveEnabled}</code></td><td> overlay can be moved </td></tr>
+           <tr><td><code>{@link #AviaryDrawableHighlightView_aviary_resizeEdgeMode com.findatrainerapp.welike:aviary_resizeEdgeMode}</code></td><td> which edge can resize the overlay </td></tr>
+           <tr><td><code>{@link #AviaryDrawableHighlightView_aviary_resizeEnabled com.findatrainerapp.welike:aviary_resizeEnabled}</code></td><td> overlay can be resized </td></tr>
+           <tr><td><code>{@link #AviaryDrawableHighlightView_aviary_rotateDrawable com.findatrainerapp.welike:aviary_rotateDrawable}</code></td><td> rotate knob drawable </td></tr>
+           <tr><td><code>{@link #AviaryDrawableHighlightView_aviary_rotateEnabled com.findatrainerapp.welike:aviary_rotateEnabled}</code></td><td> overlay can be rotated </td></tr>
            </table>
            @see #AviaryDrawableHighlightView_android_background
            @see #AviaryDrawableHighlightView_android_padding
@@ -4528,7 +4528,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_deleteDrawable
+          @attr name com.findatrainerapp.welike:aviary_deleteDrawable
         */
         public static final int AviaryDrawableHighlightView_aviary_deleteDrawable = 4;
         /**
@@ -4546,7 +4546,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_minSize
+          @attr name com.findatrainerapp.welike:aviary_minSize
         */
         public static final int AviaryDrawableHighlightView_aviary_minSize = 5;
         /**
@@ -4562,7 +4562,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_moveEnabled
+          @attr name com.findatrainerapp.welike:aviary_moveEnabled
         */
         public static final int AviaryDrawableHighlightView_aviary_moveEnabled = 6;
         /**
@@ -4583,7 +4583,7 @@ containing a value of this type.
 <tr><td><code>edge_bottom</code></td><td>0x10</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_resizeEdgeMode
+          @attr name com.findatrainerapp.welike:aviary_resizeEdgeMode
         */
         public static final int AviaryDrawableHighlightView_aviary_resizeEdgeMode = 2;
         /**
@@ -4599,7 +4599,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_resizeEnabled
+          @attr name com.findatrainerapp.welike:aviary_resizeEnabled
         */
         public static final int AviaryDrawableHighlightView_aviary_resizeEnabled = 8;
         /**
@@ -4611,7 +4611,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_rotateDrawable
+          @attr name com.findatrainerapp.welike:aviary_rotateDrawable
         */
         public static final int AviaryDrawableHighlightView_aviary_rotateDrawable = 3;
         /**
@@ -4627,7 +4627,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_rotateEnabled
+          @attr name com.findatrainerapp.welike:aviary_rotateEnabled
         */
         public static final int AviaryDrawableHighlightView_aviary_rotateEnabled = 7;
         /** Attributes that can be used with a AviaryEdgeEffect.
@@ -4636,10 +4636,10 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AviaryEdgeEffect_aviary_blendMode com.planet1107.welike:aviary_blendMode}</code></td><td> color blending mode </td></tr>
-           <tr><td><code>{@link #AviaryEdgeEffect_aviary_edgeColor com.planet1107.welike:aviary_edgeColor}</code></td><td> color filter </td></tr>
-           <tr><td><code>{@link #AviaryEdgeEffect_aviary_edgeDrawable com.planet1107.welike:aviary_edgeDrawable}</code></td><td> edge drawable </td></tr>
-           <tr><td><code>{@link #AviaryEdgeEffect_aviary_glowDrawable com.planet1107.welike:aviary_glowDrawable}</code></td><td> glow drawable </td></tr>
+           <tr><td><code>{@link #AviaryEdgeEffect_aviary_blendMode com.findatrainerapp.welike:aviary_blendMode}</code></td><td> color blending mode </td></tr>
+           <tr><td><code>{@link #AviaryEdgeEffect_aviary_edgeColor com.findatrainerapp.welike:aviary_edgeColor}</code></td><td> color filter </td></tr>
+           <tr><td><code>{@link #AviaryEdgeEffect_aviary_edgeDrawable com.findatrainerapp.welike:aviary_edgeDrawable}</code></td><td> edge drawable </td></tr>
+           <tr><td><code>{@link #AviaryEdgeEffect_aviary_glowDrawable com.findatrainerapp.welike:aviary_glowDrawable}</code></td><td> glow drawable </td></tr>
            </table>
            @see #AviaryEdgeEffect_aviary_blendMode
            @see #AviaryEdgeEffect_aviary_edgeColor
@@ -4662,7 +4662,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_blendMode
+          @attr name com.findatrainerapp.welike:aviary_blendMode
         */
         public static final int AviaryEdgeEffect_aviary_blendMode = 0;
         /**
@@ -4679,7 +4679,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_edgeColor
+          @attr name com.findatrainerapp.welike:aviary_edgeColor
         */
         public static final int AviaryEdgeEffect_aviary_edgeColor = 3;
         /**
@@ -4691,7 +4691,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_edgeDrawable
+          @attr name com.findatrainerapp.welike:aviary_edgeDrawable
         */
         public static final int AviaryEdgeEffect_aviary_edgeDrawable = 1;
         /**
@@ -4703,7 +4703,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_glowDrawable
+          @attr name com.findatrainerapp.welike:aviary_glowDrawable
         */
         public static final int AviaryEdgeEffect_aviary_glowDrawable = 2;
         /** Attributes that can be used with a AviaryEffectThumbLayout.
@@ -4712,7 +4712,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AviaryEffectThumbLayout_aviary_animationDuration com.planet1107.welike:aviary_animationDuration}</code></td><td> shape fade out duration </td></tr>
+           <tr><td><code>{@link #AviaryEffectThumbLayout_aviary_animationDuration com.findatrainerapp.welike:aviary_animationDuration}</code></td><td> shape fade out duration </td></tr>
            </table>
            @see #AviaryEffectThumbLayout_aviary_animationDuration
          */
@@ -4732,7 +4732,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_animationDuration
+          @attr name com.findatrainerapp.welike:aviary_animationDuration
         */
         public static final int AviaryEffectThumbLayout_aviary_animationDuration = 0;
         /** Attributes that can be used with a AviaryGallery.
@@ -4760,7 +4760,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AviaryGalleryIndicatorView_aviary_drawableStyle com.planet1107.welike:aviary_drawableStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AviaryGalleryIndicatorView_aviary_drawableStyle com.findatrainerapp.welike:aviary_drawableStyle}</code></td><td></td></tr>
            </table>
            @see #AviaryGalleryIndicatorView_aviary_drawableStyle
          */
@@ -4768,7 +4768,7 @@ containing a value of this type.
             0x7f0100e4
         };
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviary_drawableStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviary_drawableStyle}
           attribute's value can be found in the {@link #AviaryGalleryIndicatorView} array.
 
 
@@ -4778,7 +4778,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:aviary_drawableStyle
+          @attr name com.findatrainerapp.welike:aviary_drawableStyle
         */
         public static final int AviaryGalleryIndicatorView_aviary_drawableStyle = 0;
         /** Attributes that can be used with a AviaryGalleryTopIndicator.
@@ -4790,13 +4790,13 @@ containing a value of this type.
            <tr><td><code>{@link #AviaryGalleryTopIndicator_android_minHeight android:minHeight}</code></td><td></td></tr>
            <tr><td><code>{@link #AviaryGalleryTopIndicator_android_shadowColor android:shadowColor}</code></td><td></td></tr>
            <tr><td><code>{@link #AviaryGalleryTopIndicator_android_shadowDy android:shadowDy}</code></td><td></td></tr>
-           <tr><td><code>{@link #AviaryGalleryTopIndicator_aviary_color1 com.planet1107.welike:aviary_color1}</code></td><td></td></tr>
-           <tr><td><code>{@link #AviaryGalleryTopIndicator_aviary_direction com.planet1107.welike:aviary_direction}</code></td><td></td></tr>
-           <tr><td><code>{@link #AviaryGalleryTopIndicator_aviary_indicatorSize com.planet1107.welike:aviary_indicatorSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #AviaryGalleryTopIndicator_aviary_offsety com.planet1107.welike:aviary_offsety}</code></td><td></td></tr>
-           <tr><td><code>{@link #AviaryGalleryTopIndicator_aviary_strokeColor com.planet1107.welike:aviary_strokeColor}</code></td><td> outer ring stroke color </td></tr>
-           <tr><td><code>{@link #AviaryGalleryTopIndicator_aviary_strokeColor2 com.planet1107.welike:aviary_strokeColor2}</code></td><td> inner and outer background stroke color </td></tr>
-           <tr><td><code>{@link #AviaryGalleryTopIndicator_aviary_strokeWidth com.planet1107.welike:aviary_strokeWidth}</code></td><td> outer ring stroke width </td></tr>
+           <tr><td><code>{@link #AviaryGalleryTopIndicator_aviary_color1 com.findatrainerapp.welike:aviary_color1}</code></td><td></td></tr>
+           <tr><td><code>{@link #AviaryGalleryTopIndicator_aviary_direction com.findatrainerapp.welike:aviary_direction}</code></td><td></td></tr>
+           <tr><td><code>{@link #AviaryGalleryTopIndicator_aviary_indicatorSize com.findatrainerapp.welike:aviary_indicatorSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #AviaryGalleryTopIndicator_aviary_offsety com.findatrainerapp.welike:aviary_offsety}</code></td><td></td></tr>
+           <tr><td><code>{@link #AviaryGalleryTopIndicator_aviary_strokeColor com.findatrainerapp.welike:aviary_strokeColor}</code></td><td> outer ring stroke color </td></tr>
+           <tr><td><code>{@link #AviaryGalleryTopIndicator_aviary_strokeColor2 com.findatrainerapp.welike:aviary_strokeColor2}</code></td><td> inner and outer background stroke color </td></tr>
+           <tr><td><code>{@link #AviaryGalleryTopIndicator_aviary_strokeWidth com.findatrainerapp.welike:aviary_strokeWidth}</code></td><td> outer ring stroke width </td></tr>
            </table>
            @see #AviaryGalleryTopIndicator_android_minHeight
            @see #AviaryGalleryTopIndicator_android_shadowColor
@@ -4833,7 +4833,7 @@ containing a value of this type.
         */
         public static final int AviaryGalleryTopIndicator_android_shadowDy = 2;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviary_color1}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviary_color1}
           attribute's value can be found in the {@link #AviaryGalleryTopIndicator} array.
 
 
@@ -4844,11 +4844,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:aviary_color1
+          @attr name com.findatrainerapp.welike:aviary_color1
         */
         public static final int AviaryGalleryTopIndicator_aviary_color1 = 7;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviary_direction}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviary_direction}
           attribute's value can be found in the {@link #AviaryGalleryTopIndicator} array.
 
 
@@ -4861,11 +4861,11 @@ containing a value of this type.
 <tr><td><code>top_down</code></td><td>0x01</td><td></td></tr>
 <tr><td><code>down_top</code></td><td>0x02</td><td></td></tr>
 </table>
-          @attr name com.planet1107.welike:aviary_direction
+          @attr name com.findatrainerapp.welike:aviary_direction
         */
         public static final int AviaryGalleryTopIndicator_aviary_direction = 6;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviary_indicatorSize}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviary_indicatorSize}
           attribute's value can be found in the {@link #AviaryGalleryTopIndicator} array.
 
 
@@ -4875,11 +4875,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:aviary_indicatorSize
+          @attr name com.findatrainerapp.welike:aviary_indicatorSize
         */
         public static final int AviaryGalleryTopIndicator_aviary_indicatorSize = 8;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviary_offsety}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviary_offsety}
           attribute's value can be found in the {@link #AviaryGalleryTopIndicator} array.
 
 
@@ -4891,7 +4891,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:aviary_offsety
+          @attr name com.findatrainerapp.welike:aviary_offsety
         */
         public static final int AviaryGalleryTopIndicator_aviary_offsety = 9;
         /**
@@ -4908,7 +4908,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_strokeColor
+          @attr name com.findatrainerapp.welike:aviary_strokeColor
         */
         public static final int AviaryGalleryTopIndicator_aviary_strokeColor = 3;
         /**
@@ -4925,7 +4925,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_strokeColor2
+          @attr name com.findatrainerapp.welike:aviary_strokeColor2
         */
         public static final int AviaryGalleryTopIndicator_aviary_strokeColor2 = 5;
         /**
@@ -4943,7 +4943,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_strokeWidth
+          @attr name com.findatrainerapp.welike:aviary_strokeWidth
         */
         public static final int AviaryGalleryTopIndicator_aviary_strokeWidth = 4;
         /** Attributes that can be used with a AviaryHighlightImageButton.
@@ -4953,16 +4953,16 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AviaryHighlightImageButton_android_focusable android:focusable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AviaryHighlightImageButton_aviary_blendMode com.planet1107.welike:aviary_blendMode}</code></td><td> highlight color mode </td></tr>
-           <tr><td><code>{@link #AviaryHighlightImageButton_aviary_checked com.planet1107.welike:aviary_checked}</code></td><td></td></tr>
-           <tr><td><code>{@link #AviaryHighlightImageButton_aviary_glowMode com.planet1107.welike:aviary_glowMode}</code></td><td> how glow is managed </td></tr>
-           <tr><td><code>{@link #AviaryHighlightImageButton_aviary_glowSize com.planet1107.welike:aviary_glowSize}</code></td><td> glow size </td></tr>
-           <tr><td><code>{@link #AviaryHighlightImageButton_aviary_highlightColorChecked com.planet1107.welike:aviary_highlightColorChecked}</code></td><td> highlight checked color </td></tr>
-           <tr><td><code>{@link #AviaryHighlightImageButton_aviary_highlightColorPressed com.planet1107.welike:aviary_highlightColorPressed}</code></td><td> highlight pressed color </td></tr>
-           <tr><td><code>{@link #AviaryHighlightImageButton_aviary_highlightColorSelected com.planet1107.welike:aviary_highlightColorSelected}</code></td><td> highlight selected color </td></tr>
-           <tr><td><code>{@link #AviaryHighlightImageButton_aviary_highlightMode com.planet1107.welike:aviary_highlightMode}</code></td><td> when the highlight is enabled </td></tr>
-           <tr><td><code>{@link #AviaryHighlightImageButton_aviary_toggleable com.planet1107.welike:aviary_toggleable}</code></td><td> button is toggleable </td></tr>
-           <tr><td><code>{@link #AviaryHighlightImageButton_aviary_untoggleable com.planet1107.welike:aviary_untoggleable}</code></td><td> if false user will not able to untoggle the button status </td></tr>
+           <tr><td><code>{@link #AviaryHighlightImageButton_aviary_blendMode com.findatrainerapp.welike:aviary_blendMode}</code></td><td> highlight color mode </td></tr>
+           <tr><td><code>{@link #AviaryHighlightImageButton_aviary_checked com.findatrainerapp.welike:aviary_checked}</code></td><td></td></tr>
+           <tr><td><code>{@link #AviaryHighlightImageButton_aviary_glowMode com.findatrainerapp.welike:aviary_glowMode}</code></td><td> how glow is managed </td></tr>
+           <tr><td><code>{@link #AviaryHighlightImageButton_aviary_glowSize com.findatrainerapp.welike:aviary_glowSize}</code></td><td> glow size </td></tr>
+           <tr><td><code>{@link #AviaryHighlightImageButton_aviary_highlightColorChecked com.findatrainerapp.welike:aviary_highlightColorChecked}</code></td><td> highlight checked color </td></tr>
+           <tr><td><code>{@link #AviaryHighlightImageButton_aviary_highlightColorPressed com.findatrainerapp.welike:aviary_highlightColorPressed}</code></td><td> highlight pressed color </td></tr>
+           <tr><td><code>{@link #AviaryHighlightImageButton_aviary_highlightColorSelected com.findatrainerapp.welike:aviary_highlightColorSelected}</code></td><td> highlight selected color </td></tr>
+           <tr><td><code>{@link #AviaryHighlightImageButton_aviary_highlightMode com.findatrainerapp.welike:aviary_highlightMode}</code></td><td> when the highlight is enabled </td></tr>
+           <tr><td><code>{@link #AviaryHighlightImageButton_aviary_toggleable com.findatrainerapp.welike:aviary_toggleable}</code></td><td> button is toggleable </td></tr>
+           <tr><td><code>{@link #AviaryHighlightImageButton_aviary_untoggleable com.findatrainerapp.welike:aviary_untoggleable}</code></td><td> if false user will not able to untoggle the button status </td></tr>
            </table>
            @see #AviaryHighlightImageButton_android_focusable
            @see #AviaryHighlightImageButton_aviary_blendMode
@@ -5000,11 +5000,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_blendMode
+          @attr name com.findatrainerapp.welike:aviary_blendMode
         */
         public static final int AviaryHighlightImageButton_aviary_blendMode = 3;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviary_checked}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviary_checked}
           attribute's value can be found in the {@link #AviaryHighlightImageButton} array.
 
 
@@ -5014,7 +5014,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:aviary_checked
+          @attr name com.findatrainerapp.welike:aviary_checked
         */
         public static final int AviaryHighlightImageButton_aviary_checked = 9;
         /**
@@ -5034,7 +5034,7 @@ containing a value of this type.
 <tr><td><code>selected</code></td><td>0x08</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_glowMode
+          @attr name com.findatrainerapp.welike:aviary_glowMode
         */
         public static final int AviaryHighlightImageButton_aviary_glowMode = 1;
         /**
@@ -5050,7 +5050,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_glowSize
+          @attr name com.findatrainerapp.welike:aviary_glowSize
         */
         public static final int AviaryHighlightImageButton_aviary_glowSize = 8;
         /**
@@ -5067,7 +5067,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_highlightColorChecked
+          @attr name com.findatrainerapp.welike:aviary_highlightColorChecked
         */
         public static final int AviaryHighlightImageButton_aviary_highlightColorChecked = 5;
         /**
@@ -5084,7 +5084,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_highlightColorPressed
+          @attr name com.findatrainerapp.welike:aviary_highlightColorPressed
         */
         public static final int AviaryHighlightImageButton_aviary_highlightColorPressed = 4;
         /**
@@ -5101,7 +5101,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_highlightColorSelected
+          @attr name com.findatrainerapp.welike:aviary_highlightColorSelected
         */
         public static final int AviaryHighlightImageButton_aviary_highlightColorSelected = 6;
         /**
@@ -5121,7 +5121,7 @@ containing a value of this type.
 <tr><td><code>selected</code></td><td>0x08</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_highlightMode
+          @attr name com.findatrainerapp.welike:aviary_highlightMode
         */
         public static final int AviaryHighlightImageButton_aviary_highlightMode = 2;
         /**
@@ -5137,7 +5137,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_toggleable
+          @attr name com.findatrainerapp.welike:aviary_toggleable
         */
         public static final int AviaryHighlightImageButton_aviary_toggleable = 7;
         /**
@@ -5153,7 +5153,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_untoggleable
+          @attr name com.findatrainerapp.welike:aviary_untoggleable
         */
         public static final int AviaryHighlightImageButton_aviary_untoggleable = 10;
         /** Attributes that can be used with a AviaryImageRestoreSwitcher.
@@ -5162,7 +5162,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AviaryImageRestoreSwitcher_aviary_restoreTimeout com.planet1107.welike:aviary_restoreTimeout}</code></td><td> duration of the restore status </td></tr>
+           <tr><td><code>{@link #AviaryImageRestoreSwitcher_aviary_restoreTimeout com.findatrainerapp.welike:aviary_restoreTimeout}</code></td><td> duration of the restore status </td></tr>
            </table>
            @see #AviaryImageRestoreSwitcher_aviary_restoreTimeout
          */
@@ -5182,7 +5182,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_restoreTimeout
+          @attr name com.findatrainerapp.welike:aviary_restoreTimeout
         */
         public static final int AviaryImageRestoreSwitcher_aviary_restoreTimeout = 0;
         /** Attributes that can be used with a AviaryImageViewDrawableOverlay.
@@ -5191,7 +5191,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AviaryImageViewDrawableOverlay_aviary_highlightStyle com.planet1107.welike:aviary_highlightStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AviaryImageViewDrawableOverlay_aviary_highlightStyle com.findatrainerapp.welike:aviary_highlightStyle}</code></td><td></td></tr>
            </table>
            @see #AviaryImageViewDrawableOverlay_aviary_highlightStyle
          */
@@ -5199,13 +5199,13 @@ containing a value of this type.
             0x7f0100e6
         };
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviary_highlightStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviary_highlightStyle}
           attribute's value can be found in the {@link #AviaryImageViewDrawableOverlay} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviary_highlightStyle
+          @attr name com.findatrainerapp.welike:aviary_highlightStyle
         */
         public static final int AviaryImageViewDrawableOverlay_aviary_highlightStyle = 0;
         /** Attributes that can be used with a AviaryPluginDividerDrawable.
@@ -5215,10 +5215,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AviaryPluginDividerDrawable_android_textColor android:textColor}</code></td><td> text color </td></tr>
-           <tr><td><code>{@link #AviaryPluginDividerDrawable_aviary_strokeColor com.planet1107.welike:aviary_strokeColor}</code></td><td> text stroke color </td></tr>
-           <tr><td><code>{@link #AviaryPluginDividerDrawable_aviary_strokeWidth com.planet1107.welike:aviary_strokeWidth}</code></td><td> text stroke width ( use 0 to remove stroke ) </td></tr>
-           <tr><td><code>{@link #AviaryPluginDividerDrawable_aviary_textPerc com.planet1107.welike:aviary_textPerc}</code></td><td> text size % based on the drawable width </td></tr>
-           <tr><td><code>{@link #AviaryPluginDividerDrawable_aviary_typeface com.planet1107.welike:aviary_typeface}</code></td><td> text font family </td></tr>
+           <tr><td><code>{@link #AviaryPluginDividerDrawable_aviary_strokeColor com.findatrainerapp.welike:aviary_strokeColor}</code></td><td> text stroke color </td></tr>
+           <tr><td><code>{@link #AviaryPluginDividerDrawable_aviary_strokeWidth com.findatrainerapp.welike:aviary_strokeWidth}</code></td><td> text stroke width ( use 0 to remove stroke ) </td></tr>
+           <tr><td><code>{@link #AviaryPluginDividerDrawable_aviary_textPerc com.findatrainerapp.welike:aviary_textPerc}</code></td><td> text size % based on the drawable width </td></tr>
+           <tr><td><code>{@link #AviaryPluginDividerDrawable_aviary_typeface com.findatrainerapp.welike:aviary_typeface}</code></td><td> text font family </td></tr>
            </table>
            @see #AviaryPluginDividerDrawable_android_textColor
            @see #AviaryPluginDividerDrawable_aviary_strokeColor
@@ -5253,7 +5253,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_strokeColor
+          @attr name com.findatrainerapp.welike:aviary_strokeColor
         */
         public static final int AviaryPluginDividerDrawable_aviary_strokeColor = 1;
         /**
@@ -5271,7 +5271,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_strokeWidth
+          @attr name com.findatrainerapp.welike:aviary_strokeWidth
         */
         public static final int AviaryPluginDividerDrawable_aviary_strokeWidth = 2;
         /**
@@ -5287,7 +5287,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_textPerc
+          @attr name com.findatrainerapp.welike:aviary_textPerc
         */
         public static final int AviaryPluginDividerDrawable_aviary_textPerc = 4;
         /**
@@ -5303,7 +5303,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_typeface
+          @attr name com.findatrainerapp.welike:aviary_typeface
         */
         public static final int AviaryPluginDividerDrawable_aviary_typeface = 3;
         /** Attributes that can be used with a AviaryPreviewFillDrawable.
@@ -5312,9 +5312,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AviaryPreviewFillDrawable_aviary_radius com.planet1107.welike:aviary_radius}</code></td><td> radius in % of the real drawable bounds </td></tr>
-           <tr><td><code>{@link #AviaryPreviewFillDrawable_aviary_strokeColor com.planet1107.welike:aviary_strokeColor}</code></td><td> outer ring stroke color </td></tr>
-           <tr><td><code>{@link #AviaryPreviewFillDrawable_aviary_strokeWidth com.planet1107.welike:aviary_strokeWidth}</code></td><td> outer ring stroke width </td></tr>
+           <tr><td><code>{@link #AviaryPreviewFillDrawable_aviary_radius com.findatrainerapp.welike:aviary_radius}</code></td><td> radius in % of the real drawable bounds </td></tr>
+           <tr><td><code>{@link #AviaryPreviewFillDrawable_aviary_strokeColor com.findatrainerapp.welike:aviary_strokeColor}</code></td><td> outer ring stroke color </td></tr>
+           <tr><td><code>{@link #AviaryPreviewFillDrawable_aviary_strokeWidth com.findatrainerapp.welike:aviary_strokeWidth}</code></td><td> outer ring stroke width </td></tr>
            </table>
            @see #AviaryPreviewFillDrawable_aviary_radius
            @see #AviaryPreviewFillDrawable_aviary_strokeColor
@@ -5336,7 +5336,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_radius
+          @attr name com.findatrainerapp.welike:aviary_radius
         */
         public static final int AviaryPreviewFillDrawable_aviary_radius = 2;
         /**
@@ -5353,7 +5353,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_strokeColor
+          @attr name com.findatrainerapp.welike:aviary_strokeColor
         */
         public static final int AviaryPreviewFillDrawable_aviary_strokeColor = 0;
         /**
@@ -5371,7 +5371,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_strokeWidth
+          @attr name com.findatrainerapp.welike:aviary_strokeWidth
         */
         public static final int AviaryPreviewFillDrawable_aviary_strokeWidth = 1;
         /** Attributes that can be used with a AviaryPreviewSpotDrawable.
@@ -5380,16 +5380,16 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AviaryPreviewSpotDrawable_aviary_bg_color1 com.planet1107.welike:aviary_bg_color1}</code></td><td></td></tr>
-           <tr><td><code>{@link #AviaryPreviewSpotDrawable_aviary_bg_color2 com.planet1107.welike:aviary_bg_color2}</code></td><td></td></tr>
-           <tr><td><code>{@link #AviaryPreviewSpotDrawable_aviary_color1 com.planet1107.welike:aviary_color1}</code></td><td></td></tr>
-           <tr><td><code>{@link #AviaryPreviewSpotDrawable_aviary_color2 com.planet1107.welike:aviary_color2}</code></td><td></td></tr>
-           <tr><td><code>{@link #AviaryPreviewSpotDrawable_aviary_color3 com.planet1107.welike:aviary_color3}</code></td><td></td></tr>
-           <tr><td><code>{@link #AviaryPreviewSpotDrawable_aviary_color4 com.planet1107.welike:aviary_color4}</code></td><td></td></tr>
-           <tr><td><code>{@link #AviaryPreviewSpotDrawable_aviary_glowSize com.planet1107.welike:aviary_glowSize}</code></td><td> glow size </td></tr>
-           <tr><td><code>{@link #AviaryPreviewSpotDrawable_aviary_highlightColorChecked com.planet1107.welike:aviary_highlightColorChecked}</code></td><td> highlight checked color </td></tr>
-           <tr><td><code>{@link #AviaryPreviewSpotDrawable_aviary_strokeColor com.planet1107.welike:aviary_strokeColor}</code></td><td> outer ring stroke color </td></tr>
-           <tr><td><code>{@link #AviaryPreviewSpotDrawable_aviary_strokeWidth com.planet1107.welike:aviary_strokeWidth}</code></td><td> outer ring stroke width </td></tr>
+           <tr><td><code>{@link #AviaryPreviewSpotDrawable_aviary_bg_color1 com.findatrainerapp.welike:aviary_bg_color1}</code></td><td></td></tr>
+           <tr><td><code>{@link #AviaryPreviewSpotDrawable_aviary_bg_color2 com.findatrainerapp.welike:aviary_bg_color2}</code></td><td></td></tr>
+           <tr><td><code>{@link #AviaryPreviewSpotDrawable_aviary_color1 com.findatrainerapp.welike:aviary_color1}</code></td><td></td></tr>
+           <tr><td><code>{@link #AviaryPreviewSpotDrawable_aviary_color2 com.findatrainerapp.welike:aviary_color2}</code></td><td></td></tr>
+           <tr><td><code>{@link #AviaryPreviewSpotDrawable_aviary_color3 com.findatrainerapp.welike:aviary_color3}</code></td><td></td></tr>
+           <tr><td><code>{@link #AviaryPreviewSpotDrawable_aviary_color4 com.findatrainerapp.welike:aviary_color4}</code></td><td></td></tr>
+           <tr><td><code>{@link #AviaryPreviewSpotDrawable_aviary_glowSize com.findatrainerapp.welike:aviary_glowSize}</code></td><td> glow size </td></tr>
+           <tr><td><code>{@link #AviaryPreviewSpotDrawable_aviary_highlightColorChecked com.findatrainerapp.welike:aviary_highlightColorChecked}</code></td><td> highlight checked color </td></tr>
+           <tr><td><code>{@link #AviaryPreviewSpotDrawable_aviary_strokeColor com.findatrainerapp.welike:aviary_strokeColor}</code></td><td> outer ring stroke color </td></tr>
+           <tr><td><code>{@link #AviaryPreviewSpotDrawable_aviary_strokeWidth com.findatrainerapp.welike:aviary_strokeWidth}</code></td><td> outer ring stroke width </td></tr>
            </table>
            @see #AviaryPreviewSpotDrawable_aviary_bg_color1
            @see #AviaryPreviewSpotDrawable_aviary_bg_color2
@@ -5408,7 +5408,7 @@ containing a value of this type.
             0x7f0100df, 0x7f0100e0
         };
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviary_bg_color1}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviary_bg_color1}
           attribute's value can be found in the {@link #AviaryPreviewSpotDrawable} array.
 
 
@@ -5419,11 +5419,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:aviary_bg_color1
+          @attr name com.findatrainerapp.welike:aviary_bg_color1
         */
         public static final int AviaryPreviewSpotDrawable_aviary_bg_color1 = 8;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviary_bg_color2}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviary_bg_color2}
           attribute's value can be found in the {@link #AviaryPreviewSpotDrawable} array.
 
 
@@ -5434,11 +5434,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:aviary_bg_color2
+          @attr name com.findatrainerapp.welike:aviary_bg_color2
         */
         public static final int AviaryPreviewSpotDrawable_aviary_bg_color2 = 9;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviary_color1}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviary_color1}
           attribute's value can be found in the {@link #AviaryPreviewSpotDrawable} array.
 
 
@@ -5449,11 +5449,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:aviary_color1
+          @attr name com.findatrainerapp.welike:aviary_color1
         */
         public static final int AviaryPreviewSpotDrawable_aviary_color1 = 4;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviary_color2}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviary_color2}
           attribute's value can be found in the {@link #AviaryPreviewSpotDrawable} array.
 
 
@@ -5464,11 +5464,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:aviary_color2
+          @attr name com.findatrainerapp.welike:aviary_color2
         */
         public static final int AviaryPreviewSpotDrawable_aviary_color2 = 5;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviary_color3}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviary_color3}
           attribute's value can be found in the {@link #AviaryPreviewSpotDrawable} array.
 
 
@@ -5479,11 +5479,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:aviary_color3
+          @attr name com.findatrainerapp.welike:aviary_color3
         */
         public static final int AviaryPreviewSpotDrawable_aviary_color3 = 6;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviary_color4}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviary_color4}
           attribute's value can be found in the {@link #AviaryPreviewSpotDrawable} array.
 
 
@@ -5494,7 +5494,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:aviary_color4
+          @attr name com.findatrainerapp.welike:aviary_color4
         */
         public static final int AviaryPreviewSpotDrawable_aviary_color4 = 7;
         /**
@@ -5510,7 +5510,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_glowSize
+          @attr name com.findatrainerapp.welike:aviary_glowSize
         */
         public static final int AviaryPreviewSpotDrawable_aviary_glowSize = 3;
         /**
@@ -5527,7 +5527,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_highlightColorChecked
+          @attr name com.findatrainerapp.welike:aviary_highlightColorChecked
         */
         public static final int AviaryPreviewSpotDrawable_aviary_highlightColorChecked = 2;
         /**
@@ -5544,7 +5544,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_strokeColor
+          @attr name com.findatrainerapp.welike:aviary_strokeColor
         */
         public static final int AviaryPreviewSpotDrawable_aviary_strokeColor = 0;
         /**
@@ -5562,7 +5562,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_strokeWidth
+          @attr name com.findatrainerapp.welike:aviary_strokeWidth
         */
         public static final int AviaryPreviewSpotDrawable_aviary_strokeWidth = 1;
         /** Attributes that can be used with a AviarySeekBar.
@@ -5571,11 +5571,11 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AviarySeekBar_aviarySeekBarSecondary com.planet1107.welike:aviarySeekBarSecondary}</code></td><td> drawable for the right progress </td></tr>
-           <tr><td><code>{@link #AviarySeekBar_aviarySeekBarSecondaryCenter com.planet1107.welike:aviarySeekBarSecondaryCenter}</code></td><td> drawable used when progress is 50/100 </td></tr>
-           <tr><td><code>{@link #AviarySeekBar_aviarySeekBarSecondaryInverted com.planet1107.welike:aviarySeekBarSecondaryInverted}</code></td><td> drawable for the left progress </td></tr>
-           <tr><td><code>{@link #AviarySeekBar_aviarySeekBarThumb com.planet1107.welike:aviarySeekBarThumb}</code></td><td> seekbar thumb </td></tr>
-           <tr><td><code>{@link #AviarySeekBar_aviarySeekBarThumbOffset com.planet1107.welike:aviarySeekBarThumbOffset}</code></td><td> right/left offset for the seelbar thumb </td></tr>
+           <tr><td><code>{@link #AviarySeekBar_aviarySeekBarSecondary com.findatrainerapp.welike:aviarySeekBarSecondary}</code></td><td> drawable for the right progress </td></tr>
+           <tr><td><code>{@link #AviarySeekBar_aviarySeekBarSecondaryCenter com.findatrainerapp.welike:aviarySeekBarSecondaryCenter}</code></td><td> drawable used when progress is 50/100 </td></tr>
+           <tr><td><code>{@link #AviarySeekBar_aviarySeekBarSecondaryInverted com.findatrainerapp.welike:aviarySeekBarSecondaryInverted}</code></td><td> drawable for the left progress </td></tr>
+           <tr><td><code>{@link #AviarySeekBar_aviarySeekBarThumb com.findatrainerapp.welike:aviarySeekBarThumb}</code></td><td> seekbar thumb </td></tr>
+           <tr><td><code>{@link #AviarySeekBar_aviarySeekBarThumbOffset com.findatrainerapp.welike:aviarySeekBarThumbOffset}</code></td><td> right/left offset for the seelbar thumb </td></tr>
            </table>
            @see #AviarySeekBar_aviarySeekBarSecondary
            @see #AviarySeekBar_aviarySeekBarSecondaryCenter
@@ -5596,7 +5596,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviarySeekBarSecondary
+          @attr name com.findatrainerapp.welike:aviarySeekBarSecondary
         */
         public static final int AviarySeekBar_aviarySeekBarSecondary = 2;
         /**
@@ -5608,7 +5608,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviarySeekBarSecondaryCenter
+          @attr name com.findatrainerapp.welike:aviarySeekBarSecondaryCenter
         */
         public static final int AviarySeekBar_aviarySeekBarSecondaryCenter = 4;
         /**
@@ -5620,7 +5620,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviarySeekBarSecondaryInverted
+          @attr name com.findatrainerapp.welike:aviarySeekBarSecondaryInverted
         */
         public static final int AviarySeekBar_aviarySeekBarSecondaryInverted = 3;
         /**
@@ -5632,7 +5632,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviarySeekBarThumb
+          @attr name com.findatrainerapp.welike:aviarySeekBarThumb
         */
         public static final int AviarySeekBar_aviarySeekBarThumb = 0;
         /**
@@ -5650,7 +5650,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviarySeekBarThumbOffset
+          @attr name com.findatrainerapp.welike:aviarySeekBarThumbOffset
         */
         public static final int AviarySeekBar_aviarySeekBarThumbOffset = 1;
         /** Attributes that can be used with a AviaryTextView.
@@ -5661,7 +5661,7 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AviaryTextView_android_clickable android:clickable}</code></td><td></td></tr>
            <tr><td><code>{@link #AviaryTextView_android_focusable android:focusable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AviaryTextView_aviary_typeface com.planet1107.welike:aviary_typeface}</code></td><td></td></tr>
+           <tr><td><code>{@link #AviaryTextView_aviary_typeface com.findatrainerapp.welike:aviary_typeface}</code></td><td></td></tr>
            </table>
            @see #AviaryTextView_android_clickable
            @see #AviaryTextView_android_focusable
@@ -5683,7 +5683,7 @@ containing a value of this type.
         */
         public static final int AviaryTextView_android_focusable = 0;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviary_typeface}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviary_typeface}
           attribute's value can be found in the {@link #AviaryTextView} array.
 
 
@@ -5693,7 +5693,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:aviary_typeface
+          @attr name com.findatrainerapp.welike:aviary_typeface
         */
         public static final int AviaryTextView_aviary_typeface = 2;
         /**  Wave image view 
@@ -5702,22 +5702,22 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AviaryTiltShiftImageView_aviaryCrosshair_enabled com.planet1107.welike:aviaryCrosshair_enabled}</code></td><td> toggle the crosshari visibility </td></tr>
-           <tr><td><code>{@link #AviaryTiltShiftImageView_aviaryWave_animationDuration com.planet1107.welike:aviaryWave_animationDuration}</code></td><td> wave animation duration </td></tr>
-           <tr><td><code>{@link #AviaryTiltShiftImageView_aviaryWave_innerRadius com.planet1107.welike:aviaryWave_innerRadius}</code></td><td> wave inner radius </td></tr>
-           <tr><td><code>{@link #AviaryTiltShiftImageView_aviaryWave_outerRadius com.planet1107.welike:aviaryWave_outerRadius}</code></td><td> wave outer radius </td></tr>
-           <tr><td><code>{@link #AviaryTiltShiftImageView_aviaryWave_pointDrawable com.planet1107.welike:aviaryWave_pointDrawable}</code></td><td> wave dot image </td></tr>
-           <tr><td><code>{@link #AviaryTiltShiftImageView_aviary_animationDuration com.planet1107.welike:aviary_animationDuration}</code></td><td> shape fade out duration </td></tr>
-           <tr><td><code>{@link #AviaryTiltShiftImageView_aviary_crosshair_edge com.planet1107.welike:aviary_crosshair_edge}</code></td><td> inner ring crosshair edge </td></tr>
-           <tr><td><code>{@link #AviaryTiltShiftImageView_aviary_crosshair_radius com.planet1107.welike:aviary_crosshair_radius}</code></td><td> inner ring radius </td></tr>
-           <tr><td><code>{@link #AviaryTiltShiftImageView_aviary_crosshair_strokeWidth com.planet1107.welike:aviary_crosshair_strokeWidth}</code></td><td> inner ring stroke width </td></tr>
-           <tr><td><code>{@link #AviaryTiltShiftImageView_aviary_shape_defaultsize com.planet1107.welike:aviary_shape_defaultsize}</code></td><td> shape default size </td></tr>
-           <tr><td><code>{@link #AviaryTiltShiftImageView_aviary_shape_maxsize com.planet1107.welike:aviary_shape_maxsize}</code></td><td> shape max size ( % of the image ) </td></tr>
-           <tr><td><code>{@link #AviaryTiltShiftImageView_aviary_shape_minsize com.planet1107.welike:aviary_shape_minsize}</code></td><td> shape min size ( % of the image ) </td></tr>
-           <tr><td><code>{@link #AviaryTiltShiftImageView_aviary_strokeColor com.planet1107.welike:aviary_strokeColor}</code></td><td> outer ring stroke color </td></tr>
-           <tr><td><code>{@link #AviaryTiltShiftImageView_aviary_strokeColor2 com.planet1107.welike:aviary_strokeColor2}</code></td><td> inner and outer background stroke color </td></tr>
-           <tr><td><code>{@link #AviaryTiltShiftImageView_aviary_strokeWidth com.planet1107.welike:aviary_strokeWidth}</code></td><td> outer ring stroke width </td></tr>
-           <tr><td><code>{@link #AviaryTiltShiftImageView_aviary_timeout com.planet1107.welike:aviary_timeout}</code></td><td> shape fade out timeout </td></tr>
+           <tr><td><code>{@link #AviaryTiltShiftImageView_aviaryCrosshair_enabled com.findatrainerapp.welike:aviaryCrosshair_enabled}</code></td><td> toggle the crosshari visibility </td></tr>
+           <tr><td><code>{@link #AviaryTiltShiftImageView_aviaryWave_animationDuration com.findatrainerapp.welike:aviaryWave_animationDuration}</code></td><td> wave animation duration </td></tr>
+           <tr><td><code>{@link #AviaryTiltShiftImageView_aviaryWave_innerRadius com.findatrainerapp.welike:aviaryWave_innerRadius}</code></td><td> wave inner radius </td></tr>
+           <tr><td><code>{@link #AviaryTiltShiftImageView_aviaryWave_outerRadius com.findatrainerapp.welike:aviaryWave_outerRadius}</code></td><td> wave outer radius </td></tr>
+           <tr><td><code>{@link #AviaryTiltShiftImageView_aviaryWave_pointDrawable com.findatrainerapp.welike:aviaryWave_pointDrawable}</code></td><td> wave dot image </td></tr>
+           <tr><td><code>{@link #AviaryTiltShiftImageView_aviary_animationDuration com.findatrainerapp.welike:aviary_animationDuration}</code></td><td> shape fade out duration </td></tr>
+           <tr><td><code>{@link #AviaryTiltShiftImageView_aviary_crosshair_edge com.findatrainerapp.welike:aviary_crosshair_edge}</code></td><td> inner ring crosshair edge </td></tr>
+           <tr><td><code>{@link #AviaryTiltShiftImageView_aviary_crosshair_radius com.findatrainerapp.welike:aviary_crosshair_radius}</code></td><td> inner ring radius </td></tr>
+           <tr><td><code>{@link #AviaryTiltShiftImageView_aviary_crosshair_strokeWidth com.findatrainerapp.welike:aviary_crosshair_strokeWidth}</code></td><td> inner ring stroke width </td></tr>
+           <tr><td><code>{@link #AviaryTiltShiftImageView_aviary_shape_defaultsize com.findatrainerapp.welike:aviary_shape_defaultsize}</code></td><td> shape default size </td></tr>
+           <tr><td><code>{@link #AviaryTiltShiftImageView_aviary_shape_maxsize com.findatrainerapp.welike:aviary_shape_maxsize}</code></td><td> shape max size ( % of the image ) </td></tr>
+           <tr><td><code>{@link #AviaryTiltShiftImageView_aviary_shape_minsize com.findatrainerapp.welike:aviary_shape_minsize}</code></td><td> shape min size ( % of the image ) </td></tr>
+           <tr><td><code>{@link #AviaryTiltShiftImageView_aviary_strokeColor com.findatrainerapp.welike:aviary_strokeColor}</code></td><td> outer ring stroke color </td></tr>
+           <tr><td><code>{@link #AviaryTiltShiftImageView_aviary_strokeColor2 com.findatrainerapp.welike:aviary_strokeColor2}</code></td><td> inner and outer background stroke color </td></tr>
+           <tr><td><code>{@link #AviaryTiltShiftImageView_aviary_strokeWidth com.findatrainerapp.welike:aviary_strokeWidth}</code></td><td> outer ring stroke width </td></tr>
+           <tr><td><code>{@link #AviaryTiltShiftImageView_aviary_timeout com.findatrainerapp.welike:aviary_timeout}</code></td><td> shape fade out timeout </td></tr>
            </table>
            @see #AviaryTiltShiftImageView_aviaryCrosshair_enabled
            @see #AviaryTiltShiftImageView_aviaryWave_animationDuration
@@ -5755,7 +5755,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryCrosshair_enabled
+          @attr name com.findatrainerapp.welike:aviaryCrosshair_enabled
         */
         public static final int AviaryTiltShiftImageView_aviaryCrosshair_enabled = 15;
         /**
@@ -5771,7 +5771,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryWave_animationDuration
+          @attr name com.findatrainerapp.welike:aviaryWave_animationDuration
         */
         public static final int AviaryTiltShiftImageView_aviaryWave_animationDuration = 14;
         /**
@@ -5789,7 +5789,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryWave_innerRadius
+          @attr name com.findatrainerapp.welike:aviaryWave_innerRadius
         */
         public static final int AviaryTiltShiftImageView_aviaryWave_innerRadius = 12;
         /**
@@ -5807,7 +5807,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryWave_outerRadius
+          @attr name com.findatrainerapp.welike:aviaryWave_outerRadius
         */
         public static final int AviaryTiltShiftImageView_aviaryWave_outerRadius = 13;
         /**
@@ -5819,7 +5819,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryWave_pointDrawable
+          @attr name com.findatrainerapp.welike:aviaryWave_pointDrawable
         */
         public static final int AviaryTiltShiftImageView_aviaryWave_pointDrawable = 11;
         /**
@@ -5835,7 +5835,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_animationDuration
+          @attr name com.findatrainerapp.welike:aviary_animationDuration
         */
         public static final int AviaryTiltShiftImageView_aviary_animationDuration = 10;
         /**
@@ -5853,7 +5853,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_crosshair_edge
+          @attr name com.findatrainerapp.welike:aviary_crosshair_edge
         */
         public static final int AviaryTiltShiftImageView_aviary_crosshair_edge = 7;
         /**
@@ -5871,7 +5871,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_crosshair_radius
+          @attr name com.findatrainerapp.welike:aviary_crosshair_radius
         */
         public static final int AviaryTiltShiftImageView_aviary_crosshair_radius = 6;
         /**
@@ -5887,7 +5887,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_crosshair_strokeWidth
+          @attr name com.findatrainerapp.welike:aviary_crosshair_strokeWidth
         */
         public static final int AviaryTiltShiftImageView_aviary_crosshair_strokeWidth = 5;
         /**
@@ -5905,7 +5905,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_shape_defaultsize
+          @attr name com.findatrainerapp.welike:aviary_shape_defaultsize
         */
         public static final int AviaryTiltShiftImageView_aviary_shape_defaultsize = 4;
         /**
@@ -5921,7 +5921,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_shape_maxsize
+          @attr name com.findatrainerapp.welike:aviary_shape_maxsize
         */
         public static final int AviaryTiltShiftImageView_aviary_shape_maxsize = 3;
         /**
@@ -5937,7 +5937,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_shape_minsize
+          @attr name com.findatrainerapp.welike:aviary_shape_minsize
         */
         public static final int AviaryTiltShiftImageView_aviary_shape_minsize = 2;
         /**
@@ -5954,7 +5954,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_strokeColor
+          @attr name com.findatrainerapp.welike:aviary_strokeColor
         */
         public static final int AviaryTiltShiftImageView_aviary_strokeColor = 0;
         /**
@@ -5971,7 +5971,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_strokeColor2
+          @attr name com.findatrainerapp.welike:aviary_strokeColor2
         */
         public static final int AviaryTiltShiftImageView_aviary_strokeColor2 = 8;
         /**
@@ -5989,7 +5989,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_strokeWidth
+          @attr name com.findatrainerapp.welike:aviary_strokeWidth
         */
         public static final int AviaryTiltShiftImageView_aviary_strokeWidth = 1;
         /**
@@ -6005,7 +6005,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_timeout
+          @attr name com.findatrainerapp.welike:aviary_timeout
         */
         public static final int AviaryTiltShiftImageView_aviary_timeout = 9;
         /** Attributes that can be used with a AviaryWheel.
@@ -6014,10 +6014,10 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AviaryWheel_aviaryWheelIndicator com.planet1107.welike:aviaryWheelIndicator}</code></td><td> the line indicator </td></tr>
-           <tr><td><code>{@link #AviaryWheel_aviaryWheelLine com.planet1107.welike:aviaryWheelLine}</code></td><td> the single line </td></tr>
-           <tr><td><code>{@link #AviaryWheel_aviaryWheelShadowTop com.planet1107.welike:aviaryWheelShadowTop}</code></td><td> shadow overlay above all </td></tr>
-           <tr><td><code>{@link #AviaryWheel_aviary_edgeStyle com.planet1107.welike:aviary_edgeStyle}</code></td><td> style for the left/right edges </td></tr>
+           <tr><td><code>{@link #AviaryWheel_aviaryWheelIndicator com.findatrainerapp.welike:aviaryWheelIndicator}</code></td><td> the line indicator </td></tr>
+           <tr><td><code>{@link #AviaryWheel_aviaryWheelLine com.findatrainerapp.welike:aviaryWheelLine}</code></td><td> the single line </td></tr>
+           <tr><td><code>{@link #AviaryWheel_aviaryWheelShadowTop com.findatrainerapp.welike:aviaryWheelShadowTop}</code></td><td> shadow overlay above all </td></tr>
+           <tr><td><code>{@link #AviaryWheel_aviary_edgeStyle com.findatrainerapp.welike:aviary_edgeStyle}</code></td><td> style for the left/right edges </td></tr>
            </table>
            @see #AviaryWheel_aviaryWheelIndicator
            @see #AviaryWheel_aviaryWheelLine
@@ -6036,7 +6036,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryWheelIndicator
+          @attr name com.findatrainerapp.welike:aviaryWheelIndicator
         */
         public static final int AviaryWheel_aviaryWheelIndicator = 2;
         /**
@@ -6048,7 +6048,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryWheelLine
+          @attr name com.findatrainerapp.welike:aviaryWheelLine
         */
         public static final int AviaryWheel_aviaryWheelLine = 1;
         /**
@@ -6060,7 +6060,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryWheelShadowTop
+          @attr name com.findatrainerapp.welike:aviaryWheelShadowTop
         */
         public static final int AviaryWheel_aviaryWheelShadowTop = 0;
         /**
@@ -6072,7 +6072,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviary_edgeStyle
+          @attr name com.findatrainerapp.welike:aviary_edgeStyle
         */
         public static final int AviaryWheel_aviary_edgeStyle = 3;
         /** Attributes that can be used with a AviaryWorkspace.
@@ -6081,8 +6081,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AviaryWorkspace_aviary_defaultScreen com.planet1107.welike:aviary_defaultScreen}</code></td><td></td></tr>
-           <tr><td><code>{@link #AviaryWorkspace_aviary_overscroll com.planet1107.welike:aviary_overscroll}</code></td><td></td></tr>
+           <tr><td><code>{@link #AviaryWorkspace_aviary_defaultScreen com.findatrainerapp.welike:aviary_defaultScreen}</code></td><td></td></tr>
+           <tr><td><code>{@link #AviaryWorkspace_aviary_overscroll com.findatrainerapp.welike:aviary_overscroll}</code></td><td></td></tr>
            </table>
            @see #AviaryWorkspace_aviary_defaultScreen
            @see #AviaryWorkspace_aviary_overscroll
@@ -6091,7 +6091,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100fe, 0x7f0100ff
         };
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviary_defaultScreen}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviary_defaultScreen}
           attribute's value can be found in the {@link #AviaryWorkspace} array.
 
 
@@ -6101,11 +6101,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:aviary_defaultScreen
+          @attr name com.findatrainerapp.welike:aviary_defaultScreen
         */
         public static final int AviaryWorkspace_aviary_defaultScreen = 0;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviary_overscroll}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviary_overscroll}
           attribute's value can be found in the {@link #AviaryWorkspace} array.
 
 
@@ -6115,7 +6115,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:aviary_overscroll
+          @attr name com.findatrainerapp.welike:aviary_overscroll
         */
         public static final int AviaryWorkspace_aviary_overscroll = 1;
         /** Attributes that can be used with a AviaryWorkspaceIndicator.
@@ -6124,7 +6124,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AviaryWorkspaceIndicator_aviary_indicatorId com.planet1107.welike:aviary_indicatorId}</code></td><td></td></tr>
+           <tr><td><code>{@link #AviaryWorkspaceIndicator_aviary_indicatorId com.findatrainerapp.welike:aviary_indicatorId}</code></td><td></td></tr>
            </table>
            @see #AviaryWorkspaceIndicator_aviary_indicatorId
          */
@@ -6132,13 +6132,13 @@ containing a value of this type.
             0x7f0100fd
         };
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviary_indicatorId}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviary_indicatorId}
           attribute's value can be found in the {@link #AviaryWorkspaceIndicator} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviary_indicatorId
+          @attr name com.findatrainerapp.welike:aviary_indicatorId
         */
         public static final int AviaryWorkspaceIndicator_aviary_indicatorId = 0;
         /** Attributes that can be used with a HListView.
@@ -6149,13 +6149,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #HListView_android_divider android:divider}</code></td><td></td></tr>
            <tr><td><code>{@link #HListView_android_entries android:entries}</code></td><td></td></tr>
-           <tr><td><code>{@link #HListView_dividerWidth com.planet1107.welike:dividerWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #HListView_footerDividersEnabled com.planet1107.welike:footerDividersEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #HListView_headerDividersEnabled com.planet1107.welike:headerDividersEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #HListView_measureWithChild com.planet1107.welike:measureWithChild}</code></td><td> 
+           <tr><td><code>{@link #HListView_dividerWidth com.findatrainerapp.welike:dividerWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #HListView_footerDividersEnabled com.findatrainerapp.welike:footerDividersEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #HListView_headerDividersEnabled com.findatrainerapp.welike:headerDividersEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #HListView_measureWithChild com.findatrainerapp.welike:measureWithChild}</code></td><td> 
         When "wrap_content" is used as value of the layout_height property.</td></tr>
-           <tr><td><code>{@link #HListView_overScrollFooter com.planet1107.welike:overScrollFooter}</code></td><td></td></tr>
-           <tr><td><code>{@link #HListView_overScrollHeader com.planet1107.welike:overScrollHeader}</code></td><td></td></tr>
+           <tr><td><code>{@link #HListView_overScrollFooter com.findatrainerapp.welike:overScrollFooter}</code></td><td></td></tr>
+           <tr><td><code>{@link #HListView_overScrollHeader com.findatrainerapp.welike:overScrollHeader}</code></td><td></td></tr>
            </table>
            @see #HListView_android_divider
            @see #HListView_android_entries
@@ -6183,7 +6183,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int HListView_android_entries = 0;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#dividerWidth}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#dividerWidth}
           attribute's value can be found in the {@link #HListView} array.
 
 
@@ -6195,11 +6195,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:dividerWidth
+          @attr name com.findatrainerapp.welike:dividerWidth
         */
         public static final int HListView_dividerWidth = 2;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#footerDividersEnabled}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#footerDividersEnabled}
           attribute's value can be found in the {@link #HListView} array.
 
 
@@ -6209,11 +6209,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:footerDividersEnabled
+          @attr name com.findatrainerapp.welike:footerDividersEnabled
         */
         public static final int HListView_footerDividersEnabled = 4;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#headerDividersEnabled}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#headerDividersEnabled}
           attribute's value can be found in the {@link #HListView} array.
 
 
@@ -6223,7 +6223,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:headerDividersEnabled
+          @attr name com.findatrainerapp.welike:headerDividersEnabled
         */
         public static final int HListView_headerDividersEnabled = 3;
         /**
@@ -6243,11 +6243,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:measureWithChild
+          @attr name com.findatrainerapp.welike:measureWithChild
         */
         public static final int HListView_measureWithChild = 7;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#overScrollFooter}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#overScrollFooter}
           attribute's value can be found in the {@link #HListView} array.
 
 
@@ -6255,11 +6255,11 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.planet1107.welike:overScrollFooter
+          @attr name com.findatrainerapp.welike:overScrollFooter
         */
         public static final int HListView_overScrollFooter = 6;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#overScrollHeader}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#overScrollHeader}
           attribute's value can be found in the {@link #HListView} array.
 
 
@@ -6267,7 +6267,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.planet1107.welike:overScrollHeader
+          @attr name com.findatrainerapp.welike:overScrollHeader
         */
         public static final int HListView_overScrollHeader = 5;
         /** Attributes that can be used with a MapAttrs.
@@ -6276,20 +6276,20 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MapAttrs_cameraBearing com.planet1107.welike:cameraBearing}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTargetLat com.planet1107.welike:cameraTargetLat}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTargetLng com.planet1107.welike:cameraTargetLng}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTilt com.planet1107.welike:cameraTilt}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraZoom com.planet1107.welike:cameraZoom}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_mapType com.planet1107.welike:mapType}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiCompass com.planet1107.welike:uiCompass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiRotateGestures com.planet1107.welike:uiRotateGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiScrollGestures com.planet1107.welike:uiScrollGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiTiltGestures com.planet1107.welike:uiTiltGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiZoomControls com.planet1107.welike:uiZoomControls}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiZoomGestures com.planet1107.welike:uiZoomGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_useViewLifecycle com.planet1107.welike:useViewLifecycle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_zOrderOnTop com.planet1107.welike:zOrderOnTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraBearing com.findatrainerapp.welike:cameraBearing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTargetLat com.findatrainerapp.welike:cameraTargetLat}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTargetLng com.findatrainerapp.welike:cameraTargetLng}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTilt com.findatrainerapp.welike:cameraTilt}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraZoom com.findatrainerapp.welike:cameraZoom}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_mapType com.findatrainerapp.welike:mapType}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiCompass com.findatrainerapp.welike:uiCompass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiRotateGestures com.findatrainerapp.welike:uiRotateGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiScrollGestures com.findatrainerapp.welike:uiScrollGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiTiltGestures com.findatrainerapp.welike:uiTiltGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiZoomControls com.findatrainerapp.welike:uiZoomControls}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiZoomGestures com.findatrainerapp.welike:uiZoomGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_useViewLifecycle com.findatrainerapp.welike:useViewLifecycle}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_zOrderOnTop com.findatrainerapp.welike:zOrderOnTop}</code></td><td></td></tr>
            </table>
            @see #MapAttrs_cameraBearing
            @see #MapAttrs_cameraTargetLat
@@ -6313,7 +6313,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01000f, 0x7f010010
         };
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#cameraBearing}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#cameraBearing}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -6323,11 +6323,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:cameraBearing
+          @attr name com.findatrainerapp.welike:cameraBearing
         */
         public static final int MapAttrs_cameraBearing = 1;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#cameraTargetLat}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#cameraTargetLat}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -6337,11 +6337,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:cameraTargetLat
+          @attr name com.findatrainerapp.welike:cameraTargetLat
         */
         public static final int MapAttrs_cameraTargetLat = 2;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#cameraTargetLng}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#cameraTargetLng}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -6351,11 +6351,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:cameraTargetLng
+          @attr name com.findatrainerapp.welike:cameraTargetLng
         */
         public static final int MapAttrs_cameraTargetLng = 3;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#cameraTilt}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#cameraTilt}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -6365,11 +6365,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:cameraTilt
+          @attr name com.findatrainerapp.welike:cameraTilt
         */
         public static final int MapAttrs_cameraTilt = 4;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#cameraZoom}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#cameraZoom}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -6379,11 +6379,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:cameraZoom
+          @attr name com.findatrainerapp.welike:cameraZoom
         */
         public static final int MapAttrs_cameraZoom = 5;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#mapType}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#mapType}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -6399,11 +6399,11 @@ containing a value of this type.
 <tr><td><code>terrain</code></td><td>3</td><td></td></tr>
 <tr><td><code>hybrid</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name com.planet1107.welike:mapType
+          @attr name com.findatrainerapp.welike:mapType
         */
         public static final int MapAttrs_mapType = 0;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#uiCompass}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#uiCompass}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -6413,11 +6413,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:uiCompass
+          @attr name com.findatrainerapp.welike:uiCompass
         */
         public static final int MapAttrs_uiCompass = 6;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#uiRotateGestures}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#uiRotateGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -6427,11 +6427,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:uiRotateGestures
+          @attr name com.findatrainerapp.welike:uiRotateGestures
         */
         public static final int MapAttrs_uiRotateGestures = 7;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#uiScrollGestures}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#uiScrollGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -6441,11 +6441,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:uiScrollGestures
+          @attr name com.findatrainerapp.welike:uiScrollGestures
         */
         public static final int MapAttrs_uiScrollGestures = 8;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#uiTiltGestures}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#uiTiltGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -6455,11 +6455,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:uiTiltGestures
+          @attr name com.findatrainerapp.welike:uiTiltGestures
         */
         public static final int MapAttrs_uiTiltGestures = 9;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#uiZoomControls}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#uiZoomControls}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -6469,11 +6469,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:uiZoomControls
+          @attr name com.findatrainerapp.welike:uiZoomControls
         */
         public static final int MapAttrs_uiZoomControls = 10;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#uiZoomGestures}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#uiZoomGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -6483,11 +6483,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:uiZoomGestures
+          @attr name com.findatrainerapp.welike:uiZoomGestures
         */
         public static final int MapAttrs_uiZoomGestures = 11;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#useViewLifecycle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#useViewLifecycle}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -6497,11 +6497,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:useViewLifecycle
+          @attr name com.findatrainerapp.welike:useViewLifecycle
         */
         public static final int MapAttrs_useViewLifecycle = 12;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#zOrderOnTop}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#zOrderOnTop}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -6511,7 +6511,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:zOrderOnTop
+          @attr name com.findatrainerapp.welike:zOrderOnTop
         */
         public static final int MapAttrs_zOrderOnTop = 13;
         /** Attributes that can be used with a PullToRefreshHeader.
@@ -6520,15 +6520,15 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PullToRefreshHeader_ptrHeaderBackground com.planet1107.welike:ptrHeaderBackground}</code></td><td> A drawable to use as the background of the Header View </td></tr>
-           <tr><td><code>{@link #PullToRefreshHeader_ptrHeaderHeight com.planet1107.welike:ptrHeaderHeight}</code></td><td> The height of the Header View </td></tr>
-           <tr><td><code>{@link #PullToRefreshHeader_ptrHeaderTitleTextAppearance com.planet1107.welike:ptrHeaderTitleTextAppearance}</code></td><td> The Text Appearance of the Header View's Title text </td></tr>
-           <tr><td><code>{@link #PullToRefreshHeader_ptrProgressBarColor com.planet1107.welike:ptrProgressBarColor}</code></td><td> The color that the Progress Bar should be tinted with </td></tr>
-           <tr><td><code>{@link #PullToRefreshHeader_ptrProgressBarHeight com.planet1107.welike:ptrProgressBarHeight}</code></td><td> The height of the Progress Bar </td></tr>
-           <tr><td><code>{@link #PullToRefreshHeader_ptrProgressBarStyle com.planet1107.welike:ptrProgressBarStyle}</code></td><td> The style of the Progress Bar </td></tr>
-           <tr><td><code>{@link #PullToRefreshHeader_ptrPullText com.planet1107.welike:ptrPullText}</code></td><td> Text to show to prompt the user is pull (or keep pulling) </td></tr>
-           <tr><td><code>{@link #PullToRefreshHeader_ptrRefreshingText com.planet1107.welike:ptrRefreshingText}</code></td><td> Text to show to tell the user that a refresh is currently in progress </td></tr>
-           <tr><td><code>{@link #PullToRefreshHeader_ptrReleaseText com.planet1107.welike:ptrReleaseText}</code></td><td> Text to show to tell the user has scrolled enough to refresh </td></tr>
+           <tr><td><code>{@link #PullToRefreshHeader_ptrHeaderBackground com.findatrainerapp.welike:ptrHeaderBackground}</code></td><td> A drawable to use as the background of the Header View </td></tr>
+           <tr><td><code>{@link #PullToRefreshHeader_ptrHeaderHeight com.findatrainerapp.welike:ptrHeaderHeight}</code></td><td> The height of the Header View </td></tr>
+           <tr><td><code>{@link #PullToRefreshHeader_ptrHeaderTitleTextAppearance com.findatrainerapp.welike:ptrHeaderTitleTextAppearance}</code></td><td> The Text Appearance of the Header View's Title text </td></tr>
+           <tr><td><code>{@link #PullToRefreshHeader_ptrProgressBarColor com.findatrainerapp.welike:ptrProgressBarColor}</code></td><td> The color that the Progress Bar should be tinted with </td></tr>
+           <tr><td><code>{@link #PullToRefreshHeader_ptrProgressBarHeight com.findatrainerapp.welike:ptrProgressBarHeight}</code></td><td> The height of the Progress Bar </td></tr>
+           <tr><td><code>{@link #PullToRefreshHeader_ptrProgressBarStyle com.findatrainerapp.welike:ptrProgressBarStyle}</code></td><td> The style of the Progress Bar </td></tr>
+           <tr><td><code>{@link #PullToRefreshHeader_ptrPullText com.findatrainerapp.welike:ptrPullText}</code></td><td> Text to show to prompt the user is pull (or keep pulling) </td></tr>
+           <tr><td><code>{@link #PullToRefreshHeader_ptrRefreshingText com.findatrainerapp.welike:ptrRefreshingText}</code></td><td> Text to show to tell the user that a refresh is currently in progress </td></tr>
+           <tr><td><code>{@link #PullToRefreshHeader_ptrReleaseText com.findatrainerapp.welike:ptrReleaseText}</code></td><td> Text to show to tell the user has scrolled enough to refresh </td></tr>
            </table>
            @see #PullToRefreshHeader_ptrHeaderBackground
            @see #PullToRefreshHeader_ptrHeaderHeight
@@ -6556,7 +6556,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:ptrHeaderBackground
+          @attr name com.findatrainerapp.welike:ptrHeaderBackground
         */
         public static final int PullToRefreshHeader_ptrHeaderBackground = 0;
         /**
@@ -6571,7 +6571,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:ptrHeaderHeight
+          @attr name com.findatrainerapp.welike:ptrHeaderHeight
         */
         public static final int PullToRefreshHeader_ptrHeaderHeight = 1;
         /**
@@ -6583,7 +6583,7 @@ in (inches), mm (millimeters).
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:ptrHeaderTitleTextAppearance
+          @attr name com.findatrainerapp.welike:ptrHeaderTitleTextAppearance
         */
         public static final int PullToRefreshHeader_ptrHeaderTitleTextAppearance = 2;
         /**
@@ -6597,7 +6597,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:ptrProgressBarColor
+          @attr name com.findatrainerapp.welike:ptrProgressBarColor
         */
         public static final int PullToRefreshHeader_ptrProgressBarColor = 3;
         /**
@@ -6612,7 +6612,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:ptrProgressBarHeight
+          @attr name com.findatrainerapp.welike:ptrProgressBarHeight
         */
         public static final int PullToRefreshHeader_ptrProgressBarHeight = 5;
         /**
@@ -6631,7 +6631,7 @@ in (inches), mm (millimeters).
 <tr><td><code>outside</code></td><td>0x1</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:ptrProgressBarStyle
+          @attr name com.findatrainerapp.welike:ptrProgressBarStyle
         */
         public static final int PullToRefreshHeader_ptrProgressBarStyle = 4;
         /**
@@ -6644,7 +6644,7 @@ in (inches), mm (millimeters).
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:ptrPullText
+          @attr name com.findatrainerapp.welike:ptrPullText
         */
         public static final int PullToRefreshHeader_ptrPullText = 6;
         /**
@@ -6657,7 +6657,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:ptrRefreshingText
+          @attr name com.findatrainerapp.welike:ptrRefreshingText
         */
         public static final int PullToRefreshHeader_ptrRefreshingText = 7;
         /**
@@ -6670,7 +6670,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:ptrReleaseText
+          @attr name com.findatrainerapp.welike:ptrReleaseText
         */
         public static final int PullToRefreshHeader_ptrReleaseText = 8;
         /** Attributes that can be used with a PullToRefreshView.
@@ -6679,7 +6679,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PullToRefreshView_ptrViewDelegateClass com.planet1107.welike:ptrViewDelegateClass}</code></td><td> The class to use as a View's View Delegate.</td></tr>
+           <tr><td><code>{@link #PullToRefreshView_ptrViewDelegateClass com.findatrainerapp.welike:ptrViewDelegateClass}</code></td><td> The class to use as a View's View Delegate.</td></tr>
            </table>
            @see #PullToRefreshView_ptrViewDelegateClass
          */
@@ -6696,7 +6696,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:ptrViewDelegateClass
+          @attr name com.findatrainerapp.welike:ptrViewDelegateClass
         */
         public static final int PullToRefreshView_ptrViewDelegateClass = 0;
         /** Attributes that can be used with a SmoothProgressBar.
@@ -6705,16 +6705,16 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SmoothProgressBar_spbStyle com.planet1107.welike:spbStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #SmoothProgressBar_spb_color com.planet1107.welike:spb_color}</code></td><td></td></tr>
-           <tr><td><code>{@link #SmoothProgressBar_spb_colors com.planet1107.welike:spb_colors}</code></td><td></td></tr>
-           <tr><td><code>{@link #SmoothProgressBar_spb_interpolator com.planet1107.welike:spb_interpolator}</code></td><td></td></tr>
-           <tr><td><code>{@link #SmoothProgressBar_spb_mirror_mode com.planet1107.welike:spb_mirror_mode}</code></td><td></td></tr>
-           <tr><td><code>{@link #SmoothProgressBar_spb_reversed com.planet1107.welike:spb_reversed}</code></td><td></td></tr>
-           <tr><td><code>{@link #SmoothProgressBar_spb_sections_count com.planet1107.welike:spb_sections_count}</code></td><td></td></tr>
-           <tr><td><code>{@link #SmoothProgressBar_spb_speed com.planet1107.welike:spb_speed}</code></td><td></td></tr>
-           <tr><td><code>{@link #SmoothProgressBar_spb_stroke_separator_length com.planet1107.welike:spb_stroke_separator_length}</code></td><td></td></tr>
-           <tr><td><code>{@link #SmoothProgressBar_spb_stroke_width com.planet1107.welike:spb_stroke_width}</code></td><td></td></tr>
+           <tr><td><code>{@link #SmoothProgressBar_spbStyle com.findatrainerapp.welike:spbStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #SmoothProgressBar_spb_color com.findatrainerapp.welike:spb_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #SmoothProgressBar_spb_colors com.findatrainerapp.welike:spb_colors}</code></td><td></td></tr>
+           <tr><td><code>{@link #SmoothProgressBar_spb_interpolator com.findatrainerapp.welike:spb_interpolator}</code></td><td></td></tr>
+           <tr><td><code>{@link #SmoothProgressBar_spb_mirror_mode com.findatrainerapp.welike:spb_mirror_mode}</code></td><td></td></tr>
+           <tr><td><code>{@link #SmoothProgressBar_spb_reversed com.findatrainerapp.welike:spb_reversed}</code></td><td></td></tr>
+           <tr><td><code>{@link #SmoothProgressBar_spb_sections_count com.findatrainerapp.welike:spb_sections_count}</code></td><td></td></tr>
+           <tr><td><code>{@link #SmoothProgressBar_spb_speed com.findatrainerapp.welike:spb_speed}</code></td><td></td></tr>
+           <tr><td><code>{@link #SmoothProgressBar_spb_stroke_separator_length com.findatrainerapp.welike:spb_stroke_separator_length}</code></td><td></td></tr>
+           <tr><td><code>{@link #SmoothProgressBar_spb_stroke_width com.findatrainerapp.welike:spb_stroke_width}</code></td><td></td></tr>
            </table>
            @see #SmoothProgressBar_spbStyle
            @see #SmoothProgressBar_spb_color
@@ -6733,17 +6733,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01011b, 0x7f01011c
         };
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#spbStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#spbStyle}
           attribute's value can be found in the {@link #SmoothProgressBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:spbStyle
+          @attr name com.findatrainerapp.welike:spbStyle
         */
         public static final int SmoothProgressBar_spbStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#spb_color}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#spb_color}
           attribute's value can be found in the {@link #SmoothProgressBar} array.
 
 
@@ -6754,21 +6754,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:spb_color
+          @attr name com.findatrainerapp.welike:spb_color
         */
         public static final int SmoothProgressBar_spb_color = 1;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#spb_colors}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#spb_colors}
           attribute's value can be found in the {@link #SmoothProgressBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:spb_colors
+          @attr name com.findatrainerapp.welike:spb_colors
         */
         public static final int SmoothProgressBar_spb_colors = 9;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#spb_interpolator}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#spb_interpolator}
           attribute's value can be found in the {@link #SmoothProgressBar} array.
 
 
@@ -6783,11 +6783,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>spb_interpolator_acceleratedecelerate</code></td><td>2</td><td></td></tr>
 <tr><td><code>spb_interpolator_decelerate</code></td><td>3</td><td></td></tr>
 </table>
-          @attr name com.planet1107.welike:spb_interpolator
+          @attr name com.findatrainerapp.welike:spb_interpolator
         */
         public static final int SmoothProgressBar_spb_interpolator = 6;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#spb_mirror_mode}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#spb_mirror_mode}
           attribute's value can be found in the {@link #SmoothProgressBar} array.
 
 
@@ -6797,11 +6797,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:spb_mirror_mode
+          @attr name com.findatrainerapp.welike:spb_mirror_mode
         */
         public static final int SmoothProgressBar_spb_mirror_mode = 8;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#spb_reversed}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#spb_reversed}
           attribute's value can be found in the {@link #SmoothProgressBar} array.
 
 
@@ -6811,11 +6811,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:spb_reversed
+          @attr name com.findatrainerapp.welike:spb_reversed
         */
         public static final int SmoothProgressBar_spb_reversed = 7;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#spb_sections_count}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#spb_sections_count}
           attribute's value can be found in the {@link #SmoothProgressBar} array.
 
 
@@ -6825,11 +6825,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:spb_sections_count
+          @attr name com.findatrainerapp.welike:spb_sections_count
         */
         public static final int SmoothProgressBar_spb_sections_count = 4;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#spb_speed}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#spb_speed}
           attribute's value can be found in the {@link #SmoothProgressBar} array.
 
 
@@ -6839,11 +6839,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:spb_speed
+          @attr name com.findatrainerapp.welike:spb_speed
         */
         public static final int SmoothProgressBar_spb_speed = 5;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#spb_stroke_separator_length}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#spb_stroke_separator_length}
           attribute's value can be found in the {@link #SmoothProgressBar} array.
 
 
@@ -6855,11 +6855,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:spb_stroke_separator_length
+          @attr name com.findatrainerapp.welike:spb_stroke_separator_length
         */
         public static final int SmoothProgressBar_spb_stroke_separator_length = 3;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#spb_stroke_width}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#spb_stroke_width}
           attribute's value can be found in the {@link #SmoothProgressBar} array.
 
 
@@ -6871,7 +6871,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:spb_stroke_width
+          @attr name com.findatrainerapp.welike:spb_stroke_width
         */
         public static final int SmoothProgressBar_spb_stroke_width = 2;
         /** Attributes that can be used with a Theme.
@@ -6880,160 +6880,160 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Theme_aviaryAdjustDividerWeight com.planet1107.welike:aviaryAdjustDividerWeight}</code></td><td> orientation panel item divider weight </td></tr>
-           <tr><td><code>{@link #Theme_aviaryAdjustImageViewStyle com.planet1107.welike:aviaryAdjustImageViewStyle}</code></td><td> image view used for the orientation content panel </td></tr>
-           <tr><td><code>{@link #Theme_aviaryAdjustItemWeight com.planet1107.welike:aviaryAdjustItemWeight}</code></td><td> orientation panel item weight </td></tr>
-           <tr><td><code>{@link #Theme_aviaryAdjustOptionPanelToggleButtonStyle com.planet1107.welike:aviaryAdjustOptionPanelToggleButtonStyle}</code></td><td> option panel toggle buttons ( Adjust Panel )</td></tr>
-           <tr><td><code>{@link #Theme_aviaryAdjustOptionPanelToggleCenterButtonStyle com.planet1107.welike:aviaryAdjustOptionPanelToggleCenterButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryAdjustOptionPanelToggleLeftButtonStyle com.planet1107.welike:aviaryAdjustOptionPanelToggleLeftButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryAdjustOptionPanelToggleRightButtonStyle com.planet1107.welike:aviaryAdjustOptionPanelToggleRightButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryBackgroundColor com.planet1107.welike:aviaryBackgroundColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryBottomBarHeight com.planet1107.welike:aviaryBottomBarHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryBottomBarHorizontalViewStyle com.planet1107.welike:aviaryBottomBarHorizontalViewStyle}</code></td><td> tools horizontal scroll view </td></tr>
-           <tr><td><code>{@link #Theme_aviaryBottomBarLogoContainerStyle com.planet1107.welike:aviaryBottomBarLogoContainerStyle}</code></td><td> bottom bar logo container </td></tr>
-           <tr><td><code>{@link #Theme_aviaryBottomBarLogoImageStyle com.planet1107.welike:aviaryBottomBarLogoImageStyle}</code></td><td> bottom bar logo image </td></tr>
-           <tr><td><code>{@link #Theme_aviaryBottomBarOptionPanelContainerStyle com.planet1107.welike:aviaryBottomBarOptionPanelContainerStyle}</code></td><td> default style for the option panels </td></tr>
-           <tr><td><code>{@link #Theme_aviaryBottomBarOptionPanelContainerStyleNoMargin com.planet1107.welike:aviaryBottomBarOptionPanelContainerStyleNoMargin}</code></td><td> default style for the option panels ( if you need borderless )</td></tr>
-           <tr><td><code>{@link #Theme_aviaryBottomBarOptionPanelStyle com.planet1107.welike:aviaryBottomBarOptionPanelStyle}</code></td><td> option tool panel </td></tr>
-           <tr><td><code>{@link #Theme_aviaryBottomBarToolFeedBackStyle com.planet1107.welike:aviaryBottomBarToolFeedBackStyle}</code></td><td> option tool feedback </td></tr>
-           <tr><td><code>{@link #Theme_aviaryBottomBarToolImageStyle com.planet1107.welike:aviaryBottomBarToolImageStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryBottomBarToolStyle com.planet1107.welike:aviaryBottomBarToolStyle}</code></td><td> tool </td></tr>
-           <tr><td><code>{@link #Theme_aviaryBottomBarToolTextStyle com.planet1107.welike:aviaryBottomBarToolTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryBottomBarViewFlipperStyle com.planet1107.welike:aviaryBottomBarViewFlipperStyle}</code></td><td> bottom bar viewflipper </td></tr>
-           <tr><td><code>{@link #Theme_aviaryColorSplashOptionPanelToggleButtonStyle com.planet1107.welike:aviaryColorSplashOptionPanelToggleButtonStyle}</code></td><td> option panel toggle buttons ( Color Splash Panel ) </td></tr>
-           <tr><td><code>{@link #Theme_aviaryColorSplashOptionPanelToggleLeftButtonStyle com.planet1107.welike:aviaryColorSplashOptionPanelToggleLeftButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryColorSplashOptionPanelToggleRightButtonStyle com.planet1107.welike:aviaryColorSplashOptionPanelToggleRightButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryCropHighlightStyle com.planet1107.welike:aviaryCropHighlightStyle}</code></td><td> the hightlight view used in the crop image view </td></tr>
-           <tr><td><code>{@link #Theme_aviaryCropImageViewStyle com.planet1107.welike:aviaryCropImageViewStyle}</code></td><td> ImageView style for the crop content panel </td></tr>
-           <tr><td><code>{@link #Theme_aviaryCustomDialogButtonSecondaryStyle com.planet1107.welike:aviaryCustomDialogButtonSecondaryStyle}</code></td><td> secondary button style </td></tr>
-           <tr><td><code>{@link #Theme_aviaryCustomDialogButtonStyle com.planet1107.welike:aviaryCustomDialogButtonStyle}</code></td><td> Custom dialog buttons styles 
+           <tr><td><code>{@link #Theme_aviaryAdjustDividerWeight com.findatrainerapp.welike:aviaryAdjustDividerWeight}</code></td><td> orientation panel item divider weight </td></tr>
+           <tr><td><code>{@link #Theme_aviaryAdjustImageViewStyle com.findatrainerapp.welike:aviaryAdjustImageViewStyle}</code></td><td> image view used for the orientation content panel </td></tr>
+           <tr><td><code>{@link #Theme_aviaryAdjustItemWeight com.findatrainerapp.welike:aviaryAdjustItemWeight}</code></td><td> orientation panel item weight </td></tr>
+           <tr><td><code>{@link #Theme_aviaryAdjustOptionPanelToggleButtonStyle com.findatrainerapp.welike:aviaryAdjustOptionPanelToggleButtonStyle}</code></td><td> option panel toggle buttons ( Adjust Panel )</td></tr>
+           <tr><td><code>{@link #Theme_aviaryAdjustOptionPanelToggleCenterButtonStyle com.findatrainerapp.welike:aviaryAdjustOptionPanelToggleCenterButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryAdjustOptionPanelToggleLeftButtonStyle com.findatrainerapp.welike:aviaryAdjustOptionPanelToggleLeftButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryAdjustOptionPanelToggleRightButtonStyle com.findatrainerapp.welike:aviaryAdjustOptionPanelToggleRightButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryBackgroundColor com.findatrainerapp.welike:aviaryBackgroundColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryBottomBarHeight com.findatrainerapp.welike:aviaryBottomBarHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryBottomBarHorizontalViewStyle com.findatrainerapp.welike:aviaryBottomBarHorizontalViewStyle}</code></td><td> tools horizontal scroll view </td></tr>
+           <tr><td><code>{@link #Theme_aviaryBottomBarLogoContainerStyle com.findatrainerapp.welike:aviaryBottomBarLogoContainerStyle}</code></td><td> bottom bar logo container </td></tr>
+           <tr><td><code>{@link #Theme_aviaryBottomBarLogoImageStyle com.findatrainerapp.welike:aviaryBottomBarLogoImageStyle}</code></td><td> bottom bar logo image </td></tr>
+           <tr><td><code>{@link #Theme_aviaryBottomBarOptionPanelContainerStyle com.findatrainerapp.welike:aviaryBottomBarOptionPanelContainerStyle}</code></td><td> default style for the option panels </td></tr>
+           <tr><td><code>{@link #Theme_aviaryBottomBarOptionPanelContainerStyleNoMargin com.findatrainerapp.welike:aviaryBottomBarOptionPanelContainerStyleNoMargin}</code></td><td> default style for the option panels ( if you need borderless )</td></tr>
+           <tr><td><code>{@link #Theme_aviaryBottomBarOptionPanelStyle com.findatrainerapp.welike:aviaryBottomBarOptionPanelStyle}</code></td><td> option tool panel </td></tr>
+           <tr><td><code>{@link #Theme_aviaryBottomBarToolFeedBackStyle com.findatrainerapp.welike:aviaryBottomBarToolFeedBackStyle}</code></td><td> option tool feedback </td></tr>
+           <tr><td><code>{@link #Theme_aviaryBottomBarToolImageStyle com.findatrainerapp.welike:aviaryBottomBarToolImageStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryBottomBarToolStyle com.findatrainerapp.welike:aviaryBottomBarToolStyle}</code></td><td> tool </td></tr>
+           <tr><td><code>{@link #Theme_aviaryBottomBarToolTextStyle com.findatrainerapp.welike:aviaryBottomBarToolTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryBottomBarViewFlipperStyle com.findatrainerapp.welike:aviaryBottomBarViewFlipperStyle}</code></td><td> bottom bar viewflipper </td></tr>
+           <tr><td><code>{@link #Theme_aviaryColorSplashOptionPanelToggleButtonStyle com.findatrainerapp.welike:aviaryColorSplashOptionPanelToggleButtonStyle}</code></td><td> option panel toggle buttons ( Color Splash Panel ) </td></tr>
+           <tr><td><code>{@link #Theme_aviaryColorSplashOptionPanelToggleLeftButtonStyle com.findatrainerapp.welike:aviaryColorSplashOptionPanelToggleLeftButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryColorSplashOptionPanelToggleRightButtonStyle com.findatrainerapp.welike:aviaryColorSplashOptionPanelToggleRightButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryCropHighlightStyle com.findatrainerapp.welike:aviaryCropHighlightStyle}</code></td><td> the hightlight view used in the crop image view </td></tr>
+           <tr><td><code>{@link #Theme_aviaryCropImageViewStyle com.findatrainerapp.welike:aviaryCropImageViewStyle}</code></td><td> ImageView style for the crop content panel </td></tr>
+           <tr><td><code>{@link #Theme_aviaryCustomDialogButtonSecondaryStyle com.findatrainerapp.welike:aviaryCustomDialogButtonSecondaryStyle}</code></td><td> secondary button style </td></tr>
+           <tr><td><code>{@link #Theme_aviaryCustomDialogButtonStyle com.findatrainerapp.welike:aviaryCustomDialogButtonStyle}</code></td><td> Custom dialog buttons styles 
  primary button style </td></tr>
-           <tr><td><code>{@link #Theme_aviaryDefaultTextStyle com.planet1107.welike:aviaryDefaultTextStyle}</code></td><td> default text style </td></tr>
-           <tr><td><code>{@link #Theme_aviaryEdgeEffectDefaultStyle com.planet1107.welike:aviaryEdgeEffectDefaultStyle}</code></td><td> default style for the edge effect </td></tr>
-           <tr><td><code>{@link #Theme_aviaryEffectThumbDividerLeftContainerStyle com.planet1107.welike:aviaryEffectThumbDividerLeftContainerStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryEffectThumbDividerLeftStyle com.planet1107.welike:aviaryEffectThumbDividerLeftStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryEffectThumbDividerRightContainerStyle com.planet1107.welike:aviaryEffectThumbDividerRightContainerStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryEffectThumbDividerRightStyle com.planet1107.welike:aviaryEffectThumbDividerRightStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryEffectThumbDividerStyle com.planet1107.welike:aviaryEffectThumbDividerStyle}</code></td><td> packs divider image style </td></tr>
-           <tr><td><code>{@link #Theme_aviaryEffectThumbDividerTextStyle com.planet1107.welike:aviaryEffectThumbDividerTextStyle}</code></td><td> text drawn on top of the divider bitmap </td></tr>
-           <tr><td><code>{@link #Theme_aviaryEffectThumbHiddenSelector com.planet1107.welike:aviaryEffectThumbHiddenSelector}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryEffectThumbLayoutExternalStyle com.planet1107.welike:aviaryEffectThumbLayoutExternalStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryEffectThumbLayoutStyle com.planet1107.welike:aviaryEffectThumbLayoutStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryEffectThumbTextStyle com.planet1107.welike:aviaryEffectThumbTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryEffectsHorizontalViewStyle com.planet1107.welike:aviaryEffectsHorizontalViewStyle}</code></td><td> horizontal scroll view for effects/frames </td></tr>
-           <tr><td><code>{@link #Theme_aviaryEnhanceItemWeight com.planet1107.welike:aviaryEnhanceItemWeight}</code></td><td> horizontal weight of the single enhance item 
+           <tr><td><code>{@link #Theme_aviaryDefaultTextStyle com.findatrainerapp.welike:aviaryDefaultTextStyle}</code></td><td> default text style </td></tr>
+           <tr><td><code>{@link #Theme_aviaryEdgeEffectDefaultStyle com.findatrainerapp.welike:aviaryEdgeEffectDefaultStyle}</code></td><td> default style for the edge effect </td></tr>
+           <tr><td><code>{@link #Theme_aviaryEffectThumbDividerLeftContainerStyle com.findatrainerapp.welike:aviaryEffectThumbDividerLeftContainerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryEffectThumbDividerLeftStyle com.findatrainerapp.welike:aviaryEffectThumbDividerLeftStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryEffectThumbDividerRightContainerStyle com.findatrainerapp.welike:aviaryEffectThumbDividerRightContainerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryEffectThumbDividerRightStyle com.findatrainerapp.welike:aviaryEffectThumbDividerRightStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryEffectThumbDividerStyle com.findatrainerapp.welike:aviaryEffectThumbDividerStyle}</code></td><td> packs divider image style </td></tr>
+           <tr><td><code>{@link #Theme_aviaryEffectThumbDividerTextStyle com.findatrainerapp.welike:aviaryEffectThumbDividerTextStyle}</code></td><td> text drawn on top of the divider bitmap </td></tr>
+           <tr><td><code>{@link #Theme_aviaryEffectThumbHiddenSelector com.findatrainerapp.welike:aviaryEffectThumbHiddenSelector}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryEffectThumbLayoutExternalStyle com.findatrainerapp.welike:aviaryEffectThumbLayoutExternalStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryEffectThumbLayoutStyle com.findatrainerapp.welike:aviaryEffectThumbLayoutStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryEffectThumbTextStyle com.findatrainerapp.welike:aviaryEffectThumbTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryEffectsHorizontalViewStyle com.findatrainerapp.welike:aviaryEffectsHorizontalViewStyle}</code></td><td> horizontal scroll view for effects/frames </td></tr>
+           <tr><td><code>{@link #Theme_aviaryEnhanceItemWeight com.findatrainerapp.welike:aviaryEnhanceItemWeight}</code></td><td> horizontal weight of the single enhance item 
  this will determine the width of the toggle buttons 
  parent weightSum is 100 </td></tr>
-           <tr><td><code>{@link #Theme_aviaryEnhanceOptionPanelToggleCenterButtonStyle com.planet1107.welike:aviaryEnhanceOptionPanelToggleCenterButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryEnhanceOptionPanelToggleLeftButtonStyle com.planet1107.welike:aviaryEnhanceOptionPanelToggleLeftButtonStyle}</code></td><td> option panel toggle buttons ( Enhance Panel ) </td></tr>
-           <tr><td><code>{@link #Theme_aviaryEnhanceOptionPanelToggleRightButtonStyle com.planet1107.welike:aviaryEnhanceOptionPanelToggleRightButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryFeedbackDialogDividerStyle com.planet1107.welike:aviaryFeedbackDialogDividerStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryFeedbackDialogStyle com.planet1107.welike:aviaryFeedbackDialogStyle}</code></td><td> Feedback dialog </td></tr>
-           <tr><td><code>{@link #Theme_aviaryFeedbackDialogTextMessageStyle com.planet1107.welike:aviaryFeedbackDialogTextMessageStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryFeedbackDialogTextVersionStyle com.planet1107.welike:aviaryFeedbackDialogTextVersionStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryFocusOptionPanelToggleLeftButtonStyle com.planet1107.welike:aviaryFocusOptionPanelToggleLeftButtonStyle}</code></td><td> option panel toggle buttons ( Focus Panel ) </td></tr>
-           <tr><td><code>{@link #Theme_aviaryFocusOptionPanelToggleRightButtonStyle com.planet1107.welike:aviaryFocusOptionPanelToggleRightButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryFontLight com.planet1107.welike:aviaryFontLight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryFontRegular com.planet1107.welike:aviaryFontRegular}</code></td><td> default fonts </td></tr>
-           <tr><td><code>{@link #Theme_aviaryGalleryBottomIndicatorStyle com.planet1107.welike:aviaryGalleryBottomIndicatorStyle}</code></td><td> style for the bottom indicator </td></tr>
-           <tr><td><code>{@link #Theme_aviaryGalleryItemContainerStyle com.planet1107.welike:aviaryGalleryItemContainerStyle}</code></td><td> gallery item main layout container </td></tr>
-           <tr><td><code>{@link #Theme_aviaryGalleryItemCropImageViewStyle com.planet1107.welike:aviaryGalleryItemCropImageViewStyle}</code></td><td> crop gallery item, image view for the status icon </td></tr>
-           <tr><td><code>{@link #Theme_aviaryGalleryItemCropTextCustomStyle com.planet1107.welike:aviaryGalleryItemCropTextCustomStyle}</code></td><td> gallery item for crop with custom labels </td></tr>
-           <tr><td><code>{@link #Theme_aviaryGalleryItemCropTextNormalStyle com.planet1107.welike:aviaryGalleryItemCropTextNormalStyle}</code></td><td> gallery item for crop elements </td></tr>
-           <tr><td><code>{@link #Theme_aviaryGalleryItemDividerStyle com.planet1107.welike:aviaryGalleryItemDividerStyle}</code></td><td> gallery item default divider </td></tr>
-           <tr><td><code>{@link #Theme_aviaryGalleryItemHighlightImageStyle com.planet1107.welike:aviaryGalleryItemHighlightImageStyle}</code></td><td> gallery item image view </td></tr>
-           <tr><td><code>{@link #Theme_aviaryGalleryStyle com.planet1107.welike:aviaryGalleryStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryGalleryTopIndicatorStyle com.planet1107.welike:aviaryGalleryTopIndicatorStyle}</code></td><td> style of the top indicator </td></tr>
-           <tr><td><code>{@link #Theme_aviaryHiddenEditTextStyle com.planet1107.welike:aviaryHiddenEditTextStyle}</code></td><td> hidden edit text style (see meme) </td></tr>
-           <tr><td><code>{@link #Theme_aviaryHiddenEditTextStyleMultiline com.planet1107.welike:aviaryHiddenEditTextStyleMultiline}</code></td><td> hidden edit text style (see meme) </td></tr>
-           <tr><td><code>{@link #Theme_aviaryHighlightImageButtonStyle com.planet1107.welike:aviaryHighlightImageButtonStyle}</code></td><td> default highlight image view </td></tr>
-           <tr><td><code>{@link #Theme_aviaryIAPBannerTextStyle com.planet1107.welike:aviaryIAPBannerTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryIAPDialogButtonErrorStyle com.planet1107.welike:aviaryIAPDialogButtonErrorStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryIAPDialogContainerStyle com.planet1107.welike:aviaryIAPDialogContainerStyle}</code></td><td> IAP Dialog 
+           <tr><td><code>{@link #Theme_aviaryEnhanceOptionPanelToggleCenterButtonStyle com.findatrainerapp.welike:aviaryEnhanceOptionPanelToggleCenterButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryEnhanceOptionPanelToggleLeftButtonStyle com.findatrainerapp.welike:aviaryEnhanceOptionPanelToggleLeftButtonStyle}</code></td><td> option panel toggle buttons ( Enhance Panel ) </td></tr>
+           <tr><td><code>{@link #Theme_aviaryEnhanceOptionPanelToggleRightButtonStyle com.findatrainerapp.welike:aviaryEnhanceOptionPanelToggleRightButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryFeedbackDialogDividerStyle com.findatrainerapp.welike:aviaryFeedbackDialogDividerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryFeedbackDialogStyle com.findatrainerapp.welike:aviaryFeedbackDialogStyle}</code></td><td> Feedback dialog </td></tr>
+           <tr><td><code>{@link #Theme_aviaryFeedbackDialogTextMessageStyle com.findatrainerapp.welike:aviaryFeedbackDialogTextMessageStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryFeedbackDialogTextVersionStyle com.findatrainerapp.welike:aviaryFeedbackDialogTextVersionStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryFocusOptionPanelToggleLeftButtonStyle com.findatrainerapp.welike:aviaryFocusOptionPanelToggleLeftButtonStyle}</code></td><td> option panel toggle buttons ( Focus Panel ) </td></tr>
+           <tr><td><code>{@link #Theme_aviaryFocusOptionPanelToggleRightButtonStyle com.findatrainerapp.welike:aviaryFocusOptionPanelToggleRightButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryFontLight com.findatrainerapp.welike:aviaryFontLight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryFontRegular com.findatrainerapp.welike:aviaryFontRegular}</code></td><td> default fonts </td></tr>
+           <tr><td><code>{@link #Theme_aviaryGalleryBottomIndicatorStyle com.findatrainerapp.welike:aviaryGalleryBottomIndicatorStyle}</code></td><td> style for the bottom indicator </td></tr>
+           <tr><td><code>{@link #Theme_aviaryGalleryItemContainerStyle com.findatrainerapp.welike:aviaryGalleryItemContainerStyle}</code></td><td> gallery item main layout container </td></tr>
+           <tr><td><code>{@link #Theme_aviaryGalleryItemCropImageViewStyle com.findatrainerapp.welike:aviaryGalleryItemCropImageViewStyle}</code></td><td> crop gallery item, image view for the status icon </td></tr>
+           <tr><td><code>{@link #Theme_aviaryGalleryItemCropTextCustomStyle com.findatrainerapp.welike:aviaryGalleryItemCropTextCustomStyle}</code></td><td> gallery item for crop with custom labels </td></tr>
+           <tr><td><code>{@link #Theme_aviaryGalleryItemCropTextNormalStyle com.findatrainerapp.welike:aviaryGalleryItemCropTextNormalStyle}</code></td><td> gallery item for crop elements </td></tr>
+           <tr><td><code>{@link #Theme_aviaryGalleryItemDividerStyle com.findatrainerapp.welike:aviaryGalleryItemDividerStyle}</code></td><td> gallery item default divider </td></tr>
+           <tr><td><code>{@link #Theme_aviaryGalleryItemHighlightImageStyle com.findatrainerapp.welike:aviaryGalleryItemHighlightImageStyle}</code></td><td> gallery item image view </td></tr>
+           <tr><td><code>{@link #Theme_aviaryGalleryStyle com.findatrainerapp.welike:aviaryGalleryStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryGalleryTopIndicatorStyle com.findatrainerapp.welike:aviaryGalleryTopIndicatorStyle}</code></td><td> style of the top indicator </td></tr>
+           <tr><td><code>{@link #Theme_aviaryHiddenEditTextStyle com.findatrainerapp.welike:aviaryHiddenEditTextStyle}</code></td><td> hidden edit text style (see meme) </td></tr>
+           <tr><td><code>{@link #Theme_aviaryHiddenEditTextStyleMultiline com.findatrainerapp.welike:aviaryHiddenEditTextStyleMultiline}</code></td><td> hidden edit text style (see meme) </td></tr>
+           <tr><td><code>{@link #Theme_aviaryHighlightImageButtonStyle com.findatrainerapp.welike:aviaryHighlightImageButtonStyle}</code></td><td> default highlight image view </td></tr>
+           <tr><td><code>{@link #Theme_aviaryIAPBannerTextStyle com.findatrainerapp.welike:aviaryIAPBannerTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryIAPDialogButtonErrorStyle com.findatrainerapp.welike:aviaryIAPDialogButtonErrorStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryIAPDialogContainerStyle com.findatrainerapp.welike:aviaryIAPDialogContainerStyle}</code></td><td> IAP Dialog 
  iap dialog container style </td></tr>
-           <tr><td><code>{@link #Theme_aviaryIAPDialogDownloadButtonStyle com.planet1107.welike:aviaryIAPDialogDownloadButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryIAPDialogDownloadButtonTextStyle com.planet1107.welike:aviaryIAPDialogDownloadButtonTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryIAPDialogGridBackground com.planet1107.welike:aviaryIAPDialogGridBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryIAPDialogGridTopStyle com.planet1107.welike:aviaryIAPDialogGridTopStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryIAPDialogHeightWeight com.planet1107.welike:aviaryIAPDialogHeightWeight}</code></td><td> dialog height weight ( on 100 ) </td></tr>
-           <tr><td><code>{@link #Theme_aviaryIAPDialogIcon com.planet1107.welike:aviaryIAPDialogIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryIAPDialogListItemTextStyle com.planet1107.welike:aviaryIAPDialogListItemTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryIAPDialogListItemTitleStyle com.planet1107.welike:aviaryIAPDialogListItemTitleStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryIAPDialogMainLayout com.planet1107.welike:aviaryIAPDialogMainLayout}</code></td><td> main dialog layout style </td></tr>
-           <tr><td><code>{@link #Theme_aviaryIAPDialogMarginTopWeight com.planet1107.welike:aviaryIAPDialogMarginTopWeight}</code></td><td> maring top height weight ( on 100 ) </td></tr>
-           <tr><td><code>{@link #Theme_aviaryIAPDialogRestoreAllButtonStyle com.planet1107.welike:aviaryIAPDialogRestoreAllButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryIAPDialogRestoreDialogTextStyle com.planet1107.welike:aviaryIAPDialogRestoreDialogTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryIAPDialogShadowBottom com.planet1107.welike:aviaryIAPDialogShadowBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryIAPDialogShadowTop com.planet1107.welike:aviaryIAPDialogShadowTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryIAPDialogTextErrorStyle com.planet1107.welike:aviaryIAPDialogTextErrorStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryIAPDialogTextStyle com.planet1107.welike:aviaryIAPDialogTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryIAPDialogTitleStyle com.planet1107.welike:aviaryIAPDialogTitleStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryIAPDialogWidthWeight com.planet1107.welike:aviaryIAPDialogWidthWeight}</code></td><td> dialog width weight ( on 100 ) </td></tr>
-           <tr><td><code>{@link #Theme_aviaryIAPDialogWorkspaceCellEffects com.planet1107.welike:aviaryIAPDialogWorkspaceCellEffects}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryIAPDialogWorkspaceCellStickers com.planet1107.welike:aviaryIAPDialogWorkspaceCellStickers}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryIAPDialogWorkspaceIndicatorStyle com.planet1107.welike:aviaryIAPDialogWorkspaceIndicatorStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryIAPDialogWorkspaceStyle com.planet1107.welike:aviaryIAPDialogWorkspaceStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryImageRestoreViewStyle com.planet1107.welike:aviaryImageRestoreViewStyle}</code></td><td> main restore image view switcher style </td></tr>
-           <tr><td><code>{@link #Theme_aviaryImageViewDrawableOverlaySticker com.planet1107.welike:aviaryImageViewDrawableOverlaySticker}</code></td><td> image view style of the stickers panel </td></tr>
-           <tr><td><code>{@link #Theme_aviaryImageViewDrawableOverlayStickerHighlightStyle com.planet1107.welike:aviaryImageViewDrawableOverlayStickerHighlightStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryImageViewDrawableOverlayText com.planet1107.welike:aviaryImageViewDrawableOverlayText}</code></td><td> style for the ImageViewDrawableOverlay in the text panel </td></tr>
-           <tr><td><code>{@link #Theme_aviaryImageViewDrawableOverlayTextHighlightStyle com.planet1107.welike:aviaryImageViewDrawableOverlayTextHighlightStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryLensViewStyle com.planet1107.welike:aviaryLensViewStyle}</code></td><td> default style for the lens button </td></tr>
-           <tr><td><code>{@link #Theme_aviaryLightGrayButtonStyle com.planet1107.welike:aviaryLightGrayButtonStyle}</code></td><td> light gray button style </td></tr>
-           <tr><td><code>{@link #Theme_aviaryLoaderToastStyle com.planet1107.welike:aviaryLoaderToastStyle}</code></td><td> modal toast </td></tr>
-           <tr><td><code>{@link #Theme_aviaryMainImagePadding com.planet1107.welike:aviaryMainImagePadding}</code></td><td> main image padding </td></tr>
-           <tr><td><code>{@link #Theme_aviaryMemeButtonStyle com.planet1107.welike:aviaryMemeButtonStyle}</code></td><td> meme text button inside the meme panel </td></tr>
-           <tr><td><code>{@link #Theme_aviaryMemeClearButtonStyle com.planet1107.welike:aviaryMemeClearButtonStyle}</code></td><td> the clear button over the meme text button </td></tr>
-           <tr><td><code>{@link #Theme_aviaryNavBarHeight com.planet1107.welike:aviaryNavBarHeight}</code></td><td> navigation view height </td></tr>
-           <tr><td><code>{@link #Theme_aviaryNavBarRestoreButtonStyle com.planet1107.welike:aviaryNavBarRestoreButtonStyle}</code></td><td> style of the restore button in the navbar </td></tr>
-           <tr><td><code>{@link #Theme_aviaryNavBarStyle com.planet1107.welike:aviaryNavBarStyle}</code></td><td> main navigation bar </td></tr>
-           <tr><td><code>{@link #Theme_aviaryNavButtonApplyStyle com.planet1107.welike:aviaryNavButtonApplyStyle}</code></td><td> navigation apply button style </td></tr>
-           <tr><td><code>{@link #Theme_aviaryNavButtonStyle com.planet1107.welike:aviaryNavButtonStyle}</code></td><td> navigation button style </td></tr>
-           <tr><td><code>{@link #Theme_aviaryNavDividerStyle com.planet1107.welike:aviaryNavDividerStyle}</code></td><td> style for the navbar divider view </td></tr>
-           <tr><td><code>{@link #Theme_aviaryNavTitleStyle com.planet1107.welike:aviaryNavTitleStyle}</code></td><td> navigation bar title </td></tr>
-           <tr><td><code>{@link #Theme_aviaryOptionPanelBottomIndicatorStyle com.planet1107.welike:aviaryOptionPanelBottomIndicatorStyle}</code></td><td> bottom indicator for panels with a gallery widget </td></tr>
-           <tr><td><code>{@link #Theme_aviaryOptionPanelBottomLineStyle com.planet1107.welike:aviaryOptionPanelBottomLineStyle}</code></td><td>  </td></tr>
-           <tr><td><code>{@link #Theme_aviaryOptionPanelDefaultButtonStyle com.planet1107.welike:aviaryOptionPanelDefaultButtonStyle}</code></td><td> default option panel button </td></tr>
-           <tr><td><code>{@link #Theme_aviaryOptionPanelToggleButtonStyle com.planet1107.welike:aviaryOptionPanelToggleButtonStyle}</code></td><td> option panel toggle buttons </td></tr>
-           <tr><td><code>{@link #Theme_aviaryOptionPanelToggleCenterButtonStyle com.planet1107.welike:aviaryOptionPanelToggleCenterButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryOptionPanelToggleLeftButtonStyle com.planet1107.welike:aviaryOptionPanelToggleLeftButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryOptionPanelToggleRightButtonStyle com.planet1107.welike:aviaryOptionPanelToggleRightButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryOptionPanelTopIndicatorStyle com.planet1107.welike:aviaryOptionPanelTopIndicatorStyle}</code></td><td> top indicator for panels with a gallery widget </td></tr>
-           <tr><td><code>{@link #Theme_aviaryPanelDisabledStatusBackground com.planet1107.welike:aviaryPanelDisabledStatusBackground}</code></td><td> image/drawable/color used for the disabled status of the panels </td></tr>
-           <tr><td><code>{@link #Theme_aviaryPreviewFillDrawableStyle com.planet1107.welike:aviaryPreviewFillDrawableStyle}</code></td><td> fill preview drawable style </td></tr>
-           <tr><td><code>{@link #Theme_aviaryPreviewSpotDrawableStyle com.planet1107.welike:aviaryPreviewSpotDrawableStyle}</code></td><td> preview spot drawable default style </td></tr>
-           <tr><td><code>{@link #Theme_aviaryPreviewSpotViewStyle com.planet1107.welike:aviaryPreviewSpotViewStyle}</code></td><td> preview spot toast style </td></tr>
-           <tr><td><code>{@link #Theme_aviaryPrimaryButtonStyle com.planet1107.welike:aviaryPrimaryButtonStyle}</code></td><td> primary button style </td></tr>
-           <tr><td><code>{@link #Theme_aviaryProgressBarActionBar com.planet1107.welike:aviaryProgressBarActionBar}</code></td><td> progress bar for the actionbar </td></tr>
-           <tr><td><code>{@link #Theme_aviaryProgressBarActionBarHeight com.planet1107.welike:aviaryProgressBarActionBarHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryProgressBarActionBarWidth com.planet1107.welike:aviaryProgressBarActionBarWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryProgressBarLarge com.planet1107.welike:aviaryProgressBarLarge}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryProgressBarLargeInverse com.planet1107.welike:aviaryProgressBarLargeInverse}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryProgressBarMedium com.planet1107.welike:aviaryProgressBarMedium}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryProgressBarMediumInverse com.planet1107.welike:aviaryProgressBarMediumInverse}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryProgressBarSmall com.planet1107.welike:aviaryProgressBarSmall}</code></td><td> progress bar view styles </td></tr>
-           <tr><td><code>{@link #Theme_aviaryProgressBarSmallInverse com.planet1107.welike:aviaryProgressBarSmallInverse}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviarySecondaryButtonStyle com.planet1107.welike:aviarySecondaryButtonStyle}</code></td><td> secondary button style </td></tr>
-           <tr><td><code>{@link #Theme_aviarySeekBarStyle com.planet1107.welike:aviarySeekBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviarySplashDividerWeight com.planet1107.welike:aviarySplashDividerWeight}</code></td><td> color splash item divider weight </td></tr>
-           <tr><td><code>{@link #Theme_aviarySplashItemWeight com.planet1107.welike:aviarySplashItemWeight}</code></td><td> color splash item weight </td></tr>
-           <tr><td><code>{@link #Theme_aviarySymbolMinusStyle com.planet1107.welike:aviarySymbolMinusStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviarySymbolPlusStyle com.planet1107.welike:aviarySymbolPlusStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryTextAppearance com.planet1107.welike:aviaryTextAppearance}</code></td><td> default text appearances </td></tr>
-           <tr><td><code>{@link #Theme_aviaryTextAppearanceInverted com.planet1107.welike:aviaryTextAppearanceInverted}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryTextAppearanceLarge com.planet1107.welike:aviaryTextAppearanceLarge}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryTextAppearanceLargeInverted com.planet1107.welike:aviaryTextAppearanceLargeInverted}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryTextAppearanceLargeNoSelection com.planet1107.welike:aviaryTextAppearanceLargeNoSelection}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryTextAppearanceMedium com.planet1107.welike:aviaryTextAppearanceMedium}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryTextAppearanceMediumInverted com.planet1107.welike:aviaryTextAppearanceMediumInverted}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryTextAppearanceMediumNoSelection com.planet1107.welike:aviaryTextAppearanceMediumNoSelection}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryTextAppearanceSmall com.planet1107.welike:aviaryTextAppearanceSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryTextAppearanceSmallInverted com.planet1107.welike:aviaryTextAppearanceSmallInverted}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryTextAppearanceSmallNoSelection com.planet1107.welike:aviaryTextAppearanceSmallNoSelection}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryTiltShiftViewStyle com.planet1107.welike:aviaryTiltShiftViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_aviaryToastExitAnimation com.planet1107.welike:aviaryToastExitAnimation}</code></td><td> exit animation for the AviaryToast view </td></tr>
-           <tr><td><code>{@link #Theme_aviaryToggleButtonStyle com.planet1107.welike:aviaryToggleButtonStyle}</code></td><td> default toggle button style </td></tr>
-           <tr><td><code>{@link #Theme_aviaryWheelStyle com.planet1107.welike:aviaryWheelStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryIAPDialogDownloadButtonStyle com.findatrainerapp.welike:aviaryIAPDialogDownloadButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryIAPDialogDownloadButtonTextStyle com.findatrainerapp.welike:aviaryIAPDialogDownloadButtonTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryIAPDialogGridBackground com.findatrainerapp.welike:aviaryIAPDialogGridBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryIAPDialogGridTopStyle com.findatrainerapp.welike:aviaryIAPDialogGridTopStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryIAPDialogHeightWeight com.findatrainerapp.welike:aviaryIAPDialogHeightWeight}</code></td><td> dialog height weight ( on 100 ) </td></tr>
+           <tr><td><code>{@link #Theme_aviaryIAPDialogIcon com.findatrainerapp.welike:aviaryIAPDialogIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryIAPDialogListItemTextStyle com.findatrainerapp.welike:aviaryIAPDialogListItemTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryIAPDialogListItemTitleStyle com.findatrainerapp.welike:aviaryIAPDialogListItemTitleStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryIAPDialogMainLayout com.findatrainerapp.welike:aviaryIAPDialogMainLayout}</code></td><td> main dialog layout style </td></tr>
+           <tr><td><code>{@link #Theme_aviaryIAPDialogMarginTopWeight com.findatrainerapp.welike:aviaryIAPDialogMarginTopWeight}</code></td><td> maring top height weight ( on 100 ) </td></tr>
+           <tr><td><code>{@link #Theme_aviaryIAPDialogRestoreAllButtonStyle com.findatrainerapp.welike:aviaryIAPDialogRestoreAllButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryIAPDialogRestoreDialogTextStyle com.findatrainerapp.welike:aviaryIAPDialogRestoreDialogTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryIAPDialogShadowBottom com.findatrainerapp.welike:aviaryIAPDialogShadowBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryIAPDialogShadowTop com.findatrainerapp.welike:aviaryIAPDialogShadowTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryIAPDialogTextErrorStyle com.findatrainerapp.welike:aviaryIAPDialogTextErrorStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryIAPDialogTextStyle com.findatrainerapp.welike:aviaryIAPDialogTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryIAPDialogTitleStyle com.findatrainerapp.welike:aviaryIAPDialogTitleStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryIAPDialogWidthWeight com.findatrainerapp.welike:aviaryIAPDialogWidthWeight}</code></td><td> dialog width weight ( on 100 ) </td></tr>
+           <tr><td><code>{@link #Theme_aviaryIAPDialogWorkspaceCellEffects com.findatrainerapp.welike:aviaryIAPDialogWorkspaceCellEffects}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryIAPDialogWorkspaceCellStickers com.findatrainerapp.welike:aviaryIAPDialogWorkspaceCellStickers}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryIAPDialogWorkspaceIndicatorStyle com.findatrainerapp.welike:aviaryIAPDialogWorkspaceIndicatorStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryIAPDialogWorkspaceStyle com.findatrainerapp.welike:aviaryIAPDialogWorkspaceStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryImageRestoreViewStyle com.findatrainerapp.welike:aviaryImageRestoreViewStyle}</code></td><td> main restore image view switcher style </td></tr>
+           <tr><td><code>{@link #Theme_aviaryImageViewDrawableOverlaySticker com.findatrainerapp.welike:aviaryImageViewDrawableOverlaySticker}</code></td><td> image view style of the stickers panel </td></tr>
+           <tr><td><code>{@link #Theme_aviaryImageViewDrawableOverlayStickerHighlightStyle com.findatrainerapp.welike:aviaryImageViewDrawableOverlayStickerHighlightStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryImageViewDrawableOverlayText com.findatrainerapp.welike:aviaryImageViewDrawableOverlayText}</code></td><td> style for the ImageViewDrawableOverlay in the text panel </td></tr>
+           <tr><td><code>{@link #Theme_aviaryImageViewDrawableOverlayTextHighlightStyle com.findatrainerapp.welike:aviaryImageViewDrawableOverlayTextHighlightStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryLensViewStyle com.findatrainerapp.welike:aviaryLensViewStyle}</code></td><td> default style for the lens button </td></tr>
+           <tr><td><code>{@link #Theme_aviaryLightGrayButtonStyle com.findatrainerapp.welike:aviaryLightGrayButtonStyle}</code></td><td> light gray button style </td></tr>
+           <tr><td><code>{@link #Theme_aviaryLoaderToastStyle com.findatrainerapp.welike:aviaryLoaderToastStyle}</code></td><td> modal toast </td></tr>
+           <tr><td><code>{@link #Theme_aviaryMainImagePadding com.findatrainerapp.welike:aviaryMainImagePadding}</code></td><td> main image padding </td></tr>
+           <tr><td><code>{@link #Theme_aviaryMemeButtonStyle com.findatrainerapp.welike:aviaryMemeButtonStyle}</code></td><td> meme text button inside the meme panel </td></tr>
+           <tr><td><code>{@link #Theme_aviaryMemeClearButtonStyle com.findatrainerapp.welike:aviaryMemeClearButtonStyle}</code></td><td> the clear button over the meme text button </td></tr>
+           <tr><td><code>{@link #Theme_aviaryNavBarHeight com.findatrainerapp.welike:aviaryNavBarHeight}</code></td><td> navigation view height </td></tr>
+           <tr><td><code>{@link #Theme_aviaryNavBarRestoreButtonStyle com.findatrainerapp.welike:aviaryNavBarRestoreButtonStyle}</code></td><td> style of the restore button in the navbar </td></tr>
+           <tr><td><code>{@link #Theme_aviaryNavBarStyle com.findatrainerapp.welike:aviaryNavBarStyle}</code></td><td> main navigation bar </td></tr>
+           <tr><td><code>{@link #Theme_aviaryNavButtonApplyStyle com.findatrainerapp.welike:aviaryNavButtonApplyStyle}</code></td><td> navigation apply button style </td></tr>
+           <tr><td><code>{@link #Theme_aviaryNavButtonStyle com.findatrainerapp.welike:aviaryNavButtonStyle}</code></td><td> navigation button style </td></tr>
+           <tr><td><code>{@link #Theme_aviaryNavDividerStyle com.findatrainerapp.welike:aviaryNavDividerStyle}</code></td><td> style for the navbar divider view </td></tr>
+           <tr><td><code>{@link #Theme_aviaryNavTitleStyle com.findatrainerapp.welike:aviaryNavTitleStyle}</code></td><td> navigation bar title </td></tr>
+           <tr><td><code>{@link #Theme_aviaryOptionPanelBottomIndicatorStyle com.findatrainerapp.welike:aviaryOptionPanelBottomIndicatorStyle}</code></td><td> bottom indicator for panels with a gallery widget </td></tr>
+           <tr><td><code>{@link #Theme_aviaryOptionPanelBottomLineStyle com.findatrainerapp.welike:aviaryOptionPanelBottomLineStyle}</code></td><td>  </td></tr>
+           <tr><td><code>{@link #Theme_aviaryOptionPanelDefaultButtonStyle com.findatrainerapp.welike:aviaryOptionPanelDefaultButtonStyle}</code></td><td> default option panel button </td></tr>
+           <tr><td><code>{@link #Theme_aviaryOptionPanelToggleButtonStyle com.findatrainerapp.welike:aviaryOptionPanelToggleButtonStyle}</code></td><td> option panel toggle buttons </td></tr>
+           <tr><td><code>{@link #Theme_aviaryOptionPanelToggleCenterButtonStyle com.findatrainerapp.welike:aviaryOptionPanelToggleCenterButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryOptionPanelToggleLeftButtonStyle com.findatrainerapp.welike:aviaryOptionPanelToggleLeftButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryOptionPanelToggleRightButtonStyle com.findatrainerapp.welike:aviaryOptionPanelToggleRightButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryOptionPanelTopIndicatorStyle com.findatrainerapp.welike:aviaryOptionPanelTopIndicatorStyle}</code></td><td> top indicator for panels with a gallery widget </td></tr>
+           <tr><td><code>{@link #Theme_aviaryPanelDisabledStatusBackground com.findatrainerapp.welike:aviaryPanelDisabledStatusBackground}</code></td><td> image/drawable/color used for the disabled status of the panels </td></tr>
+           <tr><td><code>{@link #Theme_aviaryPreviewFillDrawableStyle com.findatrainerapp.welike:aviaryPreviewFillDrawableStyle}</code></td><td> fill preview drawable style </td></tr>
+           <tr><td><code>{@link #Theme_aviaryPreviewSpotDrawableStyle com.findatrainerapp.welike:aviaryPreviewSpotDrawableStyle}</code></td><td> preview spot drawable default style </td></tr>
+           <tr><td><code>{@link #Theme_aviaryPreviewSpotViewStyle com.findatrainerapp.welike:aviaryPreviewSpotViewStyle}</code></td><td> preview spot toast style </td></tr>
+           <tr><td><code>{@link #Theme_aviaryPrimaryButtonStyle com.findatrainerapp.welike:aviaryPrimaryButtonStyle}</code></td><td> primary button style </td></tr>
+           <tr><td><code>{@link #Theme_aviaryProgressBarActionBar com.findatrainerapp.welike:aviaryProgressBarActionBar}</code></td><td> progress bar for the actionbar </td></tr>
+           <tr><td><code>{@link #Theme_aviaryProgressBarActionBarHeight com.findatrainerapp.welike:aviaryProgressBarActionBarHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryProgressBarActionBarWidth com.findatrainerapp.welike:aviaryProgressBarActionBarWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryProgressBarLarge com.findatrainerapp.welike:aviaryProgressBarLarge}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryProgressBarLargeInverse com.findatrainerapp.welike:aviaryProgressBarLargeInverse}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryProgressBarMedium com.findatrainerapp.welike:aviaryProgressBarMedium}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryProgressBarMediumInverse com.findatrainerapp.welike:aviaryProgressBarMediumInverse}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryProgressBarSmall com.findatrainerapp.welike:aviaryProgressBarSmall}</code></td><td> progress bar view styles </td></tr>
+           <tr><td><code>{@link #Theme_aviaryProgressBarSmallInverse com.findatrainerapp.welike:aviaryProgressBarSmallInverse}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviarySecondaryButtonStyle com.findatrainerapp.welike:aviarySecondaryButtonStyle}</code></td><td> secondary button style </td></tr>
+           <tr><td><code>{@link #Theme_aviarySeekBarStyle com.findatrainerapp.welike:aviarySeekBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviarySplashDividerWeight com.findatrainerapp.welike:aviarySplashDividerWeight}</code></td><td> color splash item divider weight </td></tr>
+           <tr><td><code>{@link #Theme_aviarySplashItemWeight com.findatrainerapp.welike:aviarySplashItemWeight}</code></td><td> color splash item weight </td></tr>
+           <tr><td><code>{@link #Theme_aviarySymbolMinusStyle com.findatrainerapp.welike:aviarySymbolMinusStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviarySymbolPlusStyle com.findatrainerapp.welike:aviarySymbolPlusStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryTextAppearance com.findatrainerapp.welike:aviaryTextAppearance}</code></td><td> default text appearances </td></tr>
+           <tr><td><code>{@link #Theme_aviaryTextAppearanceInverted com.findatrainerapp.welike:aviaryTextAppearanceInverted}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryTextAppearanceLarge com.findatrainerapp.welike:aviaryTextAppearanceLarge}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryTextAppearanceLargeInverted com.findatrainerapp.welike:aviaryTextAppearanceLargeInverted}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryTextAppearanceLargeNoSelection com.findatrainerapp.welike:aviaryTextAppearanceLargeNoSelection}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryTextAppearanceMedium com.findatrainerapp.welike:aviaryTextAppearanceMedium}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryTextAppearanceMediumInverted com.findatrainerapp.welike:aviaryTextAppearanceMediumInverted}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryTextAppearanceMediumNoSelection com.findatrainerapp.welike:aviaryTextAppearanceMediumNoSelection}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryTextAppearanceSmall com.findatrainerapp.welike:aviaryTextAppearanceSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryTextAppearanceSmallInverted com.findatrainerapp.welike:aviaryTextAppearanceSmallInverted}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryTextAppearanceSmallNoSelection com.findatrainerapp.welike:aviaryTextAppearanceSmallNoSelection}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryTiltShiftViewStyle com.findatrainerapp.welike:aviaryTiltShiftViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_aviaryToastExitAnimation com.findatrainerapp.welike:aviaryToastExitAnimation}</code></td><td> exit animation for the AviaryToast view </td></tr>
+           <tr><td><code>{@link #Theme_aviaryToggleButtonStyle com.findatrainerapp.welike:aviaryToggleButtonStyle}</code></td><td> default toggle button style </td></tr>
+           <tr><td><code>{@link #Theme_aviaryWheelStyle com.findatrainerapp.welike:aviaryWheelStyle}</code></td><td></td></tr>
            </table>
            @see #Theme_aviaryAdjustDividerWeight
            @see #Theme_aviaryAdjustImageViewStyle
@@ -7239,7 +7239,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryAdjustDividerWeight
+          @attr name com.findatrainerapp.welike:aviaryAdjustDividerWeight
         */
         public static final int Theme_aviaryAdjustDividerWeight = 52;
         /**
@@ -7251,7 +7251,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryAdjustImageViewStyle
+          @attr name com.findatrainerapp.welike:aviaryAdjustImageViewStyle
         */
         public static final int Theme_aviaryAdjustImageViewStyle = 14;
         /**
@@ -7267,7 +7267,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryAdjustItemWeight
+          @attr name com.findatrainerapp.welike:aviaryAdjustItemWeight
         */
         public static final int Theme_aviaryAdjustItemWeight = 51;
         /**
@@ -7279,41 +7279,41 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryAdjustOptionPanelToggleButtonStyle
+          @attr name com.findatrainerapp.welike:aviaryAdjustOptionPanelToggleButtonStyle
         */
         public static final int Theme_aviaryAdjustOptionPanelToggleButtonStyle = 41;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryAdjustOptionPanelToggleCenterButtonStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryAdjustOptionPanelToggleCenterButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryAdjustOptionPanelToggleCenterButtonStyle
+          @attr name com.findatrainerapp.welike:aviaryAdjustOptionPanelToggleCenterButtonStyle
         */
         public static final int Theme_aviaryAdjustOptionPanelToggleCenterButtonStyle = 43;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryAdjustOptionPanelToggleLeftButtonStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryAdjustOptionPanelToggleLeftButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryAdjustOptionPanelToggleLeftButtonStyle
+          @attr name com.findatrainerapp.welike:aviaryAdjustOptionPanelToggleLeftButtonStyle
         */
         public static final int Theme_aviaryAdjustOptionPanelToggleLeftButtonStyle = 42;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryAdjustOptionPanelToggleRightButtonStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryAdjustOptionPanelToggleRightButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryAdjustOptionPanelToggleRightButtonStyle
+          @attr name com.findatrainerapp.welike:aviaryAdjustOptionPanelToggleRightButtonStyle
         */
         public static final int Theme_aviaryAdjustOptionPanelToggleRightButtonStyle = 44;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryBackgroundColor}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryBackgroundColor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7324,11 +7324,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:aviaryBackgroundColor
+          @attr name com.findatrainerapp.welike:aviaryBackgroundColor
         */
         public static final int Theme_aviaryBackgroundColor = 2;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryBottomBarHeight}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryBottomBarHeight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7340,7 +7340,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:aviaryBottomBarHeight
+          @attr name com.findatrainerapp.welike:aviaryBottomBarHeight
         */
         public static final int Theme_aviaryBottomBarHeight = 16;
         /**
@@ -7352,7 +7352,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryBottomBarHorizontalViewStyle
+          @attr name com.findatrainerapp.welike:aviaryBottomBarHorizontalViewStyle
         */
         public static final int Theme_aviaryBottomBarHorizontalViewStyle = 23;
         /**
@@ -7364,7 +7364,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryBottomBarLogoContainerStyle
+          @attr name com.findatrainerapp.welike:aviaryBottomBarLogoContainerStyle
         */
         public static final int Theme_aviaryBottomBarLogoContainerStyle = 17;
         /**
@@ -7376,7 +7376,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryBottomBarLogoImageStyle
+          @attr name com.findatrainerapp.welike:aviaryBottomBarLogoImageStyle
         */
         public static final int Theme_aviaryBottomBarLogoImageStyle = 18;
         /**
@@ -7388,7 +7388,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryBottomBarOptionPanelContainerStyle
+          @attr name com.findatrainerapp.welike:aviaryBottomBarOptionPanelContainerStyle
         */
         public static final int Theme_aviaryBottomBarOptionPanelContainerStyle = 21;
         /**
@@ -7400,7 +7400,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryBottomBarOptionPanelContainerStyleNoMargin
+          @attr name com.findatrainerapp.welike:aviaryBottomBarOptionPanelContainerStyleNoMargin
         */
         public static final int Theme_aviaryBottomBarOptionPanelContainerStyleNoMargin = 22;
         /**
@@ -7412,7 +7412,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryBottomBarOptionPanelStyle
+          @attr name com.findatrainerapp.welike:aviaryBottomBarOptionPanelStyle
         */
         public static final int Theme_aviaryBottomBarOptionPanelStyle = 19;
         /**
@@ -7424,17 +7424,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryBottomBarToolFeedBackStyle
+          @attr name com.findatrainerapp.welike:aviaryBottomBarToolFeedBackStyle
         */
         public static final int Theme_aviaryBottomBarToolFeedBackStyle = 20;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryBottomBarToolImageStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryBottomBarToolImageStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryBottomBarToolImageStyle
+          @attr name com.findatrainerapp.welike:aviaryBottomBarToolImageStyle
         */
         public static final int Theme_aviaryBottomBarToolImageStyle = 26;
         /**
@@ -7446,17 +7446,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryBottomBarToolStyle
+          @attr name com.findatrainerapp.welike:aviaryBottomBarToolStyle
         */
         public static final int Theme_aviaryBottomBarToolStyle = 25;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryBottomBarToolTextStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryBottomBarToolTextStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryBottomBarToolTextStyle
+          @attr name com.findatrainerapp.welike:aviaryBottomBarToolTextStyle
         */
         public static final int Theme_aviaryBottomBarToolTextStyle = 27;
         /**
@@ -7468,7 +7468,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryBottomBarViewFlipperStyle
+          @attr name com.findatrainerapp.welike:aviaryBottomBarViewFlipperStyle
         */
         public static final int Theme_aviaryBottomBarViewFlipperStyle = 15;
         /**
@@ -7480,27 +7480,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryColorSplashOptionPanelToggleButtonStyle
+          @attr name com.findatrainerapp.welike:aviaryColorSplashOptionPanelToggleButtonStyle
         */
         public static final int Theme_aviaryColorSplashOptionPanelToggleButtonStyle = 55;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryColorSplashOptionPanelToggleLeftButtonStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryColorSplashOptionPanelToggleLeftButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryColorSplashOptionPanelToggleLeftButtonStyle
+          @attr name com.findatrainerapp.welike:aviaryColorSplashOptionPanelToggleLeftButtonStyle
         */
         public static final int Theme_aviaryColorSplashOptionPanelToggleLeftButtonStyle = 56;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryColorSplashOptionPanelToggleRightButtonStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryColorSplashOptionPanelToggleRightButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryColorSplashOptionPanelToggleRightButtonStyle
+          @attr name com.findatrainerapp.welike:aviaryColorSplashOptionPanelToggleRightButtonStyle
         */
         public static final int Theme_aviaryColorSplashOptionPanelToggleRightButtonStyle = 57;
         /**
@@ -7512,7 +7512,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryCropHighlightStyle
+          @attr name com.findatrainerapp.welike:aviaryCropHighlightStyle
         */
         public static final int Theme_aviaryCropHighlightStyle = 9;
         /**
@@ -7524,7 +7524,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryCropImageViewStyle
+          @attr name com.findatrainerapp.welike:aviaryCropImageViewStyle
         */
         public static final int Theme_aviaryCropImageViewStyle = 8;
         /**
@@ -7536,7 +7536,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryCustomDialogButtonSecondaryStyle
+          @attr name com.findatrainerapp.welike:aviaryCustomDialogButtonSecondaryStyle
         */
         public static final int Theme_aviaryCustomDialogButtonSecondaryStyle = 137;
         /**
@@ -7549,7 +7549,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryCustomDialogButtonStyle
+          @attr name com.findatrainerapp.welike:aviaryCustomDialogButtonStyle
         */
         public static final int Theme_aviaryCustomDialogButtonStyle = 136;
         /**
@@ -7561,7 +7561,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryDefaultTextStyle
+          @attr name com.findatrainerapp.welike:aviaryDefaultTextStyle
         */
         public static final int Theme_aviaryDefaultTextStyle = 65;
         /**
@@ -7573,47 +7573,47 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryEdgeEffectDefaultStyle
+          @attr name com.findatrainerapp.welike:aviaryEdgeEffectDefaultStyle
         */
         public static final int Theme_aviaryEdgeEffectDefaultStyle = 138;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryEffectThumbDividerLeftContainerStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryEffectThumbDividerLeftContainerStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryEffectThumbDividerLeftContainerStyle
+          @attr name com.findatrainerapp.welike:aviaryEffectThumbDividerLeftContainerStyle
         */
         public static final int Theme_aviaryEffectThumbDividerLeftContainerStyle = 101;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryEffectThumbDividerLeftStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryEffectThumbDividerLeftStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryEffectThumbDividerLeftStyle
+          @attr name com.findatrainerapp.welike:aviaryEffectThumbDividerLeftStyle
         */
         public static final int Theme_aviaryEffectThumbDividerLeftStyle = 99;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryEffectThumbDividerRightContainerStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryEffectThumbDividerRightContainerStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryEffectThumbDividerRightContainerStyle
+          @attr name com.findatrainerapp.welike:aviaryEffectThumbDividerRightContainerStyle
         */
         public static final int Theme_aviaryEffectThumbDividerRightContainerStyle = 100;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryEffectThumbDividerRightStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryEffectThumbDividerRightStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryEffectThumbDividerRightStyle
+          @attr name com.findatrainerapp.welike:aviaryEffectThumbDividerRightStyle
         */
         public static final int Theme_aviaryEffectThumbDividerRightStyle = 98;
         /**
@@ -7625,7 +7625,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryEffectThumbDividerStyle
+          @attr name com.findatrainerapp.welike:aviaryEffectThumbDividerStyle
         */
         public static final int Theme_aviaryEffectThumbDividerStyle = 103;
         /**
@@ -7637,47 +7637,47 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryEffectThumbDividerTextStyle
+          @attr name com.findatrainerapp.welike:aviaryEffectThumbDividerTextStyle
         */
         public static final int Theme_aviaryEffectThumbDividerTextStyle = 104;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryEffectThumbHiddenSelector}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryEffectThumbHiddenSelector}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryEffectThumbHiddenSelector
+          @attr name com.findatrainerapp.welike:aviaryEffectThumbHiddenSelector
         */
         public static final int Theme_aviaryEffectThumbHiddenSelector = 97;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryEffectThumbLayoutExternalStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryEffectThumbLayoutExternalStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryEffectThumbLayoutExternalStyle
+          @attr name com.findatrainerapp.welike:aviaryEffectThumbLayoutExternalStyle
         */
         public static final int Theme_aviaryEffectThumbLayoutExternalStyle = 96;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryEffectThumbLayoutStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryEffectThumbLayoutStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryEffectThumbLayoutStyle
+          @attr name com.findatrainerapp.welike:aviaryEffectThumbLayoutStyle
         */
         public static final int Theme_aviaryEffectThumbLayoutStyle = 95;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryEffectThumbTextStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryEffectThumbTextStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryEffectThumbTextStyle
+          @attr name com.findatrainerapp.welike:aviaryEffectThumbTextStyle
         */
         public static final int Theme_aviaryEffectThumbTextStyle = 102;
         /**
@@ -7689,7 +7689,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryEffectsHorizontalViewStyle
+          @attr name com.findatrainerapp.welike:aviaryEffectsHorizontalViewStyle
         */
         public static final int Theme_aviaryEffectsHorizontalViewStyle = 24;
         /**
@@ -7707,17 +7707,17 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryEnhanceItemWeight
+          @attr name com.findatrainerapp.welike:aviaryEnhanceItemWeight
         */
         public static final int Theme_aviaryEnhanceItemWeight = 48;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryEnhanceOptionPanelToggleCenterButtonStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryEnhanceOptionPanelToggleCenterButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryEnhanceOptionPanelToggleCenterButtonStyle
+          @attr name com.findatrainerapp.welike:aviaryEnhanceOptionPanelToggleCenterButtonStyle
         */
         public static final int Theme_aviaryEnhanceOptionPanelToggleCenterButtonStyle = 46;
         /**
@@ -7729,27 +7729,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryEnhanceOptionPanelToggleLeftButtonStyle
+          @attr name com.findatrainerapp.welike:aviaryEnhanceOptionPanelToggleLeftButtonStyle
         */
         public static final int Theme_aviaryEnhanceOptionPanelToggleLeftButtonStyle = 45;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryEnhanceOptionPanelToggleRightButtonStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryEnhanceOptionPanelToggleRightButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryEnhanceOptionPanelToggleRightButtonStyle
+          @attr name com.findatrainerapp.welike:aviaryEnhanceOptionPanelToggleRightButtonStyle
         */
         public static final int Theme_aviaryEnhanceOptionPanelToggleRightButtonStyle = 47;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryFeedbackDialogDividerStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryFeedbackDialogDividerStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryFeedbackDialogDividerStyle
+          @attr name com.findatrainerapp.welike:aviaryFeedbackDialogDividerStyle
         */
         public static final int Theme_aviaryFeedbackDialogDividerStyle = 132;
         /**
@@ -7761,27 +7761,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryFeedbackDialogStyle
+          @attr name com.findatrainerapp.welike:aviaryFeedbackDialogStyle
         */
         public static final int Theme_aviaryFeedbackDialogStyle = 130;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryFeedbackDialogTextMessageStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryFeedbackDialogTextMessageStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryFeedbackDialogTextMessageStyle
+          @attr name com.findatrainerapp.welike:aviaryFeedbackDialogTextMessageStyle
         */
         public static final int Theme_aviaryFeedbackDialogTextMessageStyle = 133;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryFeedbackDialogTextVersionStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryFeedbackDialogTextVersionStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryFeedbackDialogTextVersionStyle
+          @attr name com.findatrainerapp.welike:aviaryFeedbackDialogTextVersionStyle
         */
         public static final int Theme_aviaryFeedbackDialogTextVersionStyle = 131;
         /**
@@ -7793,21 +7793,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryFocusOptionPanelToggleLeftButtonStyle
+          @attr name com.findatrainerapp.welike:aviaryFocusOptionPanelToggleLeftButtonStyle
         */
         public static final int Theme_aviaryFocusOptionPanelToggleLeftButtonStyle = 53;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryFocusOptionPanelToggleRightButtonStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryFocusOptionPanelToggleRightButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryFocusOptionPanelToggleRightButtonStyle
+          @attr name com.findatrainerapp.welike:aviaryFocusOptionPanelToggleRightButtonStyle
         */
         public static final int Theme_aviaryFocusOptionPanelToggleRightButtonStyle = 54;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryFontLight}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryFontLight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7817,7 +7817,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:aviaryFontLight
+          @attr name com.findatrainerapp.welike:aviaryFontLight
         */
         public static final int Theme_aviaryFontLight = 1;
         /**
@@ -7833,7 +7833,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryFontRegular
+          @attr name com.findatrainerapp.welike:aviaryFontRegular
         */
         public static final int Theme_aviaryFontRegular = 0;
         /**
@@ -7845,7 +7845,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryGalleryBottomIndicatorStyle
+          @attr name com.findatrainerapp.welike:aviaryGalleryBottomIndicatorStyle
         */
         public static final int Theme_aviaryGalleryBottomIndicatorStyle = 80;
         /**
@@ -7857,7 +7857,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryGalleryItemContainerStyle
+          @attr name com.findatrainerapp.welike:aviaryGalleryItemContainerStyle
         */
         public static final int Theme_aviaryGalleryItemContainerStyle = 73;
         /**
@@ -7869,7 +7869,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryGalleryItemCropImageViewStyle
+          @attr name com.findatrainerapp.welike:aviaryGalleryItemCropImageViewStyle
         */
         public static final int Theme_aviaryGalleryItemCropImageViewStyle = 78;
         /**
@@ -7881,7 +7881,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryGalleryItemCropTextCustomStyle
+          @attr name com.findatrainerapp.welike:aviaryGalleryItemCropTextCustomStyle
         */
         public static final int Theme_aviaryGalleryItemCropTextCustomStyle = 77;
         /**
@@ -7893,7 +7893,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryGalleryItemCropTextNormalStyle
+          @attr name com.findatrainerapp.welike:aviaryGalleryItemCropTextNormalStyle
         */
         public static final int Theme_aviaryGalleryItemCropTextNormalStyle = 76;
         /**
@@ -7905,7 +7905,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryGalleryItemDividerStyle
+          @attr name com.findatrainerapp.welike:aviaryGalleryItemDividerStyle
         */
         public static final int Theme_aviaryGalleryItemDividerStyle = 74;
         /**
@@ -7917,17 +7917,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryGalleryItemHighlightImageStyle
+          @attr name com.findatrainerapp.welike:aviaryGalleryItemHighlightImageStyle
         */
         public static final int Theme_aviaryGalleryItemHighlightImageStyle = 75;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryGalleryStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryGalleryStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryGalleryStyle
+          @attr name com.findatrainerapp.welike:aviaryGalleryStyle
         */
         public static final int Theme_aviaryGalleryStyle = 35;
         /**
@@ -7939,7 +7939,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryGalleryTopIndicatorStyle
+          @attr name com.findatrainerapp.welike:aviaryGalleryTopIndicatorStyle
         */
         public static final int Theme_aviaryGalleryTopIndicatorStyle = 79;
         /**
@@ -7951,7 +7951,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryHiddenEditTextStyle
+          @attr name com.findatrainerapp.welike:aviaryHiddenEditTextStyle
         */
         public static final int Theme_aviaryHiddenEditTextStyle = 93;
         /**
@@ -7963,7 +7963,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryHiddenEditTextStyleMultiline
+          @attr name com.findatrainerapp.welike:aviaryHiddenEditTextStyleMultiline
         */
         public static final int Theme_aviaryHiddenEditTextStyleMultiline = 94;
         /**
@@ -7975,27 +7975,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryHighlightImageButtonStyle
+          @attr name com.findatrainerapp.welike:aviaryHighlightImageButtonStyle
         */
         public static final int Theme_aviaryHighlightImageButtonStyle = 33;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryIAPBannerTextStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryIAPBannerTextStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryIAPBannerTextStyle
+          @attr name com.findatrainerapp.welike:aviaryIAPBannerTextStyle
         */
         public static final int Theme_aviaryIAPBannerTextStyle = 115;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryIAPDialogButtonErrorStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryIAPDialogButtonErrorStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryIAPDialogButtonErrorStyle
+          @attr name com.findatrainerapp.welike:aviaryIAPDialogButtonErrorStyle
         */
         public static final int Theme_aviaryIAPDialogButtonErrorStyle = 113;
         /**
@@ -8008,41 +8008,41 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryIAPDialogContainerStyle
+          @attr name com.findatrainerapp.welike:aviaryIAPDialogContainerStyle
         */
         public static final int Theme_aviaryIAPDialogContainerStyle = 105;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryIAPDialogDownloadButtonStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryIAPDialogDownloadButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryIAPDialogDownloadButtonStyle
+          @attr name com.findatrainerapp.welike:aviaryIAPDialogDownloadButtonStyle
         */
         public static final int Theme_aviaryIAPDialogDownloadButtonStyle = 124;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryIAPDialogDownloadButtonTextStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryIAPDialogDownloadButtonTextStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryIAPDialogDownloadButtonTextStyle
+          @attr name com.findatrainerapp.welike:aviaryIAPDialogDownloadButtonTextStyle
         */
         public static final int Theme_aviaryIAPDialogDownloadButtonTextStyle = 125;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryIAPDialogGridBackground}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryIAPDialogGridBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryIAPDialogGridBackground
+          @attr name com.findatrainerapp.welike:aviaryIAPDialogGridBackground
         */
         public static final int Theme_aviaryIAPDialogGridBackground = 120;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryIAPDialogGridTopStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryIAPDialogGridTopStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8054,7 +8054,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:aviaryIAPDialogGridTopStyle
+          @attr name com.findatrainerapp.welike:aviaryIAPDialogGridTopStyle
         */
         public static final int Theme_aviaryIAPDialogGridTopStyle = 121;
         /**
@@ -8070,37 +8070,37 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryIAPDialogHeightWeight
+          @attr name com.findatrainerapp.welike:aviaryIAPDialogHeightWeight
         */
         public static final int Theme_aviaryIAPDialogHeightWeight = 107;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryIAPDialogIcon}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryIAPDialogIcon}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryIAPDialogIcon
+          @attr name com.findatrainerapp.welike:aviaryIAPDialogIcon
         */
         public static final int Theme_aviaryIAPDialogIcon = 110;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryIAPDialogListItemTextStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryIAPDialogListItemTextStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryIAPDialogListItemTextStyle
+          @attr name com.findatrainerapp.welike:aviaryIAPDialogListItemTextStyle
         */
         public static final int Theme_aviaryIAPDialogListItemTextStyle = 117;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryIAPDialogListItemTitleStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryIAPDialogListItemTitleStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryIAPDialogListItemTitleStyle
+          @attr name com.findatrainerapp.welike:aviaryIAPDialogListItemTitleStyle
         */
         public static final int Theme_aviaryIAPDialogListItemTitleStyle = 116;
         /**
@@ -8112,7 +8112,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryIAPDialogMainLayout
+          @attr name com.findatrainerapp.welike:aviaryIAPDialogMainLayout
         */
         public static final int Theme_aviaryIAPDialogMainLayout = 106;
         /**
@@ -8128,77 +8128,77 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryIAPDialogMarginTopWeight
+          @attr name com.findatrainerapp.welike:aviaryIAPDialogMarginTopWeight
         */
         public static final int Theme_aviaryIAPDialogMarginTopWeight = 108;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryIAPDialogRestoreAllButtonStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryIAPDialogRestoreAllButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryIAPDialogRestoreAllButtonStyle
+          @attr name com.findatrainerapp.welike:aviaryIAPDialogRestoreAllButtonStyle
         */
         public static final int Theme_aviaryIAPDialogRestoreAllButtonStyle = 126;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryIAPDialogRestoreDialogTextStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryIAPDialogRestoreDialogTextStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryIAPDialogRestoreDialogTextStyle
+          @attr name com.findatrainerapp.welike:aviaryIAPDialogRestoreDialogTextStyle
         */
         public static final int Theme_aviaryIAPDialogRestoreDialogTextStyle = 127;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryIAPDialogShadowBottom}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryIAPDialogShadowBottom}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryIAPDialogShadowBottom
+          @attr name com.findatrainerapp.welike:aviaryIAPDialogShadowBottom
         */
         public static final int Theme_aviaryIAPDialogShadowBottom = 123;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryIAPDialogShadowTop}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryIAPDialogShadowTop}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryIAPDialogShadowTop
+          @attr name com.findatrainerapp.welike:aviaryIAPDialogShadowTop
         */
         public static final int Theme_aviaryIAPDialogShadowTop = 122;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryIAPDialogTextErrorStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryIAPDialogTextErrorStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryIAPDialogTextErrorStyle
+          @attr name com.findatrainerapp.welike:aviaryIAPDialogTextErrorStyle
         */
         public static final int Theme_aviaryIAPDialogTextErrorStyle = 112;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryIAPDialogTextStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryIAPDialogTextStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryIAPDialogTextStyle
+          @attr name com.findatrainerapp.welike:aviaryIAPDialogTextStyle
         */
         public static final int Theme_aviaryIAPDialogTextStyle = 114;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryIAPDialogTitleStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryIAPDialogTitleStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryIAPDialogTitleStyle
+          @attr name com.findatrainerapp.welike:aviaryIAPDialogTitleStyle
         */
         public static final int Theme_aviaryIAPDialogTitleStyle = 111;
         /**
@@ -8214,47 +8214,47 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryIAPDialogWidthWeight
+          @attr name com.findatrainerapp.welike:aviaryIAPDialogWidthWeight
         */
         public static final int Theme_aviaryIAPDialogWidthWeight = 109;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryIAPDialogWorkspaceCellEffects}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryIAPDialogWorkspaceCellEffects}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryIAPDialogWorkspaceCellEffects
+          @attr name com.findatrainerapp.welike:aviaryIAPDialogWorkspaceCellEffects
         */
         public static final int Theme_aviaryIAPDialogWorkspaceCellEffects = 128;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryIAPDialogWorkspaceCellStickers}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryIAPDialogWorkspaceCellStickers}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryIAPDialogWorkspaceCellStickers
+          @attr name com.findatrainerapp.welike:aviaryIAPDialogWorkspaceCellStickers
         */
         public static final int Theme_aviaryIAPDialogWorkspaceCellStickers = 129;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryIAPDialogWorkspaceIndicatorStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryIAPDialogWorkspaceIndicatorStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryIAPDialogWorkspaceIndicatorStyle
+          @attr name com.findatrainerapp.welike:aviaryIAPDialogWorkspaceIndicatorStyle
         */
         public static final int Theme_aviaryIAPDialogWorkspaceIndicatorStyle = 119;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryIAPDialogWorkspaceStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryIAPDialogWorkspaceStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryIAPDialogWorkspaceStyle
+          @attr name com.findatrainerapp.welike:aviaryIAPDialogWorkspaceStyle
         */
         public static final int Theme_aviaryIAPDialogWorkspaceStyle = 118;
         /**
@@ -8266,7 +8266,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryImageRestoreViewStyle
+          @attr name com.findatrainerapp.welike:aviaryImageRestoreViewStyle
         */
         public static final int Theme_aviaryImageRestoreViewStyle = 58;
         /**
@@ -8278,17 +8278,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryImageViewDrawableOverlaySticker
+          @attr name com.findatrainerapp.welike:aviaryImageViewDrawableOverlaySticker
         */
         public static final int Theme_aviaryImageViewDrawableOverlaySticker = 12;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryImageViewDrawableOverlayStickerHighlightStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryImageViewDrawableOverlayStickerHighlightStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryImageViewDrawableOverlayStickerHighlightStyle
+          @attr name com.findatrainerapp.welike:aviaryImageViewDrawableOverlayStickerHighlightStyle
         */
         public static final int Theme_aviaryImageViewDrawableOverlayStickerHighlightStyle = 13;
         /**
@@ -8300,17 +8300,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryImageViewDrawableOverlayText
+          @attr name com.findatrainerapp.welike:aviaryImageViewDrawableOverlayText
         */
         public static final int Theme_aviaryImageViewDrawableOverlayText = 10;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryImageViewDrawableOverlayTextHighlightStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryImageViewDrawableOverlayTextHighlightStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryImageViewDrawableOverlayTextHighlightStyle
+          @attr name com.findatrainerapp.welike:aviaryImageViewDrawableOverlayTextHighlightStyle
         */
         public static final int Theme_aviaryImageViewDrawableOverlayTextHighlightStyle = 11;
         /**
@@ -8322,7 +8322,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryLensViewStyle
+          @attr name com.findatrainerapp.welike:aviaryLensViewStyle
         */
         public static final int Theme_aviaryLensViewStyle = 34;
         /**
@@ -8334,7 +8334,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryLightGrayButtonStyle
+          @attr name com.findatrainerapp.welike:aviaryLightGrayButtonStyle
         */
         public static final int Theme_aviaryLightGrayButtonStyle = 68;
         /**
@@ -8346,7 +8346,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryLoaderToastStyle
+          @attr name com.findatrainerapp.welike:aviaryLoaderToastStyle
         */
         public static final int Theme_aviaryLoaderToastStyle = 134;
         /**
@@ -8364,7 +8364,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryMainImagePadding
+          @attr name com.findatrainerapp.welike:aviaryMainImagePadding
         */
         public static final int Theme_aviaryMainImagePadding = 91;
         /**
@@ -8376,7 +8376,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryMemeButtonStyle
+          @attr name com.findatrainerapp.welike:aviaryMemeButtonStyle
         */
         public static final int Theme_aviaryMemeButtonStyle = 71;
         /**
@@ -8388,7 +8388,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryMemeClearButtonStyle
+          @attr name com.findatrainerapp.welike:aviaryMemeClearButtonStyle
         */
         public static final int Theme_aviaryMemeClearButtonStyle = 72;
         /**
@@ -8406,7 +8406,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryNavBarHeight
+          @attr name com.findatrainerapp.welike:aviaryNavBarHeight
         */
         public static final int Theme_aviaryNavBarHeight = 29;
         /**
@@ -8418,7 +8418,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryNavBarRestoreButtonStyle
+          @attr name com.findatrainerapp.welike:aviaryNavBarRestoreButtonStyle
         */
         public static final int Theme_aviaryNavBarRestoreButtonStyle = 69;
         /**
@@ -8430,7 +8430,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryNavBarStyle
+          @attr name com.findatrainerapp.welike:aviaryNavBarStyle
         */
         public static final int Theme_aviaryNavBarStyle = 28;
         /**
@@ -8442,7 +8442,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryNavButtonApplyStyle
+          @attr name com.findatrainerapp.welike:aviaryNavButtonApplyStyle
         */
         public static final int Theme_aviaryNavButtonApplyStyle = 32;
         /**
@@ -8454,7 +8454,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryNavButtonStyle
+          @attr name com.findatrainerapp.welike:aviaryNavButtonStyle
         */
         public static final int Theme_aviaryNavButtonStyle = 31;
         /**
@@ -8466,7 +8466,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryNavDividerStyle
+          @attr name com.findatrainerapp.welike:aviaryNavDividerStyle
         */
         public static final int Theme_aviaryNavDividerStyle = 81;
         /**
@@ -8478,7 +8478,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryNavTitleStyle
+          @attr name com.findatrainerapp.welike:aviaryNavTitleStyle
         */
         public static final int Theme_aviaryNavTitleStyle = 30;
         /**
@@ -8490,7 +8490,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryOptionPanelBottomIndicatorStyle
+          @attr name com.findatrainerapp.welike:aviaryOptionPanelBottomIndicatorStyle
         */
         public static final int Theme_aviaryOptionPanelBottomIndicatorStyle = 63;
         /**
@@ -8502,7 +8502,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryOptionPanelBottomLineStyle
+          @attr name com.findatrainerapp.welike:aviaryOptionPanelBottomLineStyle
         */
         public static final int Theme_aviaryOptionPanelBottomLineStyle = 64;
         /**
@@ -8514,7 +8514,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryOptionPanelDefaultButtonStyle
+          @attr name com.findatrainerapp.welike:aviaryOptionPanelDefaultButtonStyle
         */
         public static final int Theme_aviaryOptionPanelDefaultButtonStyle = 36;
         /**
@@ -8526,37 +8526,37 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryOptionPanelToggleButtonStyle
+          @attr name com.findatrainerapp.welike:aviaryOptionPanelToggleButtonStyle
         */
         public static final int Theme_aviaryOptionPanelToggleButtonStyle = 37;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryOptionPanelToggleCenterButtonStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryOptionPanelToggleCenterButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryOptionPanelToggleCenterButtonStyle
+          @attr name com.findatrainerapp.welike:aviaryOptionPanelToggleCenterButtonStyle
         */
         public static final int Theme_aviaryOptionPanelToggleCenterButtonStyle = 39;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryOptionPanelToggleLeftButtonStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryOptionPanelToggleLeftButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryOptionPanelToggleLeftButtonStyle
+          @attr name com.findatrainerapp.welike:aviaryOptionPanelToggleLeftButtonStyle
         */
         public static final int Theme_aviaryOptionPanelToggleLeftButtonStyle = 38;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryOptionPanelToggleRightButtonStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryOptionPanelToggleRightButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryOptionPanelToggleRightButtonStyle
+          @attr name com.findatrainerapp.welike:aviaryOptionPanelToggleRightButtonStyle
         */
         public static final int Theme_aviaryOptionPanelToggleRightButtonStyle = 40;
         /**
@@ -8568,7 +8568,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryOptionPanelTopIndicatorStyle
+          @attr name com.findatrainerapp.welike:aviaryOptionPanelTopIndicatorStyle
         */
         public static final int Theme_aviaryOptionPanelTopIndicatorStyle = 62;
         /**
@@ -8580,7 +8580,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryPanelDisabledStatusBackground
+          @attr name com.findatrainerapp.welike:aviaryPanelDisabledStatusBackground
         */
         public static final int Theme_aviaryPanelDisabledStatusBackground = 92;
         /**
@@ -8592,7 +8592,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryPreviewFillDrawableStyle
+          @attr name com.findatrainerapp.welike:aviaryPreviewFillDrawableStyle
         */
         public static final int Theme_aviaryPreviewFillDrawableStyle = 60;
         /**
@@ -8604,7 +8604,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryPreviewSpotDrawableStyle
+          @attr name com.findatrainerapp.welike:aviaryPreviewSpotDrawableStyle
         */
         public static final int Theme_aviaryPreviewSpotDrawableStyle = 59;
         /**
@@ -8616,7 +8616,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryPreviewSpotViewStyle
+          @attr name com.findatrainerapp.welike:aviaryPreviewSpotViewStyle
         */
         public static final int Theme_aviaryPreviewSpotViewStyle = 61;
         /**
@@ -8628,7 +8628,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryPrimaryButtonStyle
+          @attr name com.findatrainerapp.welike:aviaryPrimaryButtonStyle
         */
         public static final int Theme_aviaryPrimaryButtonStyle = 66;
         /**
@@ -8640,11 +8640,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryProgressBarActionBar
+          @attr name com.findatrainerapp.welike:aviaryProgressBarActionBar
         */
         public static final int Theme_aviaryProgressBarActionBar = 85;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryProgressBarActionBarHeight}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryProgressBarActionBarHeight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8656,11 +8656,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:aviaryProgressBarActionBarHeight
+          @attr name com.findatrainerapp.welike:aviaryProgressBarActionBarHeight
         */
         public static final int Theme_aviaryProgressBarActionBarHeight = 87;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryProgressBarActionBarWidth}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryProgressBarActionBarWidth}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8672,47 +8672,47 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.planet1107.welike:aviaryProgressBarActionBarWidth
+          @attr name com.findatrainerapp.welike:aviaryProgressBarActionBarWidth
         */
         public static final int Theme_aviaryProgressBarActionBarWidth = 86;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryProgressBarLarge}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryProgressBarLarge}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryProgressBarLarge
+          @attr name com.findatrainerapp.welike:aviaryProgressBarLarge
         */
         public static final int Theme_aviaryProgressBarLarge = 84;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryProgressBarLargeInverse}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryProgressBarLargeInverse}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryProgressBarLargeInverse
+          @attr name com.findatrainerapp.welike:aviaryProgressBarLargeInverse
         */
         public static final int Theme_aviaryProgressBarLargeInverse = 90;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryProgressBarMedium}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryProgressBarMedium}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryProgressBarMedium
+          @attr name com.findatrainerapp.welike:aviaryProgressBarMedium
         */
         public static final int Theme_aviaryProgressBarMedium = 83;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryProgressBarMediumInverse}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryProgressBarMediumInverse}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryProgressBarMediumInverse
+          @attr name com.findatrainerapp.welike:aviaryProgressBarMediumInverse
         */
         public static final int Theme_aviaryProgressBarMediumInverse = 89;
         /**
@@ -8724,17 +8724,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryProgressBarSmall
+          @attr name com.findatrainerapp.welike:aviaryProgressBarSmall
         */
         public static final int Theme_aviaryProgressBarSmall = 82;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryProgressBarSmallInverse}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryProgressBarSmallInverse}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryProgressBarSmallInverse
+          @attr name com.findatrainerapp.welike:aviaryProgressBarSmallInverse
         */
         public static final int Theme_aviaryProgressBarSmallInverse = 88;
         /**
@@ -8746,17 +8746,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviarySecondaryButtonStyle
+          @attr name com.findatrainerapp.welike:aviarySecondaryButtonStyle
         */
         public static final int Theme_aviarySecondaryButtonStyle = 67;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviarySeekBarStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviarySeekBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviarySeekBarStyle
+          @attr name com.findatrainerapp.welike:aviarySeekBarStyle
         */
         public static final int Theme_aviarySeekBarStyle = 3;
         /**
@@ -8772,7 +8772,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviarySplashDividerWeight
+          @attr name com.findatrainerapp.welike:aviarySplashDividerWeight
         */
         public static final int Theme_aviarySplashDividerWeight = 50;
         /**
@@ -8788,27 +8788,27 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviarySplashItemWeight
+          @attr name com.findatrainerapp.welike:aviarySplashItemWeight
         */
         public static final int Theme_aviarySplashItemWeight = 49;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviarySymbolMinusStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviarySymbolMinusStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviarySymbolMinusStyle
+          @attr name com.findatrainerapp.welike:aviarySymbolMinusStyle
         */
         public static final int Theme_aviarySymbolMinusStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviarySymbolPlusStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviarySymbolPlusStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviarySymbolPlusStyle
+          @attr name com.findatrainerapp.welike:aviarySymbolPlusStyle
         */
         public static final int Theme_aviarySymbolPlusStyle = 7;
         /**
@@ -8820,117 +8820,117 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryTextAppearance
+          @attr name com.findatrainerapp.welike:aviaryTextAppearance
         */
         public static final int Theme_aviaryTextAppearance = 139;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryTextAppearanceInverted}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryTextAppearanceInverted}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryTextAppearanceInverted
+          @attr name com.findatrainerapp.welike:aviaryTextAppearanceInverted
         */
         public static final int Theme_aviaryTextAppearanceInverted = 146;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryTextAppearanceLarge}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryTextAppearanceLarge}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryTextAppearanceLarge
+          @attr name com.findatrainerapp.welike:aviaryTextAppearanceLarge
         */
         public static final int Theme_aviaryTextAppearanceLarge = 140;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryTextAppearanceLargeInverted}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryTextAppearanceLargeInverted}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryTextAppearanceLargeInverted
+          @attr name com.findatrainerapp.welike:aviaryTextAppearanceLargeInverted
         */
         public static final int Theme_aviaryTextAppearanceLargeInverted = 147;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryTextAppearanceLargeNoSelection}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryTextAppearanceLargeNoSelection}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryTextAppearanceLargeNoSelection
+          @attr name com.findatrainerapp.welike:aviaryTextAppearanceLargeNoSelection
         */
         public static final int Theme_aviaryTextAppearanceLargeNoSelection = 141;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryTextAppearanceMedium}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryTextAppearanceMedium}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryTextAppearanceMedium
+          @attr name com.findatrainerapp.welike:aviaryTextAppearanceMedium
         */
         public static final int Theme_aviaryTextAppearanceMedium = 142;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryTextAppearanceMediumInverted}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryTextAppearanceMediumInverted}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryTextAppearanceMediumInverted
+          @attr name com.findatrainerapp.welike:aviaryTextAppearanceMediumInverted
         */
         public static final int Theme_aviaryTextAppearanceMediumInverted = 148;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryTextAppearanceMediumNoSelection}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryTextAppearanceMediumNoSelection}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryTextAppearanceMediumNoSelection
+          @attr name com.findatrainerapp.welike:aviaryTextAppearanceMediumNoSelection
         */
         public static final int Theme_aviaryTextAppearanceMediumNoSelection = 143;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryTextAppearanceSmall}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryTextAppearanceSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryTextAppearanceSmall
+          @attr name com.findatrainerapp.welike:aviaryTextAppearanceSmall
         */
         public static final int Theme_aviaryTextAppearanceSmall = 144;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryTextAppearanceSmallInverted}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryTextAppearanceSmallInverted}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryTextAppearanceSmallInverted
+          @attr name com.findatrainerapp.welike:aviaryTextAppearanceSmallInverted
         */
         public static final int Theme_aviaryTextAppearanceSmallInverted = 149;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryTextAppearanceSmallNoSelection}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryTextAppearanceSmallNoSelection}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryTextAppearanceSmallNoSelection
+          @attr name com.findatrainerapp.welike:aviaryTextAppearanceSmallNoSelection
         */
         public static final int Theme_aviaryTextAppearanceSmallNoSelection = 145;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryTiltShiftViewStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryTiltShiftViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryTiltShiftViewStyle
+          @attr name com.findatrainerapp.welike:aviaryTiltShiftViewStyle
         */
         public static final int Theme_aviaryTiltShiftViewStyle = 5;
         /**
@@ -8942,7 +8942,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryToastExitAnimation
+          @attr name com.findatrainerapp.welike:aviaryToastExitAnimation
         */
         public static final int Theme_aviaryToastExitAnimation = 135;
         /**
@@ -8954,17 +8954,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:aviaryToggleButtonStyle
+          @attr name com.findatrainerapp.welike:aviaryToggleButtonStyle
         */
         public static final int Theme_aviaryToggleButtonStyle = 70;
         /**
-          <p>This symbol is the offset where the {@link com.planet1107.welike.R.attr#aviaryWheelStyle}
+          <p>This symbol is the offset where the {@link com.findatrainerapp.welike.R.attr#aviaryWheelStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.planet1107.welike:aviaryWheelStyle
+          @attr name com.findatrainerapp.welike:aviaryWheelStyle
         */
         public static final int Theme_aviaryWheelStyle = 4;
         /**  Attributes for the WalletFragment &lt;fragment&gt; tag 
@@ -8973,10 +8973,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_appTheme com.planet1107.welike:appTheme}</code></td><td> Theme to be used for the Wallet selector </td></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_environment com.planet1107.welike:environment}</code></td><td> Google Wallet environment to use </td></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_fragmentMode com.planet1107.welike:fragmentMode}</code></td><td> Fragment mode </td></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_fragmentStyle com.planet1107.welike:fragmentStyle}</code></td><td> A style resource specifing attributes to customize the look and feel of WalletFragment </td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_appTheme com.findatrainerapp.welike:appTheme}</code></td><td> Theme to be used for the Wallet selector </td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_environment com.findatrainerapp.welike:environment}</code></td><td> Google Wallet environment to use </td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_fragmentMode com.findatrainerapp.welike:fragmentMode}</code></td><td> Fragment mode </td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_fragmentStyle com.findatrainerapp.welike:fragmentStyle}</code></td><td> A style resource specifing attributes to customize the look and feel of WalletFragment </td></tr>
            </table>
            @see #WalletFragmentOptions_appTheme
            @see #WalletFragmentOptions_environment
@@ -9002,7 +9002,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>holo_light</code></td><td>1</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:appTheme
+          @attr name com.findatrainerapp.welike:appTheme
         */
         public static final int WalletFragmentOptions_appTheme = 0;
         /**
@@ -9022,7 +9022,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>strict_sandbox</code></td><td>2</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:environment
+          @attr name com.findatrainerapp.welike:environment
         */
         public static final int WalletFragmentOptions_environment = 1;
         /**
@@ -9041,7 +9041,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>selectionDetails</code></td><td>2</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:fragmentMode
+          @attr name com.findatrainerapp.welike:fragmentMode
         */
         public static final int WalletFragmentOptions_fragmentMode = 3;
         /**
@@ -9053,7 +9053,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:fragmentStyle
+          @attr name com.findatrainerapp.welike:fragmentStyle
         */
         public static final int WalletFragmentOptions_fragmentStyle = 2;
         /**  Attributes that may be specified in a style resource to customize the look and feel of
@@ -9063,17 +9063,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonAppearance com.planet1107.welike:buyButtonAppearance}</code></td><td> Appearance of the buy button.</td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonHeight com.planet1107.welike:buyButtonHeight}</code></td><td> Height of the buy button.</td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonText com.planet1107.welike:buyButtonText}</code></td><td> Text on the buy button.</td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonWidth com.planet1107.welike:buyButtonWidth}</code></td><td> Width of the buy button.</td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsBackground com.planet1107.welike:maskedWalletDetailsBackground}</code></td><td> Masked wallet details background </td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonBackground com.planet1107.welike:maskedWalletDetailsButtonBackground}</code></td><td> "Change" button background in masked wallet details view </td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance com.planet1107.welike:maskedWalletDetailsButtonTextAppearance}</code></td><td> TextAppearance for the "Change" button in masked wallet details view </td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance com.planet1107.welike:maskedWalletDetailsHeaderTextAppearance}</code></td><td> TextAppearance for headers describing masked wallet details </td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoImageType com.planet1107.welike:maskedWalletDetailsLogoImageType}</code></td><td> Type of the wallet logo image in masked wallet details view </td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoTextColor com.planet1107.welike:maskedWalletDetailsLogoTextColor}</code></td><td> Color of the Google Wallet logo text in masked wallet details view </td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsTextAppearance com.planet1107.welike:maskedWalletDetailsTextAppearance}</code></td><td> TextAppearance for masked wallet details </td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonAppearance com.findatrainerapp.welike:buyButtonAppearance}</code></td><td> Appearance of the buy button.</td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonHeight com.findatrainerapp.welike:buyButtonHeight}</code></td><td> Height of the buy button.</td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonText com.findatrainerapp.welike:buyButtonText}</code></td><td> Text on the buy button.</td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonWidth com.findatrainerapp.welike:buyButtonWidth}</code></td><td> Width of the buy button.</td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsBackground com.findatrainerapp.welike:maskedWalletDetailsBackground}</code></td><td> Masked wallet details background </td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonBackground com.findatrainerapp.welike:maskedWalletDetailsButtonBackground}</code></td><td> "Change" button background in masked wallet details view </td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance com.findatrainerapp.welike:maskedWalletDetailsButtonTextAppearance}</code></td><td> TextAppearance for the "Change" button in masked wallet details view </td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance com.findatrainerapp.welike:maskedWalletDetailsHeaderTextAppearance}</code></td><td> TextAppearance for headers describing masked wallet details </td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoImageType com.findatrainerapp.welike:maskedWalletDetailsLogoImageType}</code></td><td> Type of the wallet logo image in masked wallet details view </td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoTextColor com.findatrainerapp.welike:maskedWalletDetailsLogoTextColor}</code></td><td> Color of the Google Wallet logo text in masked wallet details view </td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsTextAppearance com.findatrainerapp.welike:maskedWalletDetailsTextAppearance}</code></td><td> TextAppearance for masked wallet details </td></tr>
            </table>
            @see #WalletFragmentStyle_buyButtonAppearance
            @see #WalletFragmentStyle_buyButtonHeight
@@ -9109,7 +9109,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>monochrome</code></td><td>3</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:buyButtonAppearance
+          @attr name com.findatrainerapp.welike:buyButtonAppearance
         */
         public static final int WalletFragmentStyle_buyButtonAppearance = 3;
         /**
@@ -9138,7 +9138,7 @@ containing a value of this type.
 <tr><td><code>wrap_content</code></td><td>-2</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:buyButtonHeight
+          @attr name com.findatrainerapp.welike:buyButtonHeight
         */
         public static final int WalletFragmentStyle_buyButtonHeight = 0;
         /**
@@ -9158,7 +9158,7 @@ containing a value of this type.
 <tr><td><code>book_now</code></td><td>3</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:buyButtonText
+          @attr name com.findatrainerapp.welike:buyButtonText
         */
         public static final int WalletFragmentStyle_buyButtonText = 2;
         /**
@@ -9187,7 +9187,7 @@ containing a value of this type.
 <tr><td><code>wrap_content</code></td><td>-2</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:buyButtonWidth
+          @attr name com.findatrainerapp.welike:buyButtonWidth
         */
         public static final int WalletFragmentStyle_buyButtonWidth = 1;
         /**
@@ -9201,7 +9201,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:maskedWalletDetailsBackground
+          @attr name com.findatrainerapp.welike:maskedWalletDetailsBackground
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsBackground = 6;
         /**
@@ -9215,7 +9215,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:maskedWalletDetailsButtonBackground
+          @attr name com.findatrainerapp.welike:maskedWalletDetailsButtonBackground
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsButtonBackground = 8;
         /**
@@ -9227,7 +9227,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:maskedWalletDetailsButtonTextAppearance
+          @attr name com.findatrainerapp.welike:maskedWalletDetailsButtonTextAppearance
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance = 7;
         /**
@@ -9239,7 +9239,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:maskedWalletDetailsHeaderTextAppearance
+          @attr name com.findatrainerapp.welike:maskedWalletDetailsHeaderTextAppearance
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance = 5;
         /**
@@ -9258,7 +9258,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>monochrome</code></td><td>2</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:maskedWalletDetailsLogoImageType
+          @attr name com.findatrainerapp.welike:maskedWalletDetailsLogoImageType
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsLogoImageType = 10;
         /**
@@ -9275,7 +9275,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:maskedWalletDetailsLogoTextColor
+          @attr name com.findatrainerapp.welike:maskedWalletDetailsLogoTextColor
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsLogoTextColor = 9;
         /**
@@ -9287,7 +9287,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.planet1107.welike:maskedWalletDetailsTextAppearance
+          @attr name com.findatrainerapp.welike:maskedWalletDetailsTextAppearance
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsTextAppearance = 4;
     };

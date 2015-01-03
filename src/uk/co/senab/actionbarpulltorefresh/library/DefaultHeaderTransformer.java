@@ -16,7 +16,7 @@
 
 package uk.co.senab.actionbarpulltorefresh.library;
 
-import com.planet1107.welike.R;
+import com.findatrainerapp.welike.R;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;

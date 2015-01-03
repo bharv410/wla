@@ -1,5 +1,5 @@
 /** Automatically generated file. DO NOT MODIFY */
-package com.planet1107.welike;
+package com.findatrainerapp.welike;
 
 public final class BuildConfig {
     public final static boolean DEBUG = true;

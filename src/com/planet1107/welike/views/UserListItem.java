@@ -1,7 +1,7 @@
 package com.planet1107.welike.views;
 
 import com.koushikdutta.urlimageviewhelper.UrlImageViewHelper;
-import com.planet1107.welike.R;
+import com.findatrainerapp.welike.R;
 import com.planet1107.welike.activities.ProfileActivity;
 import com.planet1107.welike.connect.Connect;
 import com.planet1107.welike.connect.User;

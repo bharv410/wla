@@ -12,22 +12,14 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.amazonaws.auth.BasicAWSCredentials;
 import com.amazonaws.services.s3.AmazonS3Client;
 import com.amazonaws.services.s3.model.CannedAccessControlList;
 import com.amazonaws.services.s3.model.PutObjectRequest;
-import com.koushikdutta.urlimageviewhelper.UrlImageViewHelper;
-import com.planet1107.welike.R;
-import com.planet1107.welike.R.id;
-import com.planet1107.welike.R.layout;
-import com.planet1107.welike.R.menu;
+import com.findatrainerapp.welike.R;
 import com.planet1107.welike.connect.Connect;
-import com.planet1107.welike.connect.User;
-import com.planet1107.welike.connect.User.UserType;
 
 public class UploadVideoActivity extends Activity {
 	Button promoVideoButton;
@@ -43,7 +35,7 @@ public class UploadVideoActivity extends Activity {
 		new AsyncTask<Void, Void, String>() {
 			@Override
 			protected String doInBackground(Void... params) {
-				s3Client = new AmazonS3Client( new BasicAWSCredentials( "AKIAJSGVD7HSGDESFIGQ", "ZCVbaWhf848Qjq5H7IQceaIrGQYKE3f/1PqUZrMp" ) ); 
+				s3Client = new AmazonS3Client( new BasicAWSCredentials( "AKIAI3SJ7KNK6QV27OEA", "h41TVvT2nyl+N1/sl1abiaWdswhFn3zXuVizV0XG" ) ); 
 				return"done";
 			}
 		}.execute();

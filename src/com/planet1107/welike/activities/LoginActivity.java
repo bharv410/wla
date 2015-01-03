@@ -1,6 +1,6 @@
 package com.planet1107.welike.activities;
 
-import com.planet1107.welike.R;
+import com.findatrainerapp.welike.R;
 import com.planet1107.welike.connect.Connect;
 import com.planet1107.welike.connect.User;
 

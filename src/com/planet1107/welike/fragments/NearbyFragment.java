@@ -14,7 +14,7 @@ import android.view.ViewGroup;
 import android.widget.Toast;
 
 import com.google.android.gms.location.LocationClient;
-import com.planet1107.welike.R;
+import com.findatrainerapp.welike.R;
 import com.planet1107.welike.connect.Connect;
 import com.planet1107.welike.connect.User;
 

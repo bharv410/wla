@@ -13,7 +13,7 @@ import android.widget.TextView;
 import android.widget.VideoView;
 
 import com.koushikdutta.urlimageviewhelper.UrlImageViewHelper;
-import com.planet1107.welike.R;
+import com.findatrainerapp.welike.R;
 import com.planet1107.welike.connect.Connect;
 import com.planet1107.welike.connect.User;
 import com.planet1107.welike.connect.User.UserType;
