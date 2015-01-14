@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Users/benjamin.harvey/Downloads/wla-master/build/intermediates/exploded-aar/wla-master/Aviary-Android-SDK-master-2/unspecified/res/values-sk/values.xml -->
+    <eat-comment/>
+    <string name="border_name">Voľný</string>
+    <!-- From: file:/Users/benjamin.harvey/Downloads/wla-master/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values-sk/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"Niektorá aplikácia vyžaduje aktualizáciu aplikácie Android Wear."</string>
+    <string msgid="3046420540094071256" name="common_android_wear_update_text">"Táto aplikácia bude fungovať až po aktualizácii aplikácie Android Wear."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Aktualizujte aplikáciu Android Wear"</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Povoliť služby Google Play"</string>
+    <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"Táto aplikácia bude fungovať až po povolení služieb Google Play."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Povoliť služby Google Play"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"Vyžiadané aplikáciou <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Inštalovať služby Google Play"</string>
+    <string msgid="8685301130651051380" name="common_google_play_services_install_text_phone">"Na spustenie tejto aplikácie sa vyžadujú služby Google Play, ktoré v telefóne nemáte."</string>
+    <string msgid="1589957570365247855" name="common_google_play_services_install_text_tablet">"Na spustenie tejto aplikácie sa vyžadujú služby Google Play, ktoré v tablete nemáte."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Inštalovať služby Google Play"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"Zadaný účet v tomto zariadení neexistuje. Vyberte iný účet."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"Neplatný účet"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"Aplikácia vyžaduje povolenie služieb Google Play."</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"Pripojenie k službám Google Play si vyžaduje dátové pripojenie."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"Chyba siete"</string>
+    <string msgid="8120534356798772974" name="common_google_play_services_notification_needs_installation_title">"Aplikácia vyžaduje inštaláciu služieb Google Play."</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"Aplikácia vyžaduje aktualizáciu služieb Google Play."</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Chyba služieb Google Play"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Neznámy problém so službami Google Play."</string>
+    <string msgid="3542578567569488671" name="common_google_play_services_unsupported_text">"Niektoré vaše aplikácie vyžadujú služby Google Play, ktoré vo vašom zariadení nie sú podporované. Ak potrebujete pomoc, kontaktujte výrobcu."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Služby Google Play"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"Aktualizovať"</string>
+    <string msgid="448354684997260580" name="common_google_play_services_update_text">"Túto aplikáciu bude možné spustiť až po aktualizácii služieb Google Play."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Aktualizovať služby Google Play"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"Otvoriť na telefóne"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"Prihlásiť sa"</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"Prihlásiť sa do účtu Google"</string>
+    <!-- From: file:/Users/benjamin.harvey/Downloads/wla-master/build/intermediates/exploded-aar/wla-master/Aviary-Android-SDK-master-2/unspecified/res/values-sk/values.xml -->
+    <eat-comment/>
+    <string name="confirm_quit_message">Počkajte! Neuložili ste svoju prácu. Naozaj chcete editor zavrieť?</string>
+    <string name="feather_activity_not_found">Ospravedlňujem sa, ale na Vašom zariadení nie je aplikácia, ktorá toto vie urobiť. Chcete ju teraz stiahnuť z obchodu?</string>
+    <string name="feather_adjust">Orientácia</string>
+    <string name="feather_apply">Použiť</string>
+    <string name="feather_attention">Pozor</string>
+    <string name="feather_auto_enhance_label">Automaticky</string>
+    <string name="feather_back_enhance_label">Podsvietenie</string>
+    <string name="feather_balance_enhance_label">Vyváženie</string>
+    <string name="feather_blemish">Zašpiniť</string>
+    <string name="feather_borders">Rámčeky</string>
+    <string name="feather_brightness">Jas</string>
+    <string name="feather_cancel">Zrušiť</string>
+    <string name="feather_close">Zavrieť</string>
+    <string name="feather_confirm">Potvrdiť</string>
+    <string name="feather_contrast">Kontrast</string>
+    <string name="feather_crash_toast_text">Jejda! Spadol som, ale informácie o tom, čo je zle, som poslal autorom, ktorí ma opravia!</string>
+    <string name="feather_crop">Orez</string>
+    <string name="feather_custom">Vlastný</string>
+    <string name="feather_delete">Zmazať</string>
+    <string name="feather_details">Detaily</string>
+    <string name="feather_draw">Kresliť</string>
+    <string name="feather_edit_bottom_text">Upraviť spodný text</string>
+    <string name="feather_edit_top_text">Upraviť vrchný text</string>
+    <string name="feather_edit_your_photo">Editor fotografií</string>
+    <string name="feather_effect_loading_message">Aplikujem efekty</string>
+    <string name="feather_effects">Efekty</string>
+    <string name="feather_effects_beginning_of_list">Začiatok zoznamu</string>
+    <string name="feather_effects_end_of_list">Koniec zoznamu</string>
+    <string name="feather_effects_error_loading_pack">Ospravedlňujem sa, ale došlo k chybe pri načítaní balíka.</string>
+    <string name="feather_effects_error_loading_packs">Ospravedlňujem sa, nepodarilo sa načítať všetky efektové balíčky.</string>
+    <string name="feather_effects_error_update_editor">Ospravedlňujem sa, ale musíte aktualizovať Aviary editor, aby ste mohli použiť tieto efekty.</string>
+    <string name="feather_effects_error_update_editors">Táto aplikácia musí byť aktualizovaná pre použitie s Vašimi inštalovanými balíčky efektov. Kliknite na \"Aktualizovať\" pre aktualizáciu cez Google Play.</string>
+    <string name="feather_effects_error_update_multiple">Je nutné aktualizovať aplikáciu a niektoré balíčky efektov. Kliknite na \"Aktualizovať\" pre aktualizáciu všetkého v Google Play. Aplikácia nemusí fungovať správne pokým nevykonáte aktualizáciu všetkých súčastí na aktuálnu verziu.</string>
+    <string name="feather_effects_error_update_pack">Ospravedlňujem sa, ale pre pokračovanie musíte aktualizovať balík efektov.</string>
+    <string name="feather_effects_error_update_packs">Jeden alebo viac inštalovaných efektových balíčkov vyžaduje aktualizáciu. Kliknite na \"Aktualizovať\" pre aktualizáciu všetkých v Google Play, alebo jednotlivo kliknutím na efekt označený ikonkou aktualizácie.</string>
+    <string name="feather_effects_unknown_error">Neznáma chyba</string>
+    <string name="feather_effects_unknown_errors">Neznáme chyby.</string>
+    <string name="feather_enhance">Vylepšiť</string>
+    <string name="feather_enter_text_here">Tu vložte text</string>
+    <string name="feather_error_download_image_message">Došlo k chybe pri sťahovaní obrázku. Skúste to prosím znova.</string>
+    <string name="feather_error_saving_aviary_folder">Jejda! Došlo k chybe pri pokuse o uloženie obrázku do zložky Aviary. Chcete sa pokúsiť obrázok uložiť do predvolenej zložky s fotkami?</string>
+    <string name="feather_error_saving_image">Jejda, došlo k chybe pri ukladaní obrázku!</string>
+    <string name="feather_filter_pack_updated">Balíček filtrov bol aktualizovaný. Kliknite na OK pre obnovenie zoznamu balíčkov.</string>
+    <string name="feather_flip">Prevrátiť</string>
+    <string name="feather_generic_error_title">Chyba</string>
+    <string name="feather_image_saved_in">Obrázok uložený za %1$ s. Prajete si prezerať výsledný obrázok?</string>
+    <string name="feather_infoscreen_bottom_button">O tomto editore</string>
+    <string name="feather_infoscreen_text">Aviary je voľne dostupný editor obrázkov, ktorý ľahko behom niekoľkých minút pridáte do svojej aplikácie.</string>
+    <string name="feather_keep_editing">Pokračovať v úpravách</string>
+    <string name="feather_loading_image">Nahrávam obrázok...</string>
+    <string name="feather_loading_title">Nahrávam</string>
+    <string name="feather_meme">Meme</string>
+    <string name="feather_menu_reset">Obnoviť východzí</string>
+    <string name="feather_mirror">Zrkadliť</string>
+    <string name="feather_original">Pôvodný</string>
+    <string name="feather_powered_by_aviary">Powered by Aviary.com</string>
+    <string name="feather_red_eye">Červené oči</string>
+    <string name="feather_remove">Odstrániť</string>
+    <string name="feather_revert_dialog_message">Týmto stratíte všetky zmeny, ktoré ste vykonali. Vážne sa chcete vrátiť k pôvodnému obrázku?</string>
+    <string name="feather_revert_dialog_title">Vrátiť do pôvodného stavu?</string>
+    <string name="feather_rotate">Otočiť</string>
+    <string name="feather_saturation">Saturácia</string>
+    <string name="feather_save">Hotovo</string>
+    <string name="feather_save_progress">Ukladám...</string>
+    <string name="feather_share">Zdieľať</string>
+    <string name="feather_sharpen">Ostrosť</string>
+    <string name="feather_square">Štvorec</string>
+    <string name="feather_sticker_delete_message">Naozaj chcete odstraniť túto samolepku?</string>
+    <string name="feather_sticker_name">Demo</string>
+    <string name="feather_sticker_pack_updated_1">Balíček samolepiek bol aktualizovaný. Kliknite na OK pre obnovenie zoznamu balíčkov.</string>
+    <string name="feather_sticker_pack_updated_2">Balíček samolepiek bol aktualizovaný. Je potreba znovu načítať aktuálny panel.</string>
+    <string name="feather_sticker_pack_updated_3">Balíček samolepiek bol aktualizovaný. Je potreba znovu načítať aktuálny panel. Chcete aktuálnu samolepku uložiť?</string>
+    <string name="feather_stickers">Samolepky</string>
+    <string name="feather_text">Text</string>
+    <string name="feather_tool">Nástroj</string>
+    <string name="feather_tool_leave_question">Naozaj chcete zrušiť zmeny vykonané týmto nástrojom?</string>
+    <string name="feather_tool_name">Aviary</string>
+    <string name="feather_tool_temperature">Teplota</string>
+    <string name="feather_update">Aktualizovať</string>
+    <string name="feather_view_file">Ukázať obrázok</string>
+    <string name="feather_whiten">Vybieliť</string>
+    <string name="feather_yes_leave">Opustiť editor</string>
+    <string name="feather_zoom_mode">Mód zoomu</string>
+    <string name="filter_name">Zdarma</string>
+    <string name="menu_premium">Obchod</string>
+</resources>

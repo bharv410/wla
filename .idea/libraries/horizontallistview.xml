@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="horizontallistview">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/Aviary-Android-SDK-master-2/libs/horizontallistview.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

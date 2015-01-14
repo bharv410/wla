@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/aviary_primary_color"></item>
+</selector><!-- From: file:/Users/benjamin.harvey/Downloads/wla-master/libs/Aviary-Android-SDK-master-2/res/color/aviary_tool_text_color_no_selected.xml --><!-- From: file:/Users/benjamin.harvey/Downloads/wla-master/build/intermediates/exploded-aar/wla-master/Aviary-Android-SDK-master-2/unspecified/res/color/aviary_tool_text_color_no_selected.xml -->

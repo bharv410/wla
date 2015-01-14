@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Users/benjamin.harvey/Downloads/wla-master/build/intermediates/exploded-aar/wla-master/Aviary-Android-SDK-master-2/unspecified/res/values-fr/values.xml -->
+    <eat-comment/>
+    <string name="border_name">Libre</string>
+    <!-- From: file:/Users/benjamin.harvey/Downloads/wla-master/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values-fr/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"Une application nécessite une mise à jour du Bios de l\'application Android Wear."</string>
+    <string msgid="3046420540094071256" name="common_android_wear_update_text">"Cette application ne fonctionnera pas tant que vous n\'aurez pas mis à jour l\'application Android Wear."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Mettre à jour Android Wear"</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Activer services Google Play"</string>
+    <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"Cette application ne fonctionnera pas tant que vous n\'aurez pas activé les services Google Play."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Activer les services Google Play"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"Notification issue de l\'application \"<ns1:g id="APP_NAME">%1$s</ns1:g>\""</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Installer services Google Play"</string>
+    <string msgid="8685301130651051380" name="common_google_play_services_install_text_phone">"Cette application ne fonctionnera pas sans les services Google Play, qui ne sont pas installés sur votre téléphone."</string>
+    <string msgid="1589957570365247855" name="common_google_play_services_install_text_tablet">"Cette application ne fonctionnera pas sans les services Google Play, qui ne sont pas installés sur votre tablette."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Installer les services Google Play"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"Le compte indiqué n\'existe pas sur cet appareil. Veuillez sélectionner un autre compte."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"Compte erroné"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"Une application demande l\'activation des services Google Play."</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"Vous devez disposer d\'une connexion de données pour utiliser les services Google Play."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"Erreur réseau"</string>
+    <string msgid="8120534356798772974" name="common_google_play_services_notification_needs_installation_title">"Une application demande l\'installation des services Google Play."</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"Une application demande la mise à jour des services Google Play."</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Erreur liée aux services Google Play"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Problème inconnu avec les services Google Play."</string>
+    <string msgid="3542578567569488671" name="common_google_play_services_unsupported_text">"Les services Google Play, dont dépendent certaines de vos applications, ne sont pas compatibles avec votre appareil. Veuillez contacter le fabricant pour obtenir de l\'aide."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Services Google Play"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"Mettre à jour"</string>
+    <string msgid="448354684997260580" name="common_google_play_services_update_text">"Cette application ne fonctionnera pas tant que vous n\'aurez pas mis à jour les services Google Play."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Mettre à jour les services Google Play"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"Ouvrir sur le téléphone"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"Connexion"</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"Se connecter avec Google"</string>
+    <!-- From: file:/Users/benjamin.harvey/Downloads/wla-master/build/intermediates/exploded-aar/wla-master/Aviary-Android-SDK-master-2/unspecified/res/values-fr/values.xml -->
+    <eat-comment/>
+    <string name="confirm_quit_message">Attendez! Vous n\'avez pas enregistré votre travail. Êtes-vous certain de vouloir fermer cet éditeur ?</string>
+    <string name="feather_about_dialog_message">Aviary est la première plateforme mondiale de retouche photo. Développeurs : apprenez comment l\'ajouter à votre appli en quelques minutes.</string>
+    <string name="feather_activity_not_found">Désolé, il n\'y a pas d\'application sur votre téléphone pour gérer cette action. Voulez-vous en télécharger une tout de suite sur le marché ?</string>
+    <string name="feather_adjust">Orientation</string>
+    <string name="feather_apply">Valider</string>
+    <string name="feather_attention">Attention</string>
+    <string name="feather_auto_enhance_label">Auto</string>
+    <string name="feather_back_enhance_label">Rétroéclairé</string>
+    <string name="feather_balance_enhance_label">Equilibre</string>
+    <string name="feather_blemish">Fondu</string>
+    <string name="feather_borders">Cadres</string>
+    <string name="feather_borders_dialog_first_time">Pour commencer, installez un pack gratuit Aviary de belles images à haute résolution.</string>
+    <string name="feather_brightness">Luminosité</string>
+    <string name="feather_cancel">Annuler</string>
+    <string name="feather_circle">Cercle</string>
+    <string name="feather_close">Fermer</string>
+    <string name="feather_colorfix">Réparation des couleurs</string>
+    <string name="feather_colorsplash_eraser">Effaceur</string>
+    <string name="feather_colorsplash_free">Couleur vive</string>
+    <string name="feather_colorsplash_smart">Couleur réelle</string>
+    <string name="feather_confirm">Confirmer</string>
+    <string name="feather_contrast">Contraste</string>
+    <string name="feather_crash_toast_text">Ooooups ! J\'ai planté, mais un rapport a été envoyé à mon développeur pour l\'aider à résoudre le problème !</string>
+    <string name="feather_crop">Recadrage</string>
+    <string name="feather_custom">Perso</string>
+    <string name="feather_delete">Supprimer</string>
+    <string name="feather_details">Détails</string>
+    <string name="feather_download">Téléchargez</string>
+    <string name="feather_download_start_failed">L\'achat a échoué. Veuillez réessayer.</string>
+    <string name="feather_draw">Dessin</string>
+    <string name="feather_edit_bottom_text">Modifier texte du bas</string>
+    <string name="feather_edit_top_text">Modifier texte de tête</string>
+    <string name="feather_edit_your_photo">Editeur photo</string>
+    <string name="feather_effect_loading_message">Application des effets en cours</string>
+    <string name="feather_effects">Effets</string>
+    <string name="feather_enhance">Renforcer</string>
+    <string name="feather_enter_text_here">Entrez le texte ici</string>
+    <string name="feather_error_download_image_message">Une erreur s\'est produite pendant le téléchargement de l\'image, veuillez réessayer plus tard.</string>
+    <string name="feather_error_saving_aviary_folder">Oups, erreur en essayant d\'enregistrer l\'image dans le dossier Aviary. Voulez-vous essayer de l\'enregistrer dans le dossier d\'appareil photo par défaut ?</string>
+    <string name="feather_error_saving_image">Oups, erreur dans l\'enregistrement de l\'image.</string>
+    <string name="feather_featured">Sélection</string>
+    <string name="feather_feedback">Réagir</string>
+    <string name="feather_feedback_dialog_message">Vous avez une suggestion pour améliorer cette appli de retouche photo ? Dites-nous quoi.</string>
+    <string name="feather_filter_pack_updated">Un pack de filtres a été mis à jour. Cliquez sur OK pour recharger la liste des packs</string>
+    <string name="feather_flip">Symétrie</string>
+    <string name="feather_generic_error_title">Erreur</string>
+    <string name="feather_get_more">Acheter</string>
+    <string name="feather_hidef">Haute définition</string>
+    <string name="feather_iap_failed_download_informations">Le téléchargement des informations requises a échoué</string>
+    <string name="feather_iap_list_empty_message">Vous avez installé tous les plugins</string>
+    <string name="feather_iap_restore_all_failed">La restauration totale a échoué</string>
+    <string name="feather_iap_restore_all_in_progress">Restauration totale en cours</string>
+    <string name="feather_illuminate">Illuminer</string>
+    <string name="feather_image_saved_in">Image enregistrée en %1$s. Voulez-vous voir l\'image enregistrée ?</string>
+    <string name="feather_infoscreen_bottom_button">À propos de cet éditeur</string>
+    <string name="feather_infoscreen_text">Aviary est un SDK gratuit disponible pour iOS et Androïde qui vous permet d’ajouter des capacités de modification de photos  et des effets à votre App avec quelques lignes de code seulement.</string>
+    <string name="feather_keep_editing">Continuer l’édition</string>
+    <string name="feather_loading_image">Chargement de l\'image…</string>
+    <string name="feather_loading_title">Chargement</string>
+    <string name="feather_meme">Meme</string>
+    <string name="feather_menu_reset">Réinitialiser</string>
+    <string name="feather_message_button_no">Non merci.</string>
+    <string name="feather_message_button_yes">Bien sûr !</string>
+    <string name="feather_message_text">Ce magnifique nouveau pack ajoute des effets de fuites de lumière, des chouettes couleurs et des distorsions visuelles à vos photos. Voulez-vous le vérifier ?</string>
+    <string name="feather_message_title">Effets en vedette : Toy Camera</string>
+    <string name="feather_mirror">Miroir</string>
+    <string name="feather_new_effects">Effets nouveaux</string>
+    <string name="feather_new_frames">Nouveaux cadres</string>
+    <string name="feather_new_stickers">Nouveaux stickers</string>
+    <string name="feather_notification_n_items_cant_be_restored">Impossible de restaurer %1$s élément(s)</string>
+    <string name="feather_notification_no_items_to_restore">Aucune restauration n’est nécessite</string>
+    <string name="feather_notification_plugins_installed_count">%1$d modules d’extension installés</string>
+    <string name="feather_notification_plus_more">%1$d en plus</string>
+    <string name="feather_notification_restore_all_completed">La restauration totale est terminée</string>
+    <string name="feather_notification_some_items_cant_be_restored">Impossible de restaurer certains éléments</string>
+    <string name="feather_original">Original</string>
+    <string name="feather_please_try_again_later">Veuillez réessayer plus tard</string>
+    <string name="feather_powered_by_aviary">Propulsé par Aviary.com</string>
+    <string name="feather_rectangle">Rectangle</string>
+    <string name="feather_red_eye">Yeux Rouges</string>
+    <string name="feather_remove">Supprimer</string>
+    <string name="feather_restore_all_request_sent">Demande envoyée. Veuillez vérifier la zone des notifications de votre appareil pour plus d\'informations</string>
+    <string name="feather_revert_dialog_message">Vous êtes sur le point de perdre toutes les modifications que vous avez faites. Êtes-vous sûr de vouloir revenir à l\'image d\'origine ?</string>
+    <string name="feather_revert_dialog_title">Revenir à l\'original ?</string>
+    <string name="feather_rotate">Pivoter</string>
+    <string name="feather_saturation">Saturation</string>
+    <string name="feather_save">Terminé</string>
+    <string name="feather_save_progress">Enregistrement…</string>
+    <string name="feather_send_feedback">Envoyer réaction</string>
+    <string name="feather_shapes">Formes</string>
+    <string name="feather_share">Partager</string>
+    <string name="feather_sharpen">Netteté</string>
+    <string name="feather_square">Carré</string>
+    <string name="feather_sticker_delete_message">Êtes-vous sûr de vouloir supprimer cet autocollant ?</string>
+    <string name="feather_sticker_name">Démo</string>
+    <string name="feather_sticker_pack_updated_1">Un pack d\'autocollants a été mis à jour. Cliquez sur ok pour actualiser la liste du pack</string>
+    <string name="feather_sticker_pack_updated_2">Un pack d\'autocollants a été mis à jour. Nous devons actualiser le panneau actuel</string>
+    <string name="feather_sticker_pack_updated_3">Un pack d\'autocollants a été mis à jour. Nous devons actualiser le panneau actuel. Voulez-vous appliquer l\'autocollant sélectionné ?</string>
+    <string name="feather_stickers">Stickers</string>
+    <string name="feather_stickers_dialog_first_time">Pour commencer, installez un pack gratuit Aviary de beaux autocollants à haute résolution.</string>
+    <string name="feather_supply_shop">La Boutique</string>
+    <string name="feather_text">Texte</string>
+    <string name="feather_tool">Outil</string>
+    <string name="feather_tool_colorsplash">Éclaboussure</string>
+    <string name="feather_tool_leave_question">Êtes-vous sûr de vouloir supprimer les modifications effectuées avec cet outil ?</string>
+    <string name="feather_tool_name">Aviary</string>
+    <string name="feather_tool_temperature">Chaleur</string>
+    <string name="feather_tool_tiltshift">Mise au point</string>
+    <string name="feather_update">Mettre à jour</string>
+    <string name="feather_version">Version</string>
+    <string name="feather_view_file">Afficher l\'image</string>
+    <string name="feather_whiten">Blanchir</string>
+    <string name="feather_yes_leave">Quitter l\'éditeur</string>
+    <string name="feather_zoom_mode">Mode Zoom</string>
+    <string name="filter_name">Libre</string>
+    <string name="menu_premium">Boutique</string>
+</resources>

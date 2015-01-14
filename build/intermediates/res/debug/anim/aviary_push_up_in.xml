@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="@integer/aviary_shortAnimTime"
+    android:fromYDelta="100%p"
+    android:startOffset="100"
+    android:toYDelta="0%p" />
+<!-- From: file:/Users/benjamin.harvey/Downloads/wla-master/libs/Aviary-Android-SDK-master-2/res/anim/aviary_push_up_in.xml --><!-- From: file:/Users/benjamin.harvey/Downloads/wla-master/build/intermediates/exploded-aar/wla-master/Aviary-Android-SDK-master-2/unspecified/res/anim/aviary_push_up_in.xml -->

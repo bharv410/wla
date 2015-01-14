@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/benjamin.harvey/Downloads/wla-master/build/intermediates/exploded-aar/wla-master/Aviary-Android-SDK-master-2/unspecified/res/values-v14/values.xml -->
+    <eat-comment/>
+    <integer name="aviary_adjust_flip3d">1</integer>
+    <!-- From: file:/Users/benjamin.harvey/Downloads/wla-master/res/values-v14/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style>
+    <!-- From: file:/Users/benjamin.harvey/Downloads/wla-master/build/intermediates/exploded-aar/wla-master/Aviary-Android-SDK-master-2/unspecified/res/values-v14/values.xml -->
+    <eat-comment/>
+    <style name="AviaryBaseTheme" parent="android:Theme.Holo.NoActionBar">
+        <item name="aviaryFontRegular">fonts/Roboto-Bold.ttf</item>
+        <item name="aviaryFontLight">fonts/Roboto-Light.ttf</item>        
+        <item name="aviaryProgressBarSmall">@android:style/Widget.Holo.ProgressBar.Small</item>
+        <item name="aviaryProgressBarLarge">@android:style/Widget.Holo.ProgressBar.Large</item>
+        <item name="aviaryProgressBarMedium">@android:style/Widget.Holo.ProgressBar</item>
+        <item name="aviaryProgressBarActionBar">?aviaryProgressBarMedium</item>
+        
+        <item name="aviaryProgressBarSmallInverse">@android:style/Widget.Holo.ProgressBar.Small</item>
+        <item name="aviaryProgressBarLargeInverse">@android:style/Widget.Holo.ProgressBar.Large</item>
+        <item name="aviaryProgressBarMediumInverse">@android:style/Widget.Holo.ProgressBar</item>     
+        
+        <!-- text styles -->
+        <item name="aviaryTextAppearance">@style/AviaryTextAppearance</item>
+        <item name="aviaryTextAppearanceLarge">@style/AviaryTextAppearance.Large</item>
+        <item name="aviaryTextAppearanceLargeNoSelection">@style/AviaryTextAppearance.Large.NoSelected</item>
+        <item name="aviaryTextAppearanceMedium">@style/AviaryTextAppearance.Medium</item>
+        <item name="aviaryTextAppearanceMediumNoSelection">@style/AviaryTextAppearance.Medium.NoSelected</item>
+        <item name="aviaryTextAppearanceSmall">@style/AviaryTextAppearance.Small</item>
+        <item name="aviaryTextAppearanceSmallNoSelection">@style/AviaryTextAppearance.Small.NoSelected</item>
+        <item name="aviaryTextAppearanceInverted">@style/AviaryTextAppearance.Inverted</item>
+        <item name="aviaryTextAppearanceLargeInverted">@style/AviaryTextAppearance.Inverted.Large</item>
+        <item name="aviaryTextAppearanceMediumInverted">@style/AviaryTextAppearance.Inverted.Medium</item>
+        <item name="aviaryTextAppearanceSmallInverted">@style/AviaryTextAppearance.Inverted.Small</item>        
+        
+        <item name="aviaryDefaultTextStyle">@style/AviaryWidget.TextView</item>
+        <item name="aviaryPrimaryButtonStyle">@style/AviaryWidget.Button</item>
+        <item name="aviarySecondaryButtonStyle">@style/AviaryWidget.Button.Secondary</item>
+        <item name="aviaryLightGrayButtonStyle">@style/AviaryWidget.Button.LightGray</item>
+        <item name="aviaryToggleButtonStyle">@style/AviaryWidget.Button.Secondary.Toggle</item>          
+    </style>
+    <style name="AviaryBaseTheme.Dialog" parent="@android:style/Theme.Holo.Dialog">
+        <item name="aviaryFontRegular">fonts/Roboto-Bold.ttf</item>
+        <item name="aviaryFontLight">fonts/Roboto-Light.ttf</item>
+                
+        <item name="aviaryProgressBarSmall">@android:style/Widget.Holo.ProgressBar.Small</item>
+        <item name="aviaryProgressBarLarge">@android:style/Widget.Holo.ProgressBar.Large</item>
+        <item name="aviaryProgressBarMedium">@android:style/Widget.Holo.ProgressBar</item>
+        <item name="aviaryProgressBarActionBar">?aviaryProgressBarMedium</item>
+        
+        <item name="aviaryProgressBarSmallInverse">@android:style/Widget.Holo.ProgressBar.Small</item>
+        <item name="aviaryProgressBarLargeInverse">@android:style/Widget.Holo.ProgressBar.Large</item>
+        <item name="aviaryProgressBarMediumInverse">@android:style/Widget.Holo.ProgressBar</item>
+        
+        <!-- text styles -->
+        <item name="aviaryTextAppearance">@style/AviaryTextAppearance</item>
+        <item name="aviaryTextAppearanceLarge">@style/AviaryTextAppearance.Large</item>
+        <item name="aviaryTextAppearanceLargeNoSelection">@style/AviaryTextAppearance.Large.NoSelected</item>
+        <item name="aviaryTextAppearanceMedium">@style/AviaryTextAppearance.Medium</item>
+        <item name="aviaryTextAppearanceMediumNoSelection">@style/AviaryTextAppearance.Medium.NoSelected</item>
+        <item name="aviaryTextAppearanceSmall">@style/AviaryTextAppearance.Small</item>
+        <item name="aviaryTextAppearanceSmallNoSelection">@style/AviaryTextAppearance.Small.NoSelected</item>
+        <item name="aviaryTextAppearanceInverted">@style/AviaryTextAppearance.Inverted</item>
+        <item name="aviaryTextAppearanceLargeInverted">@style/AviaryTextAppearance.Inverted.Large</item>
+        <item name="aviaryTextAppearanceMediumInverted">@style/AviaryTextAppearance.Inverted.Medium</item>
+        <item name="aviaryTextAppearanceSmallInverted">@style/AviaryTextAppearance.Inverted.Small</item>
+        
+        <item name="aviaryDefaultTextStyle">@style/AviaryWidget.TextView</item>
+        <item name="aviaryPrimaryButtonStyle">@style/AviaryWidget.Button</item>
+        <item name="aviarySecondaryButtonStyle">@style/AviaryWidget.Button.Secondary</item>
+        <item name="aviaryLightGrayButtonStyle">@style/AviaryWidget.Button.LightGray</item>
+        <item name="aviaryToggleButtonStyle">@style/AviaryWidget.Button.Secondary.Toggle</item>          
+    </style>
+    <!-- From: file:/Users/benjamin.harvey/Downloads/wla-master/res/values-v14/styles.xml -->
+    <eat-comment/>
+    <style name="SmoothProgressBar" parent="android:Widget.Holo.ProgressBar.Horizontal">
+        <item name="spb_color">@color/spb_default_color</item>
+        <item name="spb_sections_count">@integer/spb_default_sections_count</item>
+        <item name="spb_speed">@string/spb_default_speed</item>
+        <item name="spb_stroke_width">@dimen/spb_default_stroke_width</item>
+        <item name="spb_stroke_separator_length">@dimen/spb_default_stroke_separator_length</item>
+        <item name="spb_reversed">@bool/spb_default_reversed</item>
+        <item name="spb_mirror_mode">@bool/spb_default_mirror_mode</item>
+    </style>
+</resources>

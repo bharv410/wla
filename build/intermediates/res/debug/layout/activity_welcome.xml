@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5CADFF"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".WelcomeActivity" >
+
+    <Button
+        android:id="@+id/buttonLike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_below="@+id/imageView1"
+        android:background="@android:color/white"
+        android:onClick="buttonLoginOnClick"
+        android:text="@string/button_login"
+        android:textColor="@color/app_color" />
+
+    <Button
+        android:id="@+id/buttonComment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_alignLeft="@+id/buttonLike"
+        android:layout_alignRight="@+id/buttonLike"
+        android:layout_below="@+id/buttonLike"
+        android:background="@android:color/white"
+        android:onClick="buttonRegisterOnClick"
+        android:text="@string/button_register"
+        android:textColor="@color/app_color" />
+
+    <TextView
+        android:id="@+id/titleTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Fitovate"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleTextView1"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:src="@drawable/fat" />
+
+</RelativeLayout>
+<!-- From: file:/Users/benjamin.harvey/Downloads/wla-master/res/layout/activity_welcome.xml -->

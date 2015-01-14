@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Users/benjamin.harvey/Downloads/wla-master/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values-sv/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"En app kräver att appen Android Wear uppdateras."</string>
+    <string msgid="3046420540094071256" name="common_android_wear_update_text">"Om du inte uppdaterar appen Android Wear kan den här appen inte köras."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Uppdatera Android Wear"</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Aktivera Google Play Tjänster"</string>
+    <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"Du måste aktivera Google Play Tjänster för att den här appen ska fungera."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Aktivera Google Play Tjänster"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"Begärdes av <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Hämta Google Play Tjänster"</string>
+    <string msgid="8685301130651051380" name="common_google_play_services_install_text_phone">"Den här appen kan inte köras utan Google Play Tjänster, som saknas på mobilen."</string>
+    <string msgid="1589957570365247855" name="common_google_play_services_install_text_tablet">"Den här appen kan inte köras utan Google Play Tjänster, som saknas på surfplattan."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Hämta Google Play Tjänster"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"Det angivna kontot finns inte på den här enheten. Välj ett annat konto."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"Ogiltigt konto"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"Google Play-tjänster måste aktiveras för att en app ska fungera."</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"En dataanslutning krävs för att ansluta till Google Plays tjänster."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"Nätverksfel"</string>
+    <string msgid="8120534356798772974" name="common_google_play_services_notification_needs_installation_title">"Google Play-tjänster måste installeras för att en app ska fungera."</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"Google Play-tjänster måste uppdateras för en app ska fungera."</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Fel på Google Play-tjänster"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Okänt problem med Google Play Tjänster"</string>
+    <string msgid="3542578567569488671" name="common_google_play_services_unsupported_text">"Några av dina appar använder Google Play-tjänster som inte stöds av din enhet. Kontakta tillverkaren om du vill ha hjälp."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Google Play-tjänster"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"Uppdatera"</string>
+    <string msgid="448354684997260580" name="common_google_play_services_update_text">"Du måste uppdatera Google Play Tjänster innan du kan köra den här appen."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Uppdatera Google Play Tjänster"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"Öppna på mobilen"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"Logga in"</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"Logga in med Google"</string>
+    <!-- From: file:/Users/benjamin.harvey/Downloads/wla-master/build/intermediates/exploded-aar/wla-master/Aviary-Android-SDK-master-2/unspecified/res/values-sv/values.xml -->
+    <eat-comment/>
+    <string name="confirm_quit_message">Vänta! Du har inte sparat ditt verk. Är du säker på att du vill stänga fotoredigeraren?</string>
+    <string name="feather_activity_not_found">Tyvärr, det finns ingen applikation på din enhet som kan hantera ditt val. Vill du ladda ned en nu?</string>
+    <string name="feather_adjust">Visningsläge</string>
+    <string name="feather_apply">Använd</string>
+    <string name="feather_attention">Varning</string>
+    <string name="feather_auto_enhance_label">Auto</string>
+    <string name="feather_back_enhance_label">Lys upp bakgrund</string>
+    <string name="feather_balance_enhance_label">Balans</string>
+    <string name="feather_blemish">Fläckig</string>
+    <string name="feather_brightness">Ljushet</string>
+    <string name="feather_cancel">Avbryt</string>
+    <string name="feather_close">Stäng</string>
+    <string name="feather_confirm">Bekräfta</string>
+    <string name="feather_contrast">Kontrast</string>
+    <string name="feather_crash_toast_text">Hoppsan! Jag kraschade, men en rapport har skickats till min utvecklare för att rätta till problemet!</string>
+    <string name="feather_crop">Beskär</string>
+    <string name="feather_custom">Anpassa</string>
+    <string name="feather_delete">Ta bort</string>
+    <string name="feather_draw">Rita</string>
+    <string name="feather_edit_bottom_text">Redigera text nedan</string>
+    <string name="feather_edit_top_text">Redigera text ovan</string>
+    <string name="feather_edit_your_photo">Fotoredigerare</string>
+    <string name="feather_effect_loading_message">Tillämpar effekter</string>
+    <string name="feather_effects">Effekter</string>
+    <string name="feather_effects_error_loading_pack">Tyvärr, ett fel uppstod när paketet skulle laddas</string>
+    <string name="feather_effects_error_update_editor">Tyvärr, du måste uppdatera Aviary Fotoredigering för att kunna använda effekterna.</string>
+    <string name="feather_effects_error_update_pack">Tyvärr, du måste uppdatera effektpaktetet för att kunna fortsätta.</string>
+    <string name="feather_effects_unknown_error">Okänt fel</string>
+    <string name="feather_enhance">Förbättra</string>
+    <string name="feather_enter_text_here">Skriv in text här</string>
+    <string name="feather_error_download_image_message">Ett fel uppstod vid nedladdningen av bilden, vänligen försök igen senare.</string>
+    <string name="feather_error_saving_aviary_folder">Hoppsan, ett fel uppstod när bilden skulle sparas till Aviary-mappen. Vill du spara bilden i den automatiska bildmappen?</string>
+    <string name="feather_error_saving_image">Hoppsan, ett fel uppstod när bilden skulle sparas.</string>
+    <string name="feather_filter_pack_updated">Ett filterpaket har uppdaterats. Klicka på Ok för att uppdatera paketet.</string>
+    <string name="feather_flip">Vrid</string>
+    <string name="feather_generic_error_title">Fel</string>
+    <string name="feather_image_saved_in">Bilden sparad i %1$s. Vill du se den sparade bilden?</string>
+    <string name="feather_infoscreen_bottom_button">Om redigeringsverktyget</string>
+    <string name="feather_infoscreen_text">Aviary är en gratis SDK tillgänglig för iOS och Android som tillåter dig att redigera foton och tillämpa effekter till din applikation genom endast ett par koder.</string>
+    <string name="feather_keep_editing">Fortsätt redigera</string>
+    <string name="feather_loading_image">Laddar bild...</string>
+    <string name="feather_loading_title">Laddar</string>
+    <string name="feather_meme">Meme</string>
+    <string name="feather_menu_reset">Återställ</string>
+    <string name="feather_mirror">Spegel</string>
+    <string name="feather_original">Original</string>
+    <string name="feather_powered_by_aviary">Med stöd av Aviary.com</string>
+    <string name="feather_red_eye">Röda ögon</string>
+    <string name="feather_remove">Ta bort</string>
+    <string name="feather_revert_dialog_message">Du kommer att förlora alla ändringar du gjort. Är du säker på att du vill återgå till din originalbild?</string>
+    <string name="feather_revert_dialog_title">Återgå till original?</string>
+    <string name="feather_rotate">Rotera</string>
+    <string name="feather_saturation">Färgmättnad</string>
+    <string name="feather_save">Klar</string>
+    <string name="feather_save_progress">Sparar...</string>
+    <string name="feather_sharpen">Skärpa</string>
+    <string name="feather_square">Kvadrat</string>
+    <string name="feather_sticker_delete_message">Är du säker på att du vill ta bort accessoaren?</string>
+    <string name="feather_sticker_name">Demo</string>
+    <string name="feather_sticker_pack_updated_1">Ett accessoarpaket har uppdaterats. Klicka på Ok för att uppdatera paketet.</string>
+    <string name="feather_sticker_pack_updated_2">Ett accessoarpaket har uppdaterats. Vi måste ladda om den nuvarande sessionen</string>
+    <string name="feather_sticker_pack_updated_3">Ett accessoarpaket har uppdaterats. Vi måste ladda om den nuvarande sessionen. Vill du använda den nuvarande accessoaren?</string>
+    <string name="feather_stickers">Accessoarer</string>
+    <string name="feather_text">Text</string>
+    <string name="feather_tool">Verktyg</string>
+    <string name="feather_tool_leave_question">Är du säker på att du vill bortse från ändringarna i verktyget?</string>
+    <string name="feather_tool_name">Aviary</string>
+    <string name="feather_tool_temperature">Värme</string>
+    <string name="feather_update">Uppdatera</string>
+    <string name="feather_view_file">Se bild</string>
+    <string name="feather_whiten">Gör vitare</string>
+    <string name="feather_yes_leave">Lämna redigeraren</string>
+    <string name="feather_zoom_mode">Zoomat</string>
+    <string name="menu_premium">Butik</string>
+</resources>

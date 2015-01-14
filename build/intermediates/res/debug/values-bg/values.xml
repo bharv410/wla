@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Users/benjamin.harvey/Downloads/wla-master/build/intermediates/exploded-aar/wla-master/Aviary-Android-SDK-master-2/unspecified/res/values-bg/values.xml -->
+    <eat-comment/>
+    <string name="border_name">Освободи</string>
+    <!-- From: file:/Users/benjamin.harvey/Downloads/wla-master/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values-bg/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"Приложение изисква актуализиране на Android Wear."</string>
+    <string msgid="3046420540094071256" name="common_android_wear_update_text">"Това приложение няма да стартира, освен ако не актуализирате Android Wear."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Актуализиране на Android Wear"</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Услуги за Google Play: Актив."</string>
+    <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"Това приложение няма да работи, освен ако не активирате услугите за Google Play."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Активиране на услугите за Google Play"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"Заявено от <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Услуги за Google Play: Изтегл."</string>
+    <string msgid="8685301130651051380" name="common_google_play_services_install_text_phone">"Това приложение няма да се изпълнява без услугите за Google Play, които липсват в телефона ви."</string>
+    <string msgid="1589957570365247855" name="common_google_play_services_install_text_tablet">"Това приложение няма да се изпълнява без услугите за Google Play, които липсват в таблета ви."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Изтегляне на услугите за Google Play"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"Посоченият профил не съществува на това устройство. Моля, изберете друг."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"Невалиден профил"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"Приложение изисква активирането на услугите за Google Play."</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"За свързване с услугите за Google Play се изисква връзка за данни."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"Грешка в мрежата"</string>
+    <string msgid="8120534356798772974" name="common_google_play_services_notification_needs_installation_title">"Приложение изисква инсталирането на услугите за Google Play."</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"Приложение изисква актуализирането на услугите за Google Play."</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Грешка в услугите за Google Play"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Неизвестен проблем с услугите за Google Play."</string>
+    <string msgid="3542578567569488671" name="common_google_play_services_unsupported_text">"Услугите за Google Play, на които разчитат някои от приложенията ви, не се поддържат от устройството ви. Моля, свържете се с производителя за помощ."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Услуги за Google Play"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"Актуализиране"</string>
+    <string msgid="448354684997260580" name="common_google_play_services_update_text">"Това приложение няма да се изпълнява, освен ако не актуализирате услугите за Google Play."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Актуализиране на услугите за Google Play"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"Отваряне в телефона"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"Вход"</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"Вход с Google"</string>
+    <!-- From: file:/Users/benjamin.harvey/Downloads/wla-master/build/intermediates/exploded-aar/wla-master/Aviary-Android-SDK-master-2/unspecified/res/values-bg/values.xml -->
+    <eat-comment/>
+    <string name="confirm_quit_message">Почакайте! Не сте записали работата си. Сигурни ли сте, че искате да затворите редактора?</string>
+    <string name="feather_activity_not_found">Съжаляваме, няма приложение на вашето устройство, което да извърши това действие. Изкате ли да изтеглите такова от пазара?</string>
+    <string name="feather_adjust">Ориентация</string>
+    <string name="feather_apply">Приложи</string>
+    <string name="feather_attention">Внимание</string>
+    <string name="feather_auto_enhance_label">Авто</string>
+    <string name="feather_back_enhance_label">Подсветка</string>
+    <string name="feather_balance_enhance_label">Баланс</string>
+    <string name="feather_blemish">Недостатъци</string>
+    <string name="feather_borders">Рамки</string>
+    <string name="feather_brightness">Яркост</string>
+    <string name="feather_cancel">Отказ</string>
+    <string name="feather_close">Затвори</string>
+    <string name="feather_confirm">Потвърди</string>
+    <string name="feather_contrast">Контраст</string>
+    <string name="feather_crash_toast_text">Опа! Сучпих се, но беше изпратен рапорт на разработчиците за да поправят проблема!</string>
+    <string name="feather_crop">Отрежи</string>
+    <string name="feather_custom">По поръчка</string>
+    <string name="feather_delete">Изтрий</string>
+    <string name="feather_draw">Рисувай</string>
+    <string name="feather_edit_bottom_text">Редактирай долният текст</string>
+    <string name="feather_edit_top_text">Редактирай горният текст</string>
+    <string name="feather_edit_your_photo">Редактор на снимки</string>
+    <string name="feather_effect_loading_message">Прилагане на ефекти</string>
+    <string name="feather_effects">Ефекти</string>
+    <string name="feather_effects_beginning_of_list">Начало на листа</string>
+    <string name="feather_effects_end_of_list">Край на листа</string>
+    <string name="feather_effects_error_loading_pack">Съжалвяме, възникна проблем при зареждането на пакета с ефектите</string>
+    <string name="feather_effects_error_update_editor">Съжаляваме, трябва да обновите редактора Aviary за да използвате тези ефекти.</string>
+    <string name="feather_effects_error_update_pack">Съжаляваме, трябва да обновите пакета с ефектите за да продължите.</string>
+    <string name="feather_effects_unknown_error">Непозната грешка</string>
+    <string name="feather_enhance">Подобряване</string>
+    <string name="feather_enter_text_here">Въведете текст тук</string>
+    <string name="feather_error_download_image_message">Възникна грешка при изтеглянето на картинката. Моля, опитайте по-късно.</string>
+    <string name="feather_error_saving_aviary_folder">Опа, възникна грешка при записа в папката на Aviary. Искате ли да запишете в папката по подразбиране?</string>
+    <string name="feather_error_saving_image">Опа, възникна грешка при записа на картинката.</string>
+    <string name="feather_filter_pack_updated">Пакетът с филтри беше обновен. Щракнете ОК за да презаредите листа с пакетите.</string>
+    <string name="feather_flip">Обърни</string>
+    <string name="feather_generic_error_title">Грешка</string>
+    <string name="feather_image_saved_in">Картинката беше записана в %1$s. Искате ли да видите записаната картинка?</string>
+    <string name="feather_infoscreen_bottom_button">Относно редактора</string>
+    <string name="feather_infoscreen_text">Aviary е свободен SDK достъпно за iOS и Android, което позволява да редактирате снимки само с няколко линии код.</string>
+    <string name="feather_keep_editing">Продължи с редактирането</string>
+    <string name="feather_loading_image">Зареждане на картинката...</string>
+    <string name="feather_loading_title">Зареждане</string>
+    <string name="feather_meme">Meme</string>
+    <string name="feather_menu_reset">Нулиране</string>
+    <string name="feather_mirror">Огледало</string>
+    <string name="feather_original">Оригинал</string>
+    <string name="feather_powered_by_aviary">Задвижвано от Aviary.com</string>
+    <string name="feather_red_eye">Червени очи</string>
+    <string name="feather_remove">Премахни</string>
+    <string name="feather_revert_dialog_message">Ще загубите направените промени. Сигурни ли сте, че искате да се върнете към оригиналната картинка?</string>
+    <string name="feather_revert_dialog_title">Връщане към оригинала?</string>
+    <string name="feather_rotate">Завъртане</string>
+    <string name="feather_saturation">Насищане</string>
+    <string name="feather_save">Готово</string>
+    <string name="feather_save_progress">Записвам...</string>
+    <string name="feather_sharpen">Острота</string>
+    <string name="feather_square">Правоъгълен</string>
+    <string name="feather_sticker_delete_message">Сигурни ли сте, че искате да премахнете този стикер?</string>
+    <string name="feather_sticker_name">Демо</string>
+    <string name="feather_sticker_pack_updated_1">Пакетът със стикерите беше обновен. Щракнете ОК за да презаредителиста с пакетите.</string>
+    <string name="feather_sticker_pack_updated_2">Пакетът със стикерите беше обновен. Трябва да презаредим текущият панел.</string>
+    <string name="feather_sticker_pack_updated_3">Пакетът със стикерите беше обновен. Трябва да презаредим текущият панел. Искате ли да приложите текущият стикер?</string>
+    <string name="feather_stickers">Стикери</string>
+    <string name="feather_text">Текст</string>
+    <string name="feather_tool">Инструмент</string>
+    <string name="feather_tool_leave_question">Сигурни ли сте, че искате да се откажете от промените?</string>
+    <string name="feather_tool_name">Aviary</string>
+    <string name="feather_tool_temperature">Затопляне</string>
+    <string name="feather_update">Обнови</string>
+    <string name="feather_view_file">Виж картинката</string>
+    <string name="feather_whiten">Избледняване</string>
+    <string name="feather_yes_leave">Напусни редактора</string>
+    <string name="feather_zoom_mode">Режим на увеличение</string>
+    <string name="filter_name">Освободи</string>
+    <string name="menu_premium">Магазин</string>
+</resources>
