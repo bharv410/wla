@@ -699,7 +699,13 @@ int drawable tabbar_newpost 0x7f0200d2
 int drawable tabbar_popular 0x7f0200d3
 int drawable tabbar_profile 0x7f0200d4
 int drawable tabbar_timeline 0x7f0200d5
-int drawable welcome_logo 0x7f0200d6
+int drawable tabbarnearby 0x7f0200d6
+int drawable tabbarneawpost 0x7f0200d7
+int drawable tabbarpopular 0x7f0200d8
+int drawable tabbarprofile 0x7f0200d9
+int drawable tabbartimeline 0x7f0200da
+int drawable welcome_logo 0x7f0200db
+int drawable xbutton 0x7f0200dc
 int id RelativeLayout1 0x7f0900c5
 int id action_cancel 0x7f0900e4
 int id action_edit 0x7f0900e2

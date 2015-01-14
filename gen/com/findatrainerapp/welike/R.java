@@ -2655,7 +2655,13 @@ containing a value of this type.
         public static final int tabbar_popular=0x7f0200d3;
         public static final int tabbar_profile=0x7f0200d4;
         public static final int tabbar_timeline=0x7f0200d5;
-        public static final int welcome_logo=0x7f0200d6;
+        public static final int tabbarnearby=0x7f0200d6;
+        public static final int tabbarneawpost=0x7f0200d7;
+        public static final int tabbarpopular=0x7f0200d8;
+        public static final int tabbarprofile=0x7f0200d9;
+        public static final int tabbartimeline=0x7f0200da;
+        public static final int welcome_logo=0x7f0200db;
+        public static final int xbutton=0x7f0200dc;
     }
     public static final class id {
         public static final int RelativeLayout1=0x7f0900c5;

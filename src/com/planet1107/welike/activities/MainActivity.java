@@ -6,6 +6,7 @@ import android.app.ActionBar;
 import android.app.ActionBar.Tab;
 import android.app.FragmentTransaction;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
@@ -51,14 +52,14 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
 				actionBar.setSelectedNavigationItem(position);
 			}
 		});
-		String tabBarIcons[] = {"tabbar_timeline", "tabbar_popular", "tabbar_newpost", "tabbar_nearby", "tabbar_profile"};
+		String tabBarIcons[] = {"tabbartimeline", "tabbarpopular", "tabbarnewpost", "tabbarnearby", "tabbarprofile"};
 		for (int i = 0; i < mSectionsPagerAdapter.getCount(); i++) {
 			Tab newTab = actionBar.newTab();
 			newTab.setText(mSectionsPagerAdapter.getPageTitle(i));
 			
-//			Resources resources = getResources();
-//			int resourceId = resources.getIdentifier(tabBarIcons[i], "drawable", getPackageName());			
-//			newTab.setIcon(resources.getDrawable(resourceId));
+			Resources resources = getResources();
+			int resourceId = resources.getIdentifier(tabBarIcons[i], "drawable", getPackageName());			
+			newTab.setIcon(resources.getDrawable(resourceId));
 			newTab.setTabListener(this);
 			actionBar.addTab(newTab);
 		}
