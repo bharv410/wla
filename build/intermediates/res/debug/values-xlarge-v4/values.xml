@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- From: file:/Users/benjamin.harvey/Downloads/wla-master/build/intermediates/exploded-aar/wla-master/Aviary-Android-SDK-master-2/unspecified/res/values-xlarge-v4/values.xml -->
-    <eat-comment/>
-    <style name="AviaryWidget.IAPDialog.TopGrid">
-        <item name="android:background">@drawable/aviary_iap_grid_background_inverted</item>
-    </style>
-</resources>

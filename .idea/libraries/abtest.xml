@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="abtest">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/libs/Aviary-Android-SDK-master-2/libs/abtest.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

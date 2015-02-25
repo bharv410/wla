@@ -13,6 +13,7 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 
@@ -52,12 +53,12 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
 				actionBar.setSelectedNavigationItem(position);
 			}
 		});
-		String tabBarIcons[] = {"tabbartimeline", "tabbarpopular", "tabbarnewpost", "tabbarnearby", "tabbarprofile"};
+		String tabBarIcons[] = {"tabbartimeline", "tabbarpopular", "tabbarneawpost", "tabbarnearby", "tabbarprofile"};
 		for (int i = 0; i < mSectionsPagerAdapter.getCount(); i++) {
 			Tab newTab = actionBar.newTab();
 			newTab.setText(mSectionsPagerAdapter.getPageTitle(i));
-			
-			Resources resources = getResources();
+			Log.v("benmark:",tabBarIcons[i]);
+			Resources resources = getApplicationContext().getResources();
 			int resourceId = resources.getIdentifier(tabBarIcons[i], "drawable", getPackageName());			
 			newTab.setIcon(resources.getDrawable(resourceId));
 			newTab.setTabListener(this);

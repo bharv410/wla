@@ -1,2 +1,0 @@
-include ':app', ':Aviary-Android-SDK-master-2'
-project(':Aviary-Android-SDK-master-2').projectDir = new File('libs/Aviary-Android-SDK-master-2')

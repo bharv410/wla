@@ -1,8 +1,5 @@
 package com.planet1107.welike.activities;
 
-import com.aviary.android.feather.FeatherActivity;
-import com.aviary.android.feather.common.utils.IOUtils;
-import com.aviary.android.feather.library.Constants;
 import com.findatrainerapp.welike.R;
 import com.planet1107.welike.connect.Connect;
 import com.planet1107.welike.other.ChoosePictureUtility;
@@ -13,6 +10,7 @@ import android.os.Bundle;
 import android.provider.MediaStore;
 import android.app.Activity;
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Bitmap;
@@ -159,20 +157,25 @@ public class NewPostActivity extends Activity {
 				ChoosePictureUtility.getInstance().onActivityResult(requestCode, resultCode, data);
 				Uri bitmapUri = ChoosePictureUtility.getInstance().getPickedImageUri();
 				if (bitmapUri != null) {
-		            Intent intentAviary = new Intent(this, FeatherActivity.class );
-		            intentAviary.setData(bitmapUri);
-		            intentAviary.putExtra(Constants.EXTRA_IN_API_KEY_SECRET, "6220cc3b64a14ce7");
-		            startActivityForResult(intentAviary, AVIARY_PHOTO); 
-				}
-				break;
-		    case AVIARY_PHOTO:
-		    	if (resultCode == RESULT_OK) { 
-	                Uri imageUri = data.getData();
-                	image = BitmapFactory.decodeFile(IOUtils.getRealFilePath( this, imageUri));
+		            image = BitmapFactory.decodeFile(getRealPathFromURI( this, bitmapUri));
 		            mImageViewNewPostImage.setImageBitmap(image);
-		    	}
-                break;
+				}
+				break;		    
 	    }
 	}
+	public String getRealPathFromURI(Context context, Uri contentUri) {
+		  Cursor cursor = null;
+		  try { 
+		    String[] proj = { MediaStore.Images.Media.DATA };
+		    cursor = context.getContentResolver().query(contentUri,  proj, null, null, null);
+		    int column_index = cursor.getColumnIndexOrThrow(MediaStore.Images.Media.DATA);
+		    cursor.moveToFirst();
+		    return cursor.getString(column_index);
+		  } finally {
+		    if (cursor != null) {
+		      cursor.close();
+		    }
+		  }
+		}
 }
 

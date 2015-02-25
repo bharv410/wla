@@ -11,6 +11,6 @@
         android:adjustViewBounds="true"
         android:cropToPadding="true"
         android:scaleType="centerCrop"
-        android:src="@drawable/common_signin_btn_icon_dark" />
+        android:src="@drawable/xbutton" />
 
 </LinearLayout>
